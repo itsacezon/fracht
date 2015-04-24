@@ -124,3 +124,915 @@ App 2691 stdout:
 [ 2015-04-25 04:38:24.1266 2610/7f8e0ec7e700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 2691, listening on unix:/tmp/passenger.1.0.2603/generation-0/backends/preloader.2691
 App 2795 stdout: 
 App 2691 stderr: 127.0.0.1 - - [25/Apr/2015 04:38:24] "HEAD / " 200 2436 0.0372
+[ 2015-04-25 05:10:30.7054 3646/7fb2bcfd3780 age/Wat/Main.cpp:1264 ]: Starting PassengerAgent watchdog...
+[ 2015-04-25 05:10:30.7101 3649/7ff8e714c780 age/Hel/Main.cpp:891 ]: Starting PassengerAgent server...
+[ 2015-04-25 05:10:30.7103 3649/7ff8e714c780 age/Hel/Main.cpp:234 ]: PassengerAgent server running in multi-application mode.
+[ 2015-04-25 05:10:30.7125 3649/7ff8e714c780 age/Hel/Main.cpp:645 ]: PassengerAgent server online, PID 3649
+[ 2015-04-25 05:10:30.7190 3654/7f41f0af0780 age/Log/Main.cpp:439 ]: Starting PassengerAgent logger...
+[ 2015-04-25 05:10:30.7195 3654/7f41f0af0780 age/Log/Main.cpp:320 ]: PassengerAgent logger online, PID 3654
+App 3684 stdout: 
+App 3684 stdout: 
+[ 2015-04-25 05:10:33.4254 3649/7ff8e42da700 App/Implementation.cpp:287 ]: Could not spawn process for application /home/dexter/fracht: An error occured while starting up the preloader.
+  Error ID: aa08850f
+  Error details saved to: /tmp/passenger-error-48adSh.html
+  Message from application: <p>It looks like Bundler could not find a gem. Maybe you didn't install all the gems that this application needs. To install your gems, please run:</p>
+
+  <pre class="commands">bundle install</pre>
+
+<p>If that didn't work, then the problem is probably caused by your application being run under a different environment than it's supposed to. Please check the following:</p>
+
+<ol>
+  <li>Is this app supposed to be run as the <code>dexter</code> user?</li>
+  <li>Is this app being run on the correct Ruby interpreter? Below you will
+      see which Ruby interpreter Phusion Passenger attempted to use.</li>
+  <li>Please check whether the correct RVM gemset is being used.</li>
+  <li>Sometimes, RVM gemsets may be broken.
+      <a href="https://github.com/phusion/passenger/wiki/Resetting-RVM-gemsets">Try resetting them.</a></li>
+</ol>
+
+<p>-------- The exception is as follows: -------</p>
+Could not find uifaces-0.0.2 in any of the sources (Bundler::GemNotFound)
+<pre>  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler/spec_set.rb:92:in `block in materialize&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler/spec_set.rb:85:in `map!&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler/spec_set.rb:85:in `materialize&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler/definition.rb:132:in `specs&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler/definition.rb:177:in `specs_for&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler/definition.rb:166:in `requested_specs&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler/environment.rb:18:in `requested_specs&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler/runtime.rb:13:in `setup&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler.rb:122:in `setup&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/bundler-1.9.4/lib/bundler/setup.rb:18:in `&lt;top (required)&gt;&#39;
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:128:in `require&#39;
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:128:in `rescue in require&#39;
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:39:in `require&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-5.0.6/lib/phusion_passenger/loader_shared_helpers.rb:278:in `block in run_load_path_setup_code&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-5.0.6/lib/phusion_passenger/loader_shared_helpers.rb:381:in `running_bundler&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-5.0.6/lib/phusion_passenger/loader_shared_helpers.rb:276:in `run_load_path_setup_code&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-5.0.6/helper-scripts/rack-preloader.rb:99:in `preload_app&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-5.0.6/helper-scripts/rack-preloader.rb:157:in `&lt;module:App&gt;&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-5.0.6/helper-scripts/rack-preloader.rb:29:in `&lt;module:PhusionPassenger&gt;&#39;
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-5.0.6/helper-scripts/rack-preloader.rb:28:in `&lt;main&gt;&#39;</pre>
+
+
+[ 2015-04-25 05:10:33.4341 3649/7ff8e531d700 age/Hel/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is aa08850f. Please see earlier logs for details about the error.
+
+[ 2015-04-25 05:10:38.2739 3649/7ff8e531d700 age/Hel/Main.cpp:455 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-04-25 05:10:38.2739 3649/7ff8e714c780 age/Hel/Main.cpp:814 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-04-25 05:10:38.2740 3649/7ff8e4b1c700 Ser/Server.h:455 ]: [ServerThr.2] Shutdown finished
+[ 2015-04-25 05:10:38.2741 3649/7ff8cffff700 Ser/Server.h:455 ]: [ServerThr.3] Shutdown finished
+[ 2015-04-25 05:10:38.2741 3649/7ff8cf7fe700 Ser/Server.h:455 ]: [ServerThr.4] Shutdown finished
+[ 2015-04-25 05:10:38.2743 3649/7ff8ceffd700 Ser/Server.h:455 ]: [AdminServer] Shutdown finished
+[ 2015-04-25 05:10:38.2743 3649/7ff8e531d700 Ser/Server.h:455 ]: [ServerThr.1] Shutdown finished
+
+[ 2015-04-25 05:10:38.2747 3654/7f41eec86700 age/Log/Main.cpp:346 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-04-25 05:10:38.2747 3654/7f41f0af0780 age/Log/Main.cpp:408 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-04-25 05:10:38.2748 3654/7f41eec86700 Ser/Server.h:455 ]: [LoggerAdminServer] Shutdown finished
+[ 2015-04-25 05:10:38.2749 3654/7f41f0af0780 age/Log/Main.cpp:433 ]: PassengerAgent logger shutdown finished
+[ 2015-04-25 05:10:38.2858 3649/7ff8e714c780 age/Hel/Main.cpp:876 ]: PassengerAgent server shutdown finished
+[ 2015-04-25 05:11:35.0842 3730/7fc1c7093780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZjY1NmxtL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1f656lm/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '3729', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:11:35.0907 3733/7f722ad29780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3729/generation-0/request
+[ 2015-04-25 05:11:35.0993 3740/7f3c79d97780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3729/generation-0/logging
+[ 2015-04-25 05:11:35.0997 3730/7fc1c7093780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 3768 stdout: 
+App 3768 stdout: 
+[ 2015-04-25 05:11:38.4669 3733/7f722ac43700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:11:38.4672 3733/7f7228b15700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+/home/dexter/fracht/config/migrations.rb:43: syntax error, unexpected ':', expecting keyword_end
+    foreign_key :owner :users
+                        ^
+/home/dexter/fracht/config/migrations.rb:44: syntax error, unexpected ':', expecting keyword_end
+    foreign_key :schedule :schedules
+                           ^
+/home/dexter/fracht/config/migrations.rb:61: syntax error, unexpected ':', expecting keyword_end
+    foreign_key :transportused :assets
+                                ^
+/home/dexter/fracht/config/migrations.rb:74: syntax error, unexpected ':'
+  database.create_table: assetRoutes do
+                        ^
+/home/dexter/fracht/config/migrations.rb:79: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:13:14.2091 3871/7f94ac1e2780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5sYjd3YjYvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.lb7wb6/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '3870', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:13:14.2177 3874/7faf866f4780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3870/generation-0/request
+[ 2015-04-25 05:13:14.2264 3881/7fb2e8ad4780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3870/generation-0/logging
+[ 2015-04-25 05:13:14.2269 3871/7f94ac1e2780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 3908 stdout: 
+App 3908 stdout: 
+[ 2015-04-25 05:13:17.5788 3874/7faf8660e700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:13:17.5791 3874/7faf7ffff700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+/home/dexter/fracht/config/migrations.rb:43: syntax error, unexpected ':', expecting keyword_end
+    foreign_key :owner :users
+                        ^
+/home/dexter/fracht/config/migrations.rb:44: syntax error, unexpected ':', expecting keyword_end
+    foreign_key :schedule :schedules
+                           ^
+/home/dexter/fracht/config/migrations.rb:61: syntax error, unexpected ':', expecting keyword_end
+    foreign_key :transportused :assets
+                                ^ (SyntaxError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:13:46.3410 4002/7fdc56687780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZ3F0bzV5L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1gqto5y/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '4001', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:13:46.3469 4005/7f465ac3d780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4001/generation-0/request
+[ 2015-04-25 05:13:46.3537 4011/7f80ef2cb780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4001/generation-0/logging
+[ 2015-04-25 05:13:46.3539 4002/7fdc56687780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 4039 stdout: 
+App 4039 stdout: 
+[ 2015-04-25 05:13:49.7090 4005/7f465ab57700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:13:49.7093 4005/7f4658a29700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::ConnectionBad: fe_sendauth: no password supplied
+ (Sequel::DatabaseConnectionError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `initialize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool.rb:96:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:158:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:137:in `available'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:127:in `block in acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `block in sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:126:in `acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:94:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:442:in `server_version'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:458:in `supports_create_table_if_not_exists?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:196:in `create_table?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:46:in `create_migrations_table'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:34:in `migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/config/migrations.rb:2:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:15:31.7771 4210/7f31bc2a9780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMXU1NHlrL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.11u54yk/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '4209', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:15:31.7894 4213/7f0eb669f780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4209/generation-0/request
+[ 2015-04-25 05:15:31.7982 4219/7efce1ac5780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4209/generation-0/logging
+[ 2015-04-25 05:15:31.7987 4210/7f31bc2a9780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 4247 stdout: 
+App 4247 stdout: 
+[ 2015-04-25 05:15:35.1685 4213/7f0eb65fa700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:15:35.1688 4213/7f0eaffff700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::ConnectionBad: fe_sendauth: no password supplied
+ (Sequel::DatabaseConnectionError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `initialize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool.rb:96:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:158:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:137:in `available'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:127:in `block in acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `block in sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:126:in `acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:94:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:442:in `server_version'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:458:in `supports_create_table_if_not_exists?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:196:in `create_table?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:46:in `create_migrations_table'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:34:in `migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/config/migrations.rb:2:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:16:27.4545 4376/7ff591ca5780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xbHR4d3dtL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1ltxwwm/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '4375', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:16:27.4606 4379/7fab86dc4780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4375/generation-0/request
+[ 2015-04-25 05:16:27.4678 4385/7f0d07a1b780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4375/generation-0/logging
+[ 2015-04-25 05:16:27.4681 4376/7ff591ca5780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 4413 stdout: 
+App 4413 stdout: 
+[ 2015-04-25 05:16:30.8633 4379/7fab86d1f700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:16:30.8637 4379/7fab84bb0700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+LoadError: cannot load such file -- sequel/adapters/ (Sequel::AdapterNotFound)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:29:in `adapter_class'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:59:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/core.rb:95:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:21:in `database'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:16:in `database='
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1199:in `set'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:13:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:17:50.6607 4519/7f5afbfce780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS56Mjc4MmsvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.z2782k/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '4518', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:17:50.6667 4524/7fb1b5270780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4518/generation-0/request
+[ 2015-04-25 05:17:50.6731 4533/7f4cdc3a7780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4518/generation-0/logging
+[ 2015-04-25 05:17:50.6734 4519/7f5afbfce780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 4561 stdout: 
+App 4561 stdout: 
+[ 2015-04-25 05:17:54.0174 4524/7fb1b518a700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:17:54.0179 4524/7fb1a6ffd700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::ConnectionBad: FATAL:  database "dexter" does not exist
+ (Sequel::DatabaseConnectionError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `initialize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool.rb:96:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:158:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:137:in `available'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:127:in `block in acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `block in sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:126:in `acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:94:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:442:in `server_version'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:458:in `supports_create_table_if_not_exists?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:196:in `create_table?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:46:in `create_migrations_table'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:34:in `migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/config/migrations.rb:2:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:18:13.8977 4649/7f5ca2e66780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5keDJiaHMvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.dx2bhs/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '4648', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:18:13.9038 4652/7f487d116780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4648/generation-0/request
+[ 2015-04-25 05:18:13.9102 4658/7f7e65afc780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4648/generation-0/logging
+[ 2015-04-25 05:18:13.9105 4649/7f5ca2e66780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 4688 stdout: 
+App 4688 stdout: 
+[ 2015-04-25 05:18:17.2422 4652/7f487d030700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:18:17.2424 4652/7f487af02700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::ConnectionBad: FATAL:  database "dexter" does not exist
+ (Sequel::DatabaseConnectionError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `initialize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool.rb:96:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:158:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:137:in `available'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:127:in `block in acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `block in sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:126:in `acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:94:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:442:in `server_version'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:458:in `supports_create_table_if_not_exists?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:196:in `create_table?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:46:in `create_migrations_table'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:34:in `migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/config/migrations.rb:2:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:18:37.8686 4784/7f6123d23780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMm9jdjNuL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.12ocv3n/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '4783', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:18:37.8748 4787/7f2206758780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4783/generation-0/request
+[ 2015-04-25 05:18:37.8823 4793/7f7f62e10780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4783/generation-0/logging
+[ 2015-04-25 05:18:37.8827 4784/7f6123d23780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 4821 stdout: 
+App 4821 stdout: 
+[ 2015-04-25 05:18:41.2126 4787/7f2206672700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:18:41.2129 4787/7f21effff700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+LoadError: cannot load such file -- sequel/adapters/dexter (Sequel::AdapterNotFound)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:29:in `adapter_class'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:59:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/core.rb:95:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:21:in `database'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:16:in `database='
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1199:in `set'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:13:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:19:12.2164 4916/7fab3bd17780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdmZsYjhsL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1vflb8l/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '4915', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:19:12.2252 4919/7f02e3cee780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4915/generation-0/request
+[ 2015-04-25 05:19:12.2328 4925/7f3644791780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4915/generation-0/logging
+[ 2015-04-25 05:19:12.2331 4916/7fab3bd17780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 4954 stdout: 
+App 4954 stdout: 
+[ 2015-04-25 05:19:15.6172 4919/7f02e3c08700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:19:15.6174 4919/7f02e1ada700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::ConnectionBad: fe_sendauth: no password supplied
+ (Sequel::DatabaseConnectionError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `initialize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool.rb:96:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:158:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:137:in `available'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:127:in `block in acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `block in sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:126:in `acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:94:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:442:in `server_version'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:458:in `supports_create_table_if_not_exists?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:196:in `create_table?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:46:in `create_migrations_table'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:34:in `migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/config/migrations.rb:2:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:21:28.6095 5137/7f9260405780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMm51Zm9uL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.12nufon/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '5136', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:21:28.6161 5140/7fbd252d3780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5136/generation-0/request
+[ 2015-04-25 05:21:28.6229 5146/7fc66df21780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5136/generation-0/logging
+[ 2015-04-25 05:21:28.6232 5137/7f9260405780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 5174 stdout: 
+App 5174 stdout: 
+[ 2015-04-25 05:21:31.9972 5140/7fbd251ed700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:21:31.9974 5140/7fbd16ffd700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::ConnectionBad: fe_sendauth: no password supplied
+ (Sequel::DatabaseConnectionError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `initialize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:216:in `connect'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool.rb:96:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:158:in `make_new'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:137:in `available'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:127:in `block in acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `block in sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:194:in `sync'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:126:in `acquire'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:94:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:442:in `server_version'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:458:in `supports_create_table_if_not_exists?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:196:in `create_table?'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:46:in `create_migrations_table'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:34:in `migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/config/migrations.rb:2:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:22:54.8126 5268/7f877b9f6780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS40MnlmdzkvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.42yfw9/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '5267', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:22:54.8187 5271/7f1be2f20780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5267/generation-0/request
+[ 2015-04-25 05:22:54.8319 5278/7f1904c35780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5267/generation-0/logging
+[ 2015-04-25 05:22:54.8323 5268/7f877b9f6780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 5305 stdout: 
+App 5305 stdout: Running migration: create user table
+App 5305 stdout: Running migration: create transactions
+App 5305 stdout: 
+[ 2015-04-25 05:22:58.8998 5271/7f1be2e3a700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:22:58.9002 5271/7f1be0d0c700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::UndefinedTable: ERROR:  relation "assets" does not exist
+ (Sequel::DatabaseError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `async_exec'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `block in execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/logging.rb:33:in `log_yield'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:124:in `check_disconnect_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:483:in `_execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block (2 levels) in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:504:in `check_database_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `block in synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:91:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/query.rb:50:in `execute_dui'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/query.rb:43:in `execute_ddl'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:602:in `create_table_from_generator'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:173:in `create_table'
+  /home/dexter/fracht/config/migrations.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:38:in `block in migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/transactions.rb:118:in `_transaction'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/transactions.rb:93:in `block in transaction'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `block in synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:104:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/transactions.rb:86:in `transaction'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:37:in `migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/config/migrations.rb:13:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:23:56.4230 5402/7f530b973780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xYWR0OXhvL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1adt9xo/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '5401', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:23:56.4289 5405/7f4ebbb5d780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5401/generation-0/request
+[ 2015-04-25 05:23:56.4355 5411/7fde73d60780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5401/generation-0/logging
+[ 2015-04-25 05:23:56.4358 5402/7f530b973780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 5439 stdout: 
+App 5439 stdout: Running migration: create transactions
+App 5439 stdout: 
+[ 2015-04-25 05:23:59.9491 5405/7f4ebbab8700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:23:59.9493 5405/7f4eb9949700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::UndefinedTable: ERROR:  relation "assets" does not exist
+ (Sequel::DatabaseError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `async_exec'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `block in execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/logging.rb:33:in `log_yield'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:124:in `check_disconnect_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:483:in `_execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block (2 levels) in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:504:in `check_database_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `block in synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:91:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/query.rb:50:in `execute_dui'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/query.rb:43:in `execute_ddl'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:602:in `create_table_from_generator'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:173:in `create_table'
+  /home/dexter/fracht/config/migrations.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:38:in `block in migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/transactions.rb:118:in `_transaction'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/transactions.rb:93:in `block in transaction'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `block in synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:104:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/transactions.rb:86:in `transaction'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:37:in `migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/config/migrations.rb:13:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:25:41.2909 5578/7f507afc7780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5rZXZzYTIvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.kevsa2/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '5577', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:25:41.2970 5581/7f95fd0ce780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5577/generation-0/request
+[ 2015-04-25 05:25:41.3059 5588/7f9d42b4a780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5577/generation-0/logging
+[ 2015-04-25 05:25:41.3065 5578/7f507afc7780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 5615 stdout: 
+App 5615 stdout: Running migration: create deliverable
+App 5615 stdout: Running migration: assets
+App 5615 stdout: 
+[ 2015-04-25 05:25:45.0315 5581/7f95fcfe8700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:25:45.0318 5581/7f95faeba700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::UndefinedTable: ERROR:  relation "schedules" does not exist
+ (Sequel::DatabaseError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `async_exec'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `block in execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/logging.rb:33:in `log_yield'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:124:in `check_disconnect_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:483:in `_execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block (2 levels) in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:504:in `check_database_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `block in synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:91:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/query.rb:50:in `execute_dui'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/query.rb:43:in `execute_ddl'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:602:in `create_table_from_generator'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/schema_methods.rb:173:in `create_table'
+  /home/dexter/fracht/config/migrations.rb:25:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:38:in `block in migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/transactions.rb:118:in `_transaction'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/transactions.rb:93:in `block in transaction'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `block in synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:104:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/transactions.rb:86:in `transaction'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-sequel-0.9.0/lib/sinatra/sequel.rb:37:in `migration'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/config/migrations.rb:24:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:26:36.6701 5741/7f029687e780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xbGc3Yjk2L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1lg7b96/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '5740', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:26:36.6769 5744/7f066266d780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5740/generation-0/request
+[ 2015-04-25 05:26:36.6837 5751/7fbfe1d69780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5740/generation-0/logging
+[ 2015-04-25 05:26:36.6840 5741/7f029687e780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 5781 stdout: 
+App 5781 stdout: Running migration: create schedule table
+App 5781 stdout: Running migration: create routes
+App 5781 stdout: Running migration: assets
+App 5781 stdout: Running migration: route-asset relation
+App 5781 stdout: Running migration: simple messaging
+App 5781 stdout: Running migration: request asset
+App 5781 stdout: Running migration: create transactions
+App 5781 stdout: 
+[ 2015-04-25 05:26:41.2778 5744/7f0662587700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:26:41.2780 5744/7f065bfff700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::UndefinedColumn: ERROR:  column "hashed_password" of relation "users" does not exist
+LINE 1: ... INTO "users" ("type", "name", "email", "number", "hashed_pa...
+                                                             ^
+ (Sequel::DatabaseError)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `async_exec'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `block in execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/logging.rb:33:in `log_yield'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:124:in `check_disconnect_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:483:in `_execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block (2 levels) in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:504:in `check_database_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `block in synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:104:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/dataset/actions.rb:795:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:626:in `fetch_rows'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/dataset/actions.rb:872:in `returning_fetch_rows'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/dataset/actions.rb:337:in `insert'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:1225:in `insert'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:1234:in `insert'
+  /home/dexter/fracht/config/migrations.rb:100:in `block in <top (required)>'
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/csv.rb:1720:in `each'
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/csv.rb:1122:in `block in foreach'
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/csv.rb:1268:in `open'
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/csv.rb:1121:in `foreach'
+  /home/dexter/fracht/config/migrations.rb:99:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 05:27:41.1725 5882/7feef98c3780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMjM0dTB6L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1234u0z/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '5881', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 05:27:41.1789 5885/7f46eb857780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5881/generation-0/request
+[ 2015-04-25 05:27:41.1918 5891/7f49d109f780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5881/generation-0/logging
+[ 2015-04-25 05:27:41.1922 5882/7feef98c3780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 5919 stdout: 
+[ 2015-04-25 05:27:46.2968 5885/7f46eb771700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 5919, listening on unix:/tmp/passenger.1.0.5881/generation-0/backends/preloader.5919
+App 6004 stdout: 
+App 5919 stderr: 127.0.0.1 - - [25/Apr/2015 05:27:46] "HEAD / " 200 9424 0.0404
+App 6143 stdout: 
+App 6143 stdout: 
+[ 2015-04-25 05:28:47.6173 5885/7f46e85c5700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 05:28:47.6175 5885/7f46e9643700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(arben.bendicio.arizapa@gmail.com) already exists.
+ (Sequel::UniqueConstraintViolation)
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `async_exec'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `block in execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/logging.rb:33:in `log_yield'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:161:in `execute_query'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:124:in `check_disconnect_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:148:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:483:in `_execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block (2 levels) in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:504:in `check_database_errors'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `block in execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `block in synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/connection_pool/threaded.rb:104:in `hold'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/database/connecting.rb:229:in `synchronize'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:307:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/dataset/actions.rb:795:in `execute'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/postgres.rb:626:in `fetch_rows'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/dataset/actions.rb:872:in `returning_fetch_rows'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/dataset/actions.rb:337:in `insert'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:1225:in `insert'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/adapters/shared/postgres.rb:1234:in `insert'
+  /home/dexter/fracht/config/migrations.rb:100:in `block in <top (required)>'
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/csv.rb:1720:in `each'
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/csv.rb:1122:in `block in foreach'
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/csv.rb:1268:in `open'
+  /home/dexter/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/csv.rb:1121:in `foreach'
+  /home/dexter/fracht/config/migrations.rb:99:in `<top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/backports-3.6.0/lib/backports/tools.rb:343:in `require_with_backports'
+  /home/dexter/fracht/fracht.rb:14:in `block in <top (required)>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1393:in `configure'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1972:in `block (2 levels) in delegate'
+  /home/dexter/fracht/fracht.rb:12:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+App 6225 stdout: 
+[ 2015-04-25 05:29:26.1574 5885/7f46eb7b2700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 6225, listening on unix:/tmp/passenger.1.0.5881/generation-0/backends/preloader.6225
+App 6298 stdout: 
+App 6225 stderr: 127.0.0.1 - - [25/Apr/2015 05:29:26] "GET / " 200 9390 0.0428
+App 6225 stderr: 127.0.0.1 - - [25/Apr/2015 05:29:26] "GET /css/main.css " 200 13739 0.3268
+App 6225 stderr: 127.0.0.1 - - [25/Apr/2015 05:29:33] "GET /products " 200 20978 0.0511
+App 6225 stderr: 127.0.0.1 - - [25/Apr/2015 05:29:33] "GET /css/main.css " 200 13739 0.3659
+App 6225 stderr: 127.0.0.1 - - [25/Apr/2015 05:29:37] "GET /shipments " 200 9426 0.0213
+App 6225 stderr: 127.0.0.1 - - [25/Apr/2015 05:29:38] "GET /css/main.css " 200 13739 0.3322

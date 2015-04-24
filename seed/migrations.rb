@@ -52,16 +52,6 @@ CSV.foreach(File.path("ignore/data.csv")) do |row|
   )
 end
 
-positions = database[:positions]
-positions.insert(:position => "Chair")
-positions.insert(:position => "Vice-Chair & Membership")
-positions.insert(:position => "Secretary & Records")
-positions.insert(:position => "Treasurer & Finance")
-positions.insert(:position => "Marketing")
-positions.insert(:position => "Logistics")
-positions.insert(:position => "Education")
-positions.insert(:position => "Publicity")
-positions.insert(:position => "Public Relations")
 
 candidates = database[:candidates]
 CSV.foreach(File.path("ignore/candidates.csv"), encoding: "UTF-8") do |row|
