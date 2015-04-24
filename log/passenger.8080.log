@@ -1,0 +1,126 @@
+[ 2015-04-25 04:29:50.0718 788/7f4b0fa1f780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xb3cyaW9zL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1ow2ios/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '787', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:29:50.0780 791/7efefec09780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.787/generation-0/request
+[ 2015-04-25 04:29:50.0891 798/7ff6159d8780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.787/generation-0/logging
+[ 2015-04-25 04:29:50.0895 788/7f4b0fa1f780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 825 stdout: 
+[ 2015-04-25 04:29:55.1465 791/7efefeb64700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 825, listening on unix:/tmp/passenger.1.0.787/generation-0/backends/preloader.825
+App 912 stdout: 
+App 825 stderr: 127.0.0.1 - - [25/Apr/2015 04:29:55] "HEAD / " 200 2436 0.0586
+App 825 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:04] "GET / " 200 2436 0.0596
+App 825 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:06] "GET /css/main.css " 200 12967 1.4062
+App 825 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:06] "GET /favicon.ico " 404 448 0.0019
+App 825 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:06] "GET /favicon.ico " 404 448 0.0016
+App 825 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:18] "GET /products " 200 20977 0.0595
+App 825 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:19] "GET /css/main.css " 200 12967 0.3050
+[ 2015-04-25 04:30:39.6433 1014/7f0a1a307780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xNnc2NmN6L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.16w66cz/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '1013', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:30:39.6536 1018/7fefa113f780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1013/generation-0/request
+[ 2015-04-25 04:30:39.6670 1036/7f28e11a3780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1013/generation-0/logging
+[ 2015-04-25 04:30:39.6676 1014/7f0a1a307780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 1074 stdout: 
+App 1074 stdout: 
+[ 2015-04-25 04:30:42.8486 1018/7fefa1059700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 04:30:42.8490 1018/7fef9ef2b700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+/home/dexter/fracht/fracht.rb:237: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 04:32:46.2008 1205/7f51b4ffa780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS42dG5jcDAvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.6tncp0/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '1204', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:32:46.2068 1210/7fe6c8821780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1204/generation-0/request
+[ 2015-04-25 04:32:46.2131 1217/7f8ec7987780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1204/generation-0/logging
+[ 2015-04-25 04:32:46.2135 1205/7f51b4ffa780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 1245 stdout: 
+[ 2015-04-25 04:32:49.8710 1210/7fe6c877c700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 1245, listening on unix:/tmp/passenger.1.0.1204/generation-0/backends/preloader.1245
+App 1333 stdout: 
+App 1245 stderr: 127.0.0.1 - - [25/Apr/2015 04:32:49] "HEAD / " 200 2436 0.0366
+[ 2015-04-25 04:33:48.9337 1383/7f85efd54780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZDI3N3NyL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1d277sr/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '1382', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:33:48.9430 1387/7f8d1106a780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1382/generation-0/request
+[ 2015-04-25 04:33:48.9516 1394/7fc2a7cfb780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1382/generation-0/logging
+[ 2015-04-25 04:33:48.9520 1383/7f85efd54780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 1421 stdout: 
+[ 2015-04-25 04:33:52.4651 1387/7f8d10fc5700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 1421, listening on unix:/tmp/passenger.1.0.1382/generation-0/backends/preloader.1421
+App 1506 stdout: 
+App 1421 stderr: 127.0.0.1 - - [25/Apr/2015 04:33:52] "HEAD / " 200 2436 0.0362
+[ 2015-04-25 04:34:50.1523 1552/7f15a5e38780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMTNzYW9qL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.113saoj/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '1551', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:34:50.1587 1555/7fb571d34780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1551/generation-0/request
+[ 2015-04-25 04:34:50.1657 1561/7f2fdf3c4780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1551/generation-0/logging
+[ 2015-04-25 04:34:50.1660 1552/7f15a5e38780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 1591 stdout: 
+[ 2015-04-25 04:34:53.7165 1555/7fb571c4e700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 1591, listening on unix:/tmp/passenger.1.0.1551/generation-0/backends/preloader.1591
+App 1672 stdout: 
+App 1591 stderr: 127.0.0.1 - - [25/Apr/2015 04:34:53] "HEAD / " 200 2436 0.0370
+[ 2015-04-25 04:35:36.1135 1758/7f57e32a4780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS53ejdqeTEvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.wz7jy1/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '1757', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:35:36.1252 1761/7fafc9d49780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1757/generation-0/request
+[ 2015-04-25 04:35:36.1406 1768/7fc01634b780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1757/generation-0/logging
+[ 2015-04-25 04:35:36.1411 1758/7f57e32a4780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 1803 stdout: 
+App 1803 stdout: 
+[ 2015-04-25 04:35:39.1687 1761/7fafc9be1700 Pool2/Implementation.cpp:882 ]: Could not spawn process for group /home/dexter/fracht#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:803)
+
+[ 2015-04-25 04:35:39.1691 1761/7fafb37fe700 agents/HelperAgent/RequestHandler.h:2065 ]: [Client 20] Cannot checkout session.
+Error page:
+/home/dexter/fracht/fracht.rb:242: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/dexter/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2015-04-25 04:36:40.7632 1914/7f824410a780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xbHBmd3Z5L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1lpfwvy/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '1913', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:36:40.7694 1917/7f3386828780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1913/generation-0/request
+[ 2015-04-25 04:36:40.7819 1923/7f4964ca4780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1913/generation-0/logging
+[ 2015-04-25 04:36:40.7824 1914/7f824410a780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 1951 stdout: 
+[ 2015-04-25 04:36:44.2869 1917/7f3386742700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 1951, listening on unix:/tmp/passenger.1.0.1913/generation-0/backends/preloader.1951
+App 2043 stdout: 
+App 1951 stderr: 127.0.0.1 - - [25/Apr/2015 04:36:44] "HEAD / " 200 2436 0.0374
+[ 2015-04-25 04:37:15.7703 2133/7f6a44fdb780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xd2RxMmNzL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1wdq2cs/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '2130', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:37:15.7764 2139/7f46d6e23780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.2130/generation-0/request
+[ 2015-04-25 04:37:15.7875 2149/7fe0fb8b2780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.2130/generation-0/logging
+[ 2015-04-25 04:37:15.7879 2133/7f6a44fdb780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 2198 stdout: 
+[ 2015-04-25 04:37:19.3360 2139/7f46d6d7e700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 2198, listening on unix:/tmp/passenger.1.0.2130/generation-0/backends/preloader.2198
+App 2313 stdout: 
+App 2198 stderr: 127.0.0.1 - - [25/Apr/2015 04:37:19] "HEAD / " 200 2436 0.0365
+[ 2015-04-25 04:37:44.1838 2361/7f3bcfedd780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdHZpYmtiL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1tvibkb/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '2358', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:37:44.1900 2372/7f57a83c7780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.2358/generation-0/request
+[ 2015-04-25 04:37:44.1965 2383/7fa3efbcb780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.2358/generation-0/logging
+[ 2015-04-25 04:37:44.1968 2361/7f3bcfedd780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 2427 stdout: 
+[ 2015-04-25 04:37:47.7074 2372/7f57a82e1700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 2427, listening on unix:/tmp/passenger.1.0.2358/generation-0/backends/preloader.2427
+App 2542 stdout: 
+App 2427 stderr: 127.0.0.1 - - [25/Apr/2015 04:37:47] "HEAD / " 200 2436 0.0366
+[ 2015-04-25 04:38:20.6053 2604/7f15c72e2780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5sdXRkZWUvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.lutdee/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '2603', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 04:38:20.6162 2610/7f8e0ed64780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.2603/generation-0/request
+[ 2015-04-25 04:38:20.6239 2633/7f72859fa780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.2603/generation-0/logging
+[ 2015-04-25 04:38:20.6243 2604/7f15c72e2780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 2691 stdout: 
+[ 2015-04-25 04:38:24.1266 2610/7f8e0ec7e700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 2691, listening on unix:/tmp/passenger.1.0.2603/generation-0/backends/preloader.2691
+App 2795 stdout: 
+App 2691 stderr: 127.0.0.1 - - [25/Apr/2015 04:38:24] "HEAD / " 200 2436 0.0372
