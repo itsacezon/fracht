@@ -234,6 +234,4 @@ end
 delete '/deletetransaction' do
   transaction = Transaction[:id]
   transaction.destroy
-
-
 end

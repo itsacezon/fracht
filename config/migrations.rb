@@ -95,3 +95,37 @@ migration "request asset" do
     foreign_key :senderid, :users
   end
 end
+
+
+
+####################
+# SEEDING DATABASE #
+####################
+require 'csv'
+users = database[:users]
+CSV.foreach(File.path("ignore/data.csv")) do |row|
+  users.insert(
+    :nickname => row[0],
+    :email => row[1],
+    :hashed_password => row[2]
+  )
+end
+
+positions = database[:positions]
+positions.insert(:position => "Chair")
+positions.insert(:position => "Vice-Chair & Membership")
+positions.insert(:position => "Secretary & Records")
+positions.insert(:position => "Treasurer & Finance")
+positions.insert(:position => "Marketing")
+positions.insert(:position => "Logistics")
+positions.insert(:position => "Education")
+positions.insert(:position => "Publicity")
+positions.insert(:position => "Public Relations")
+
+candidates = database[:candidates]
+CSV.foreach(File.path("ignore/candidates.csv"), encoding: "UTF-8") do |row|
+  candidates.insert(
+    :candidate => row[0],
+    :positionid => row[1]
+  )
+end
