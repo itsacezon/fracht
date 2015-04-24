@@ -1,0 +1,32 @@
+@import "normalize";
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "skeleton";
+
+@import "mixins";
+
+@import "components/nav";
+@import "components/filter";
+@import "components/grid";
+@import "components/card";
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+
+  background-color: #f5f7fa;
+}
+
+article {
+  @include pad(1.5em 0);
+}
+
+section {
+  @include pad(1.5em);
+}
+
+#content-wrap {
+  @include outer-container;
+  padding-bottom: 1.5em;
+}

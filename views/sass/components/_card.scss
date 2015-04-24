@@ -1,0 +1,85 @@
+.card {
+  -webkit-box-shadow: 0px 3px 8px -4px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 3px 8px -4px rgba(0,0,0,0.15);
+  box-shadow: 0px 3px 8px -4px rgba(0,0,0,0.15);
+
+  position: relative;
+  margin-bottom: 1.5em;
+  background-color: white;
+
+  cursor: pointer;
+
+  overflow: hidden;
+
+  &:hover .card-details {
+    opacity: 1;
+  }
+}
+
+.card-quantity {
+  @include position(absolute, 0 0 null null);
+  background-color: $primary-color;
+  padding: 0.5em 0.75em;
+  color: white;
+}
+
+.card-image {
+  padding: 1.5em;
+}
+
+.card-image-container {
+  @include size(100% 200px);
+  background-size: cover;
+}
+
+.card-details {
+  @include position(absolute, 0 null null 0);
+  @include size(100%);
+  // cubic-bezier(0.37, 0, 0, 0.995)
+  @include transition(250ms);
+  background-color: rgba(white, 0.85);
+  opacity: 0;
+
+}
+
+.card-actions {
+  @include position(absolute, 0 null null 0);
+
+  button {
+    @include transition(250ms);
+    
+    border: none;
+    padding: 0.75em;
+
+    height: auto;
+    line-height: 1;
+
+    font-size: 1.25em;
+    color: #888;
+
+    &:hover {
+      color: $font-color;
+    }
+  }
+}
+
+.card-details-container {
+  @include position(absolute, 50% null null 50%);
+  @include transform(translateX(-50%) translateY(-50%));
+  text-align: center;
+  width: 80%;
+}
+
+.card-product-name {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+.card-product-weight {
+  color: #888;
+}
+
+.card-product-quantity {
+  color: #888;
+}

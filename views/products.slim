@@ -1,0 +1,25 @@
+== slim :"partials/header", :locals => {:page => 'products'}
+
+article
+  .filters
+    h5.u-pull-left
+      | #{@products.count}
+      span items
+    button.button-primary.u-pull-right Add product
+
+  .grid-4 data-columns=true
+    - @products.each do |product|
+      .card
+        / .card-quantity
+        /   | #{rand(5..100)}
+        /   i.icon-bag
+        .card-image
+          .card-image-container style="background-image:url('#{product.sub("public/", "")}')"
+        .card-details
+          .card-actions
+            button
+              i.icon-trash
+          .card-details-container
+            .card-product-name Product name
+            .card-product-weight #{rand(50..100)} grams
+            .card-product-quantity #{rand(5..100)} in stock

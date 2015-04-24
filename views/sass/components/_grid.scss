@@ -1,0 +1,66 @@
+.grid-2[data-columns]::before {
+  @include clearfix;
+
+  content: '2 .grid-column.size-1of2';
+}
+
+.grid-3[data-columns]::before {
+  @include clearfix;
+
+  content: '3 .grid-column.size-1of3';
+}
+
+.grid-4[data-columns]::before {
+  @include clearfix;
+
+  content: '4 .grid-column.size-1of4';
+}
+
+.grid-5[data-columns]::before {
+  @include clearfix();
+
+  content: '5 .grid-column.size-1of5';
+}
+
+.grid-6[data-columns]::before {
+  @include clearfix;
+
+  content: '6 .grid-column.size-1of6';
+}
+
+.grid-uneven {
+  @include clearfix;
+}
+
+.grid-column {
+  float: left;
+}
+
+// Column sizes
+.size-1of1 {
+  @include span-columns(12);
+}
+
+.size-1of2 {
+  @include span-columns(6);
+}
+
+.size-1of3 {
+  @include span-columns(4);
+}
+
+.size-1of4 {
+  @include span-columns(3);
+}
+
+.size-1of5 {
+  @include span-columns(2.4);
+}
+
+.size-1of6 {
+  @include span-columns(2);
+}
+
+.size-2of3 {
+  @include span-columns(8);
+}

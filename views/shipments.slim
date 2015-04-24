@@ -1,0 +1,25 @@
+== slim :"partials/header", :locals => {:page => 'shipments'}
+
+article
+  .filters
+    select.u-pull-left
+      option Crap
+      option Crap
+    button.button-primary.u-pull-right Add shipping
+
+  table.u-full-width
+    thead
+      tr
+        th Carrier
+        th Shipment
+        th Route
+        th Created
+        th Tracking
+    tbody
+      - for i in 20.times do
+        tr
+          td Crap
+          td Crap
+          td Crap
+          td Crap
+          td Crap

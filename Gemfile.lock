@@ -16,6 +16,7 @@ GEM
     rack-test (0.6.2)
       rack (>= 1.0)
     rake (10.1.0)
+    sass (3.4.5)
     sequel (4.8.0)
     sinatra (1.4.4)
       rack (~> 1.4)
@@ -44,6 +45,7 @@ DEPENDENCIES
   bcrypt
   passenger (>= 4.0.35)
   pg
+  sass
   sinatra (>= 1.2.1)
   sinatra-contrib
   sinatra-sequel
