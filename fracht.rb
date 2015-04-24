@@ -88,6 +88,8 @@ post '/search' do
   results = Schedule.filter(:from => params[:from],:to => params[:to])
 end
 
+get '/routes' do
+end
 
 post '/routes' do
   route = Route.new
@@ -106,10 +108,6 @@ end
 put '/deleteroutes' do
   route = Route[:id]
   route.destroy
-end
-
-get '/deliverables' do
-  redirect "/"
 end
 
 post '/deliverables' do
@@ -140,6 +138,7 @@ delete '/deletedeliverables' do
     deliverable.destroy
   end
 end
+
 
 post '/asset' do
   asset = Asset.new
@@ -190,7 +189,7 @@ end
 delete '/deleteassetroute' do
   assetroute = AssetRoute[:id]
   assetroute.destroy
-
+end
 post '/request' do
     request = Request.new
     request.sender = @user.id
@@ -208,6 +207,7 @@ delete '/deleterequest' do
   request = Request[:id]
   request.destroy
 end
+
 
 post '/transaction' do
   transaction = Transaction.new
@@ -234,4 +234,6 @@ end
 delete '/deletetransaction' do
   transaction = Transaction[:id]
   transaction.destroy
+
+
 end

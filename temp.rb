@@ -155,7 +155,7 @@ end
 delete '/deleteassetroute' do
   assetroute = AssetRoute[:id]
   assetroute.destroy
-
+end
 post '/request' do
     request = Request.new
     request.sender = @user.id
