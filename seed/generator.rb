@@ -3,14 +3,28 @@ require 'csv'
 
 file = ""
 
-CSV.foreach(File.path("generated.csv")) do |row|
+CSV.foreach(File.path("data.csv")) do |row|
   name = row[0]
   email = row[1]
-  hash = BCrypt::Password.create(row[2])
+  hash = row[2]
 
-  file << name + ',' + email + ',' + hash  + "\n"
+  file << 'sender,'+name + ',' + email + ',123456,' + hash  + "\n"
 end
 
 File.open('data.csv', 'w') do |f|
+  f.write file
+end
+
+file = ""
+
+CSV.foreach(File.path("data2.csv")) do |row|
+  name = row[0]
+  email = row[1]
+  hash = row[2]
+
+  file << 'transporter,'+name + ',' + email + ',123456,' + hash  + "\n"
+end
+
+File.open('data2.csv', 'w') do |f|
   f.write file
 end

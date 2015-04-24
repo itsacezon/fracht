@@ -1,0 +1,25 @@
+                List of relations
+ Schema |        Name         |   Type   | Owner  
+--------+---------------------+----------+--------
+ public | assetRoutes         | table    | dexter
+ public | assetRoutes_id_seq  | sequence | dexter
+ public | assets              | table    | dexter
+ public | assets_id_seq       | sequence | dexter
+ public | deliverables        | table    | dexter
+ public | deliverables_id_seq | sequence | dexter
+ public | messages            | table    | dexter
+ public | messages_id_seq     | sequence | dexter
+ public | migrations          | table    | dexter
+ public | migrations_id_seq   | sequence | dexter
+ public | requests            | table    | dexter
+ public | requests_id_seq     | sequence | dexter
+ public | routes              | table    | dexter
+ public | routes_id_seq       | sequence | dexter
+ public | schedules           | table    | dexter
+ public | schedules_id_seq    | sequence | dexter
+ public | transactions        | table    | dexter
+ public | transactions_id_seq | sequence | dexter
+ public | users               | table    | dexter
+ public | users_id_seq        | sequence | dexter
+(20 rows)
+

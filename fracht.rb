@@ -10,7 +10,7 @@ require 'sass'
 require 'uifaces'
 
 configure do
-  set :database, ENV['HEROKU_POSTGRESQL_VIOLET_URL'] || 'postgres://localhost/upacmdb'
+  set :database, ENV['HEROKU_POSTGRESQL_VIOLET_URL'] || 'postgres:///fracht'
   #require "./config/migrations"
   require "./config/data"
 
