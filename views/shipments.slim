@@ -2,9 +2,9 @@
 
 article
   .filters
-    select.u-pull-left
-      option Crap
-      option Crap
+    h5.u-pull-left
+      | #{rand(6..20)}
+      span orders
     button.button-primary.u-pull-right Add shipping
 
   table.u-full-width
@@ -18,8 +18,23 @@ article
     tbody
       - for i in 20.times do
         tr
-          td Crap
-          td Crap
-          td Crap
-          td Crap
-          td Crap
+          td
+            .user
+              .user-image
+                img.small src=UIFaces.face
+              .user-info = ['Shipme, LLC', 'Dexter Edep', 'Suzuki Cars'].sample
+          td.shipment-item
+            / ul
+            /   li
+            /     | 1 &times; Product name
+            /     a href="#0" view
+            | #{rand(60..100)} lb, Order #{rand(100..600)}
+            a href="#0" view
+
+          td.shipment-route
+            span Start
+            i.icon-arrow-right
+            span Destination
+          td = Time.at(rand * Time.now.to_i).strftime("%e %b %Y")
+          td
+            a href="#0" = SecureRandom.hex[0..12].upcase

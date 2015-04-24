@@ -1,0 +1,22 @@
+.user {
+  display: table;
+}
+
+.user-image {
+  display: table-cell;
+
+  img {
+    margin-right: 0.5em;
+  }
+
+  img.small {
+    @include size(36px);
+    @include border-top-radius(18px);
+    @include border-bottom-radius(18px);
+  }
+}
+
+.user-info {
+  display: table-cell;
+  vertical-align: middle;
+}
