@@ -1,18 +1,17 @@
 class User < Sequel::Model
-  one_to_many :votes
 end
 
-class Position < Sequel::Model
+class Transactions < Sequel::Model
 end
 
-class Candidate < Sequel::Model
-  one_to_many :votes
-  one_to_one :positions
+class Assets < Sequel::Model
 end
 
-class Vote < Sequel::Model
-  many_to_one :candidates
+class Schedule < Sequel::Model
 end
 
-class Abstain < Sequel::Model
+class Routes < Sequel::Model
+end
+
+class AssetRoute < Sequel::Model
 end
