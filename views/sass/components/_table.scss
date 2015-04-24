@@ -1,6 +1,6 @@
 tr {
   .user {
-    margin-left: 1em;
+    margin-left: 15px;
   }
 }
 
@@ -11,6 +11,40 @@ tbody {
     &:hover {
       background-color: white;
     }
+
+    &:hover .shipment-actions button {
+      opacity: 1;
+    }
+  }
+}
+
+a.view-more {
+  margin-left: 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.85em;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.shipment-status {
+  i {
+    margin-left: 15px;
+    font-size: 1.25em;
+  }
+
+  .icon-circle-check {
+    color: #3fb34f;
+  }
+
+  .icon-circle-minus {
+    color: #F8CA00;
+  }
+
+  .icon-circle-cross {
+    color: #ff5a5f;
   }
 }
 
@@ -27,23 +61,21 @@ tbody {
       margin-bottom: 0;
     }
   }
-
-  a {
-    margin-left: 0.5em;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 0.85em;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }
 
 .shipment-route {
   i {
     @include position(relative, -2px 0 0 0);
-    margin: 0 0.25em;
+    margin: 0 0.5em;
     color: #888;
+  }
+}
+
+.shipment-actions {
+  button {
+    float: right;
+    margin-bottom: 0;
+    margin-right: 15px;
+    opacity: 0;
   }
 }

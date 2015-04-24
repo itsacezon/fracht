@@ -9767,3 +9767,421 @@ App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:37:23] "GET /products " 200 2098
 App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:37:24] "GET /css/main.css " 200 13739 0.2484
 App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:38:11] "GET /shipments " 200 9399 0.0320
 App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:38:11] "GET /css/main.css " 200 13739 0.4566
+App 24066 stdout: 
+[ 2015-04-25 04:45:39.3017 8353/0x1041b4000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 24066, listening on unix:/tmp/passenger.1.0.8350/generation-0/backends/preloader.24066
+App 24173 stdout: 
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:45:39] "GET /shipments " 200 9436 0.0516
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:45:39] "GET /css/main.css " 200 13739 0.4880
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:55:11] "GET /shipments " 200 9935 0.0807
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:55:12] "GET /css/main.css " 200 13786 0.5058
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:55:13] "GET /shipments " 200 9946 0.0276
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:55:13] "GET /css/main.css " 200 13786 0.3263
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:56:44] "GET /shipments " 200 9923 0.0373
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:56:44] "GET /css/main.css " 200 13792 0.4261
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:57:49] "GET /shipments " 200 9943 0.0362
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:57:49] "GET /css/main.css " 200 13782 0.4068
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:59:02] "GET /shipments " 200 9945 0.0430
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:59:02] "GET /css/main.css " 200 13786 0.4416
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:59:06] "GET /shipments " 200 9941 0.0229
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 04:59:07] "GET /css/main.css " 200 13781 0.2868
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:31] "GET /shipments " 200 9936 0.0446
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:32] "GET /css/main.css " 200 13783 0.3990
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:34] "GET /shipments " 200 9937 0.0212
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:34] "GET /css/main.css " 200 13784 0.2857
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:41] "GET /shipments " 200 9952 0.0226
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:41] "GET /css/main.css " 200 13785 0.2615
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:42] "GET /shipments " 200 9931 0.0250
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:42] "GET /css/main.css " 200 13785 0.3040
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:45] "GET /shipments " 200 9921 0.0282
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:00:45] "GET /css/main.css " 200 13781 0.2842
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:01:14] "GET /shipments " 200 9947 0.0282
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:01:14] "GET /css/main.css " 200 13739 0.2466
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:01:51] "GET /products " 200 20978 0.0294
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:01:52] "GET /css/main.css " 200 13739 0.2409
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:01:54] "GET /shipments " 200 9959 0.0208
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:01:54] "GET /css/main.css " 200 13739 0.2336
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:02:16] "GET /shipments " 200 8629 0.0223
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:02:16] "GET /css/main.css " 200 13739 0.2847
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:02:29] "GET /shipments " 200 9039 0.0295
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:02:29] "GET /css/main.css " 200 13739 0.2601
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:02:58] "GET /shipments " 200 9768 0.0231
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:02:58] "GET /css/main.css " 200 13739 0.2308
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:02:59] "GET /shipments " 200 9770 0.0194
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:02:59] "GET /css/main.css " 200 13739 0.2489
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:03:00] "GET /shipments " 200 9769 0.0234
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:03:00] "GET /css/main.css " 200 13739 0.2407
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:03:02] "GET /shipments " 200 9769 0.0250
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:03:02] "GET /css/main.css " 200 13729 0.3400
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:03:03] "GET /shipments " 200 9752 0.0198
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:03:04] "GET /css/main.css " 200 13729 0.2436
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:04:21] "GET /shipments " 200 8184 0.0247
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:04:21] "GET /css/main.css " 200 13729 0.4420
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:04:41] "GET /products " 200 20981 0.0374
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:04:42] "GET /css/main.css " 200 13729 0.2419
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:04:44] "GET /shipments " 200 8196 0.0225
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:04:44] "GET /css/main.css " 200 13729 0.2875
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:06:20] "GET /shipments " 200 8364 0.0245
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:06:20] "GET /css/main.css " 200 13729 0.4303
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:06:21] "GET /shipments " 200 8323 0.0209
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:06:21] "GET /css/main.css " 200 13729 0.2899
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:06:47] "GET /shipments " 200 8397 0.0244
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:06:47] "GET /css/main.css " 200 13729 0.2633
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:06:48] "GET /shipments " 200 8406 0.0212
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:06:49] "GET /css/main.css " 200 13729 0.2612
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:07:10] "GET /shipments " 200 9000 0.0227
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:07:10] "GET /css/main.css " 200 13729 0.3225
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:07:43] "GET /shipments " 200 9498 0.0316
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:07:43] "GET /css/main.css " 200 13770 0.4329
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:08:10] "GET /shipments " 200 9499 0.0212
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:08:10] "GET /css/main.css " 200 13830 0.3168
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:12:20] "GET /shipments " 200 9341 0.0344
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:12:21] "GET /css/main.css " 200 13830 0.4226
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:12:31] "GET /shipments " 200 9721 0.0188
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:12:32] "GET /css/main.css " 200 13830 0.2600
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:12:54] "GET /shipments " 200 9736 0.0306
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:12:55] "GET /css/main.css " 200 13870 0.3409
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:13:04] "GET /shipments " 200 9757 0.0248
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:13:04] "GET /css/main.css " 200 13892 0.2758
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:13:59] "GET /shipments " 200 9312 0.0246
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:13:59] "GET /css/main.css " 200 13920 0.4126
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:14:15] "GET /shipments " 200 9314 0.0235
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:14:15] "GET /css/main.css " 200 13894 0.2635
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:14:54] "GET /shipments " 200 9331 0.0228
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:14:54] "GET /css/main.css " 200 13903 0.3817
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:14:59] "GET /shipments " 200 9319 0.0374
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:15:00] "GET /css/main.css " 200 13903 0.2959
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:15:08] "GET /shipments " 200 9320 0.0205
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:15:08] "GET /css/main.css " 200 13919 0.2739
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:15:14] "GET /shipments " 200 9314 0.0230
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:15:14] "GET /css/main.css " 200 13903 0.2703
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:15:48] "GET /shipments " 200 9325 0.0230
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:15:48] "GET /css/main.css " 200 13830 0.3135
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:03] "GET /shipments " 200 9335 0.0258
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:03] "GET /css/main.css " 200 13842 0.4424
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:23] "GET /shipments " 200 9955 0.0192
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:24] "GET /css/main.css " 200 13842 0.4103
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:24] "GET /shipments " 200 9967 0.0385
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:25] "GET /css/main.css " 200 13842 0.2544
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:44] "GET /shipments " 200 9997 0.0193
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:44] "GET /css/main.css " 200 13842 0.2332
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:52] "GET /shipments " 200 9936 0.0301
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:52] "GET /css/main.css " 200 13842 0.2788
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:57] "GET /shipments " 200 9303 0.0473
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:16:57] "GET /css/main.css " 200 13842 0.2776
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:17:33] "GET /shipments " 200 9488 0.0233
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:17:33] "GET /css/main.css " 200 13842 0.2459
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:17:35] "GET /shipments " 200 9511 0.0209
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:17:36] "GET /css/main.css " 200 13842 0.2467
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:17:54] "GET /shipments " 200 9512 0.0266
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:17:54] "GET /css/main.css " 200 13859 0.4243
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:18:00] "GET /shipments " 200 9506 0.0223
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:18:01] "GET /css/main.css " 200 13860 0.2598
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:18:20] "GET /shipments " 200 9523 0.0330
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:18:20] "GET /css/main.css " 200 13859 0.4230
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:18:33] "GET /products " 200 20979 0.0186
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:18:33] "GET /css/main.css " 200 13859 0.3095
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:18:36] "GET /shipments " 200 9502 0.0390
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:18:36] "GET /css/main.css " 200 13859 0.2517
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:21:31] "GET /shipments " 200 9519 0.0246
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:21:31] "GET /css/main.css " 200 13873 0.2680
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:23:26] "GET /shipments " 200 9713 0.0209
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:23:27] "GET /css/main.css " 200 13873 0.2780
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:23:42] "GET /shipments " 200 9702 0.0219
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:23:42] "GET /css/main.css " 200 13873 0.3055
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:23:48] "GET /shipments " 200 9684 0.0224
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:23:48] "GET /css/main.css " 200 13848 0.2626
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:25:38] "GET /shipments " 200 10852 0.0237
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:25:38] "GET /css/main.css " 200 13848 0.2438
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:25:57] "GET /shipments " 200 10833 0.0345
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:25:57] "GET /css/main.css " 200 13884 0.2497
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:26:05] "GET /shipments " 200 10847 0.0216
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:26:05] "GET /css/main.css " 200 13901 0.2729
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:27:36] "GET /shipments " 200 10856 0.0863
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:27:37] "GET /css/main.css " 200 14051 0.5813
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:31:03] "GET /shipments " 200 9518 0.0333
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:31:03] "GET /css/main.css " 200 14077 0.2719
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:31:48] "GET /shipments " 200 9582 0.0253
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:31:48] "GET /css/main.css " 200 14077 0.2322
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:32:44] "GET /shipments " 200 9566 0.0266
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:32:44] "GET /css/main.css " 200 14138 0.4273
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:32] "GET /shipments " 200 9607 0.0250
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:32] "GET /css/main.css " 200 14156 0.3093
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:33] "GET /shipments " 200 9577 0.0233
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:34] "GET /css/main.css " 200 14156 0.2852
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:40] "GET /shipments " 200 9573 0.0290
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:40] "GET /css/main.css " 200 14157 0.2763
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:46] "GET /shipments " 200 9587 0.0203
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:46] "GET /css/main.css " 200 14156 0.2583
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:51] "GET /shipments " 200 9569 0.0249
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:51] "GET /css/main.css " 200 14156 0.2991
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:52] "GET /shipments " 200 9578 0.0227
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:33:52] "GET /css/main.css " 200 14156 0.2604
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:10] "GET /shipments " 200 9593 0.0211
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:10] "GET /css/main.css " 200 14152 0.2755
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:14] "GET /shipments " 200 9579 0.0348
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:14] "GET /css/main.css " 200 14153 0.2862
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:23] "GET /shipments " 200 9592 0.0238
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:23] "GET /css/main.css " 200 14159 0.3073
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:36] "GET /shipments " 200 9584 0.0306
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:36] "GET /css/main.css " 200 14175 0.2378
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:48] "GET /shipments " 200 9591 0.0190
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:34:48] "GET /css/main.css " 200 14175 0.3013
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:05] "GET /shipments " 200 9600 0.0230
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:06] "GET /css/main.css " 200 14175 0.2907
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:23] "GET /shipments " 200 9571 0.0387
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:23] "GET /css/main.css " 200 14224 0.4919
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:24] "GET /shipments " 200 9551 0.0210
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:24] "GET /css/main.css " 200 14224 0.2352
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:31] "GET /shipments " 200 9567 0.0203
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:31] "GET /css/main.css " 200 14224 0.2618
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:42] "GET /shipments " 200 9582 0.0457
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:42] "GET /css/main.css " 200 14223 0.3707
+App 26567 stdout: 
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:43] "GET /shipments " 200 9575 0.0245
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:43] "GET /css/main.css " 200 14223 0.3448
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:44] "GET /shipments " 200 9574 0.0321
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:35:44] "GET /css/main.css " 200 14223 0.4291
+[ 2015-04-25 05:35:44.7829 8353/0x103f29000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 26567, listening on unix:/tmp/passenger.1.0.8350/generation-0/backends/preloader.26567
+App 26676 stdout: 
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:36:14] "GET /shipments " 200 9582 0.0236
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:36:15] "GET /css/main.css " 200 14200 0.2994
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:36:22] "GET /shipments " 200 9571 0.0200
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:36:22] "GET /css/main.css " 200 14217 0.2572
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:36:29] "GET /shipments " 200 9573 0.0236
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:36:30] "GET /css/main.css " 200 14175 0.3072
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:37:43] "GET /shipments " 200 9582 0.0227
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:37:44] "GET /css/main.css " 200 14235 0.4137
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:38:53] "GET /shipments " 200 9581 0.0286
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:38:53] "GET /css/main.css " 200 14235 0.4913
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:39:54] "GET /shipments " 200 9579 0.0229
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:39:55] "GET /css/main.css " 200 14077 0.4056
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:44:19] "GET /shipments " 200 9674 0.0259
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:44:19] "GET /css/main.css " 200 14077 0.4341
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:44:56] "GET /shipments " 200 9719 0.0358
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:44:57] "GET /css/main.css " 200 14077 0.4289
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:45:09] "GET /shipments " 200 9785 0.0287
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:45:09] "GET /css/main.css " 200 14077 0.4554
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:45:42] "GET /shipments " 200 9797 0.0292
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:45:43] "GET /css/main.css " 200 14077 0.4321
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:46:07] "GET /products " 200 21165 0.0256
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:46:08] "GET /css/main.css " 200 14077 0.4253
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:46:12] "GET /shipments " 200 9801 0.0252
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:46:12] "GET /css/main.css " 200 14077 0.2626
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:47:25] "GET /shipments " 200 9788 0.0208
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:47:26] "GET /css/main.css " 200 14077 0.4360
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:48:03] "GET /shipments " 200 9733 0.0316
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:48:03] "GET /css/main.css " 200 14077 0.4739
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:48:08] "GET /shipments " 200 9795 0.0271
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:48:08] "GET /css/main.css " 200 14077 0.2441
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:49:51] "GET /shipments " 200 9879 0.0339
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:49:51] "GET /css/main.css " 200 14077 0.4348
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:49:54] "GET /shipments " 200 9839 0.0251
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:49:54] "GET /css/main.css " 200 14077 0.2513
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:10] "GET /shipments " 200 9840 0.0303
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:11] "GET /css/main.css " 200 14077 0.4309
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:18] "GET /shipments " 200 9833 0.0240
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:18] "GET /css/main.css " 200 14077 0.3518
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:30] "GET /shipments " 200 9850 0.0286
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:30] "GET /css/main.css " 200 14089 0.2623
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:30] "GET /shipments " 200 9847 0.0193
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:31] "GET /css/main.css " 200 14089 0.2281
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:34] "GET /shipments " 200 9860 0.0230
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:34] "GET /css/main.css " 200 14100 0.3038
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:34] "GET /shipments " 200 9855 0.0295
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:35] "GET /css/main.css " 200 14100 0.2813
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:51] "GET /shipments " 200 9868 0.0336
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:52] "GET /css/main.css " 200 14110 0.4859
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:52] "GET /shipments " 200 9857 0.0290
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:50:52] "GET /css/main.css " 200 14110 0.2399
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:51:13] "GET /shipments " 200 9854 0.0281
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:51:14] "GET /css/main.css " 200 14110 0.4082
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:51:25] "GET /shipments " 200 9844 0.0211
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:51:25] "GET /css/main.css " 200 14126 0.2825
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:51:32] "GET /shipments " 200 9850 0.0215
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:51:33] "GET /css/main.css " 200 14140 0.2770
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:52:12] "GET /shipments " 200 9870 0.0272
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:52:12] "GET /css/main.css " 200 14140 0.2945
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:52:17] "GET /shipments " 200 9776 0.0252
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:52:17] "GET /css/main.css " 200 14140 0.2749
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:52:18] "GET /shipments " 200 9795 0.0187
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:52:18] "GET /css/main.css " 200 14140 0.2469
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:52:23] "GET /shipments " 200 9837 0.0279
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:52:24] "GET /css/main.css " 200 14140 0.2666
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:15] "GET /shipments " 200 9862 0.0223
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:15] "GET /css/main.css " 200 14195 0.4191
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:25] "GET /shipments " 200 9856 0.0287
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:25] "GET /css/main.css " 200 14195 0.4771
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:29] "GET /products " 200 21165 0.0291
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:29] "GET /css/main.css " 200 14195 0.2527
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:30] "GET /shipments " 200 9816 0.0213
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:30] "GET /css/main.css " 200 14195 0.2570
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:35] "GET /shipments " 200 9847 0.0244
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:53:35] "GET /css/main.css " 200 14195 0.2716
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:56:27] "GET /shipments " 200 9842 0.0269
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:56:27] "GET /css/main.css " 200 14195 0.4232
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:56:35] "GET /shipments " 200 9857 0.0247
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:56:35] "GET /css/main.css " 200 14195 0.4360
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:03] "GET /shipments " 200 9842 0.0309
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:03] "GET /css/main.css " 200 14216 0.4275
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:04] "GET /shipments " 200 9884 0.0184
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:04] "GET /css/main.css " 200 14216 0.2495
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:09] "GET /shipments " 200 9845 0.0237
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:09] "GET /css/main.css " 200 14217 0.2727
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:12] "GET /shipments " 200 9835 0.0231
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:12] "GET /css/main.css " 200 14217 0.2627
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:17] "GET /shipments " 200 9839 0.0255
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:18] "GET /css/main.css " 200 14214 0.3208
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:22] "GET /shipments " 200 9857 0.0258
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:23] "GET /css/main.css " 200 14215 0.2608
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:23] "GET /shipments " 200 9846 0.0218
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:24] "GET /css/main.css " 200 14215 0.2498
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:38] "GET /shipments " 200 9836 0.0279
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:38] "GET /css/main.css " 200 14236 0.2865
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:38] "GET /shipments " 200 9848 0.0208
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:57:39] "GET /css/main.css " 200 14236 0.2779
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:58:04] "GET /shipments " 200 9877 0.0257
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:58:05] "GET /css/main.css " 200 14268 0.3313
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:58:05] "GET /shipments " 200 9860 0.0240
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:58:06] "GET /css/main.css " 200 14268 0.2527
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:59:18] "GET /shipments " 200 9846 0.0200
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:59:19] "GET /css/main.css " 200 14319 0.3044
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:59:20] "GET /shipments " 200 9868 0.0217
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:59:20] "GET /css/main.css " 200 14319 0.3735
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:59:59] "GET /shipments " 200 9850 0.0217
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 05:59:59] "GET /css/main.css " 200 14340 0.2764
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:00:08] "GET /shipments " 200 9820 0.0258
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:00:08] "GET /css/main.css " 200 14340 0.3336
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:00:11] "GET /shipments " 200 9871 0.0261
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:00:12] "GET /css/main.css " 200 14339 0.2690
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:00:22] "GET /products " 200 21164 0.0186
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:00:23] "GET /css/main.css " 200 14339 0.2524
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:00:23] "GET /shipments " 200 9836 0.0239
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:00:23] "GET /css/main.css " 200 14339 0.2526
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:04:08] "GET /shipments " 200 9848 0.0281
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:04:09] "GET /css/main.css " 200 14339 0.4346
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:04:12] "GET /shipments " 200 9845 0.0397
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:04:13] "GET /css/main.css " 200 14339 0.3789
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:06:14] "GET /shipments " 200 9875 0.0271
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:06:14] "GET /css/main.css " 200 14339 0.4223
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:06:44] "GET /shipments " 200 9844 0.0275
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:06:45] "GET /css/main.css " 200 14339 0.4177
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:06:49] "GET /shipments " 200 9868 0.0275
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:06:49] "GET /css/main.css " 200 14339 0.2533
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:07:09] "GET /shipments " 200 9847 0.0207
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:07:10] "GET /css/main.css " 200 14339 0.2594
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:07:40] "GET /shipments " 200 9846 0.0236
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:07:41] "GET /css/main.css " 200 14339 0.3292
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:02] "GET /shipments " 200 9850 0.0260
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:03] "GET /css/main.css " 200 14365 0.2659
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:09] "GET /shipments " 200 9853 0.0261
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:10] "GET /css/main.css " 200 14381 0.3199
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:17] "GET /shipments " 200 9846 0.0245
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:18] "GET /css/main.css " 200 14381 0.2890
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:23] "GET /shipments " 200 9862 0.0214
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:23] "GET /css/main.css " 200 14381 0.2903
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:26] "GET /shipments " 200 9843 0.0259
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:26] "GET /css/main.css " 200 14381 0.3406
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:37] "GET /shipments " 200 9843 0.0236
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:37] "GET /css/main.css " 200 14381 0.2563
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:51] "GET /shipments " 200 9860 0.0214
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:08:52] "GET /css/main.css " 200 14381 0.2294
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:09:51] "GET /products " 200 21167 0.0225
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:09:51] "GET /css/main.css " 200 14381 0.4610
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:09:53] "GET /shipments " 200 9870 0.0272
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:09:53] "GET /css/main.css " 200 14381 0.3068
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:09:59] "GET /products " 200 21167 0.0262
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:09:59] "GET /css/main.css " 200 14381 0.3224
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:10:00] "GET /shipments " 200 9868 0.0384
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:10:01] "GET /css/main.css " 200 14381 0.2618
+App 24066 stderr: Errno::ENOENT - No such file or directory @ rb_sysopen - /Users/acezoncay/fracht/views/requests.slim:
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `initialize'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `open'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:91:in `read_template_file'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:68:in `block in initialize'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:69:in `initialize'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:844:in `new'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:844:in `block in compile_template'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt.rb:127:in `fetch'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:823:in `compile_template'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:804:in `render'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 24066 stderr: 	/Users/acezoncay/fracht/fracht.rb:44:in `block in <top (required)>'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.
+App 24066 stderr: rb:15:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 24066 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:12:12] "GET /shipments " 200 9863 0.0211
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:12:12] "GET /css/main.css " 200 14400 0.4465
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:12:13] "GET /shipments " 200 9827 0.0232
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:12:13] "GET /css/main.css " 200 14400 0.2264
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:12:27] "GET /shipments " 200 9846 0.0367
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:12:27] "GET /css/main.css " 200 14400 0.2676
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:12:28] "GET /shipments " 200 9857 0.0193
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:12:28] "GET /css/main.css " 200 14400 0.2944
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:13:43] "GET /shipments " 200 9859 0.0269
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:13:43] "GET /css/main.css " 200 14422 0.4343
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:13:44] "GET /shipments " 200 9861 0.0200
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:13:44] "GET /css/main.css " 200 14422 0.2881
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:02] "GET /shipments " 200 9852 0.0234
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:02] "GET /css/main.css " 200 14390 0.4310
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:08] "GET /shipments " 200 9842 0.0260
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:08] "GET /css/main.css " 200 14390 0.3112
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:18] "GET /shipments " 200 9842 0.0251
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:18] "GET /css/main.css " 200 14451 0.2584
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:33] "GET /products " 200 21166 0.0233
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:33] "GET /css/main.css " 200 14451 0.2632
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:44] "GET /products " 200 21168 0.0263
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:45] "GET /css/main.css " 200 14449 0.4695
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:49] "GET /products " 200 21165 0.0307
+App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:49] "GET /css/main.css " 200 14452 0.3419

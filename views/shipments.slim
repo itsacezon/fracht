@@ -2,39 +2,48 @@
 
 article
   .filters
-    h5.u-pull-left
-      | #{rand(6..20)}
-      span orders
+    .u-pull-left
+      select#shipment-status
+        option value="pending" selected=true Pending
+        option value="delivered" Delivered
+        option value="failed" Failed
     button.button-primary.u-pull-right Add shipping
 
   table.u-full-width
     thead
       tr
+        / th Status
         th Carrier
         th Shipment
         th Route
         th Created
-        th Tracking
+        th
     tbody
       - for i in 20.times do
         tr
+          / td.shipment-status
+          /   i class=(['icon-circle-check', 'icon-circle-minus', 'icon-circle-cross'].sample)
           td
             .user
               .user-image
                 img.small src=UIFaces.face
               .user-info = ['Shipme, LLC', 'Dexter Edep', 'Suzuki Cars'].sample
+
           td.shipment-item
             / ul
             /   li
             /     | 1 &times; Product name
             /     a href="#0" view
             | #{rand(60..100)} lb, Order #{rand(100..600)}
-            a href="#0" view
+            / a.view-more href="#0" view
 
           td.shipment-route
             span Start
             i.icon-arrow-right
             span Destination
-          td = Time.at(rand * Time.now.to_i).strftime("%e %b %Y")
+
           td
-            a href="#0" = SecureRandom.hex[0..12].upcase
+            | #{Time.at(rand * Time.now.to_i).strftime("%e %b %Y, %k:%I %p")}
+
+          td.shipment-actions
+            button View

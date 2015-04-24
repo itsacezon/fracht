@@ -11,8 +11,30 @@
     }
   }
 
-  select {
+  .selectize-input {
     margin-bottom: 0;
+    height: 38px !important;
+    min-width: 180px;
+    padding: 0.65em 14px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    background: #fcfcfc !important;
+    border-color: #dadada !important;
+
+    input {
+      height: auto !important;
+    }
+  }
+
+  .selectize-dropdown {
+    border-color: #dadada !important;
+    
+    .option {
+      padding: 0.5em 14px;
+      font-size: 16px;
+    }
   }
 
   button {
