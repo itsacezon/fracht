@@ -23,6 +23,44 @@
   color: white;
 }
 
+.card-map {
+  @include size(300px 200px);
+  float: left;
+}
+
+.card-route {
+  @include calc(width, '100% - 300px');
+  height: 200px;
+  position: relative;
+  float: left;
+  padding: 1.5em;
+
+  .card-actions {
+    @include transition(250ms);
+    left: auto;
+    right: 0;
+    opacity: 0;
+  }
+
+  &:hover .card-actions {
+    opacity: 1;
+  }
+}
+
+.card-routename {
+  h5 {
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+  }
+
+  i {
+    @include position(relative, -2px 0 0 0);
+    margin: 0 0.25em;
+    color: #888;
+  }
+}
+
 .card-image {
   padding: 1.5em;
 }
@@ -39,15 +77,19 @@
   @include transition(250ms);
   background-color: rgba(white, 0.85);
   opacity: 0;
-
 }
 
 .card-actions {
   @include position(absolute, 0 null null 0);
 
+  &.card-actions-primary {
+    right: 1.5em;
+    top: 1.5em;
+  }
+
   button {
     @include transition(250ms);
-    
+
     border: none;
     padding: 0.75em;
 
@@ -59,6 +101,19 @@
 
     &:hover {
       color: $font-color;
+    }
+  }
+
+  .button-primary {
+    font-size: 0.85em;
+    color: white;
+
+    i {
+      @include position(-1px null null null);
+    }
+
+    span {
+      margin-left: 0.5em;
     }
   }
 }
@@ -76,10 +131,28 @@
   line-height: 1.4;
 }
 
-.card-product-weight {
+.card-product-detail {
   color: #888;
-}
 
-.card-product-quantity {
-  color: #888;
+  &.fix-bottom {
+    @include position(absolute, null null 1.5em null);
+    font-size: 0.85em;
+  }
+
+  &.fix-right {
+    @include position(absolute, null 1.5em 1.5em auto);
+  }
+
+  i {
+    margin-right: 0.5em;
+  }
+
+  a {
+    margin-left: 0.25em;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }

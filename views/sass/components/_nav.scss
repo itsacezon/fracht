@@ -47,4 +47,9 @@ header {
   font-size: 1.75em;
   font-weight: 600;
   color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+  }
 }

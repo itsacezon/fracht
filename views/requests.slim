@@ -1,26 +1,19 @@
-== slim :"partials/header", :locals => {:page => 'shipments'}
+== slim :"partials/header", :locals => {:page => 'requests'}
 
 article
   .filters
     h5.u-pull-left
       | #{rand(60..100)}
-      span orders
-
-    .u-pull-right
-      select#shipment-status
-        option value="in-progress" selected=true In Progress
-        option value="delivered" Delivered
-        option value="returned" Returned
+      span pending
+    a.button.button-primary.u-pull-right href="/requests/add" Request delivery
 
   table.u-full-width
     thead
       tr
-        / th Status
         th Carrier
         th Shipment
         th Route
-        th Pick-up Date
-        th Duration
+        th Created
         th
     tbody
       - for i in 20.times do
@@ -38,7 +31,7 @@ article
             /   li
             /     | 1 &times; Product name
             /     a href="#0" view
-            | #{rand(60..100)} lb, Order #{rand(100..600)}
+            | #{rand(60..100)} kgs, Order #{rand(100..600)}
             / a.view-more href="#0" view
 
           td.shipment-route
@@ -48,9 +41,6 @@ article
 
           td
             | #{Time.at(rand * Time.now.to_i).strftime("%e %b %Y, %k:%I %p")}
-
-          td
-            | #{Time.at(rand * Time.now.to_i).strftime("%k")} hours
 
           td.shipment-actions
             button View

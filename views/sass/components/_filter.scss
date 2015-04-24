@@ -2,13 +2,38 @@
   @include outer-container;
   padding-bottom: 1.5em;
 
+  a.link {
+    display: block;
+    margin-bottom: 1em;
+    text-decoration: none;
+
+    i {
+      @include position(-2px null null null);
+      margin-right: 0.25em;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  label.hide {
+    opacity: 0;
+  }
+
   h5 {
-    margin-bottom: 0;
+    &.u-pull-left {
+      margin-bottom: 0;
+    }
 
     span {
       margin-left: 0.25em;
       color: #aaa;
     }
+  }
+
+  form {
+    margin-bottom: 0;
   }
 
   .selectize-input {
@@ -30,14 +55,21 @@
 
   .selectize-dropdown {
     border-color: #dadada !important;
-    
+
     .option {
       padding: 0.5em 14px;
       font-size: 16px;
     }
   }
 
-  button {
+  button, .button {
     margin-bottom: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 36px;
+  }
+
+  .two.columns .selectize-input {
+    min-width: 120px;
   }
 }

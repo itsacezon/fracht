@@ -1,0 +1,36 @@
+== slim :"partials/header", :locals => {:page => 'routes'}
+
+article
+  .filters
+    h5.u-pull-left
+      | #{rand(60..100)}
+      span in service
+    button.button-primary.u-pull-right Add route
+
+  .cards
+    - for i in 10.times do
+      .card
+        / .card-quantity
+        /   | #{rand(5..100)}
+        /   i.icon-bag
+        .card-route
+          .card-actions
+            button
+              i.icon-cog
+            button
+              i.icon-trash
+
+          .card-routename
+            h5
+              span Start
+              i.icon-arrow-right
+              span Destination
+          .card-product-detail
+            i.icon-location
+            | via #{['Motorcycle', 'Truck', 'Van'].sample}
+          .card-product-detail Can handle #{rand(50..100)} lbs
+          .card-product-detail.fix-bottom Created #{Time.at(rand * Time.now.to_i).strftime("%e %b %Y")}
+          .card-product-detail.fix-bottom.fix-right Used #{rand(50..100)} times
+
+
+        .card-map style="background-image:url('http://www.digicution.com/wp-content/uploads/2012/06/HTML5-Repsonsive-Google-Maps-Tutorial-1.png');background-size:cover;"

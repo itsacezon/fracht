@@ -1,0 +1,55 @@
+== slim :"partials/header", :locals => {:page => 'requests'}
+
+article
+  .filters
+    a.link href="/requests"
+      i.icon-arrow-left
+      | Back to requests
+    form
+      .row
+        .three.columns
+          label From
+          input.u-full-width type="text"
+        .three.columns
+          label To
+          input.u-full-width type="text"
+        .two.columns
+          label Vehicle Type
+          select#vehicle-type
+            option value="in-progress" selected=true All
+            option value="delivered" Motorcycle
+            option value="delivered" Truck
+            option value="returned" Van
+        .two.columns
+          label Capacity (kgs)
+          input.u-full-width type="number" min="1" value="1"
+        .two.columns
+          label.hide Search
+          button.button-primary Search
+    h5.u-pull-left
+      | #{rand(100..1000)}
+      span routes
+
+  .cards
+    - for i in 10.times do
+      .card
+        .card-route
+          .card-actions.card-actions-primary
+            button.button-primary
+              i.icon-plus
+              span Request
+          .card-routename
+            h5
+              span Start
+              i.icon-arrow-right
+              span Destination
+          .card-product-detail
+            i.icon-location
+            | via #{['Motorcycle', 'Truck', 'Van'].sample}
+          .card-product-detail
+            | Can handle #{rand(50..100)} kgs
+          .card-product-detail.fix-bottom
+            | from
+            a href="#0" Name
+          .card-product-detail.fix-bottom.fix-right Used #{rand(50..100)} times
+        .card-map style="background-image:url('http://www.digicution.com/wp-content/uploads/2012/06/HTML5-Repsonsive-Google-Maps-Tutorial-1.png');background-size:cover;"

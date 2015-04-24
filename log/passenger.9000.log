@@ -10185,3 +10185,1491 @@ App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:44] "GET /products " 200 2116
 App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:45] "GET /css/main.css " 200 14449 0.4695
 App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:49] "GET /products " 200 21165 0.0307
 App 24066 stderr: 127.0.0.1 - - [25/Apr/2015 06:14:49] "GET /css/main.css " 200 14452 0.3419
+[ 2015-04-25 06:15:51.2644 29214/0x7fff78a79310 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'acezoncay', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3N3L2s1Y3pwa3Y5N25zZDlodjZuZjFuY3d2dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLjEzbXFsN2kvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/acezoncay/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'acezoncay', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/sw/k5czpkv97nsd9hv6nf1ncwvw0000gn/T/passenger-standalone.13mql7i/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6OTAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '29213', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 06:15:51.2901 29216/0x7fff78a79310 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.29213/generation-0/request
+[ 2015-04-25 06:15:51.3184 29218/0x7fff78a79310 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.29213/generation-0/logging
+[ 2015-04-25 06:15:51.3187 29214/0x7fff78a79310 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 29232 stdout: 
+App 29232 stdout: Running migration: create user table
+App 29232 stdout: Running migration: create deliverable
+App 29232 stdout: Running migration: create schedule table
+App 29232 stdout: Running migration: create routes
+App 29232 stdout: Running migration: assets
+App 29232 stdout: Running migration: route-asset relation
+App 29232 stdout: Running migration: simple messaging
+App 29232 stdout: Running migration: request asset
+App 29232 stdout: Running migration: create transactions
+[ 2015-04-25 06:15:55.9319 29216/0x10143f000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 29232, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.29232
+App 29340 stdout: 
+App 29232 stderr: 127.0.0.1 - - [25/Apr/2015 06:15:56] "HEAD / " 200 9870 0.0522
+App 29378 stdout: 
+[ 2015-04-25 06:16:11.0732 29216/0x10155e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 29378, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.29378
+App 29486 stdout: 
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:16:11] "GET /products " 200 21164 0.0450
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:16:11] "GET /css/main.css " 200 14452 0.4540
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:16:12] "GET /shipments " 200 9840 0.0235
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:16:12] "GET /css/main.css " 200 14452 0.2747
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:16:14] "GET /products " 200 21166 0.0330
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:16:14] "GET /css/main.css " 200 14452 0.3776
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:16:18] "GET /shipments " 200 9842 0.0373
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:16:19] "GET /css/main.css " 200 14452 0.2653
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:14] "GET /shipments " 200 9866 0.0231
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:14] "GET /css/main.css " 200 14452 0.2532
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:15] "GET /requests " 200 9851 0.0232
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:15] "GET /css/main.css " 200 14452 0.2827
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:20] "GET /requests " 200 9807 0.0211
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:21] "GET /css/main.css " 200 14452 0.2966
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:22] "GET /shipments " 200 9845 0.0302
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:23] "GET /css/main.css " 200 14452 0.2582
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:23] "GET /requests " 200 9791 0.0216
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:24] "GET /css/main.css " 200 14452 0.2886
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:55] "GET /requests " 200 9800 0.0237
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:56] "GET /css/main.css " 200 14452 0.2497
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:56] "GET /shipments " 200 9844 0.0210
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:57] "GET /css/main.css " 200 14452 0.3514
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:57] "GET /requests " 200 9771 0.0263
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:17:57] "GET /css/main.css " 200 14452 0.2477
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:18:29] "GET /requests " 200 9794 0.0330
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:18:29] "GET /css/main.css " 200 14452 0.4293
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:18:47] "GET /requests " 200 7741 0.0250
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:18:47] "GET /css/main.css " 200 14452 0.2476
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:18:51] "GET /shipments " 200 9845 0.0238
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:18:52] "GET /css/main.css " 200 14452 0.3231
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:18:52] "GET /requests " 200 7732 0.0253
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:18:52] "GET /css/main.css " 200 14452 0.2479
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:03] "GET /shipments " 200 9843 0.0325
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:03] "GET /css/main.css " 200 14452 0.4057
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:06] "GET /requests " 200 7726 0.0196
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:06] "GET /css/main.css " 200 14452 0.2438
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:38] "GET /requests " 200 8687 0.0239
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:38] "GET /css/main.css " 200 14452 0.2751
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:40] "GET /shipments " 200 9850 0.0275
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:40] "GET /css/main.css " 200 14452 0.3501
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:41] "GET /requests " 200 8702 0.0284
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:41] "GET /css/main.css " 200 14452 0.2282
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:42] "GET /shipments " 200 9863 0.0233
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:42] "GET /css/main.css " 200 14452 0.2738
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:43] "GET /requests " 200 8673 0.0389
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:19:43] "GET /css/main.css " 200 14452 0.2667
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:20] "GET /shipments " 200 9835 0.0192
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:21] "GET /css/main.css " 200 14452 0.2574
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:36] "GET /requests " 200 8673 0.0247
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:36] "GET /css/main.css " 200 14452 0.2899
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:41] "GET /shipments " 200 9858 0.0271
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:42] "GET /css/main.css " 200 14452 0.2572
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:42] "GET /requests " 200 8662 0.0227
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:42] "GET /css/main.css " 200 14452 0.2369
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:46] "GET /shipments " 200 9865 0.0379
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:46] "GET /css/main.css " 200 14452 0.2559
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:51] "GET /requests " 200 8675 0.0211
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:51] "GET /css/main.css " 200 14452 0.2756
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:52] "GET /shipments " 200 9855 0.0287
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:53] "GET /css/main.css " 200 14452 0.2947
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:57] "GET /requests " 200 8697 0.0385
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:20:58] "GET /css/main.css " 200 14452 0.2479
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:09] "GET /shipments " 200 9849 0.0295
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:10] "GET /css/main.css " 200 14452 0.4168
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:29] "GET /requests " 200 8655 0.0498
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:29] "GET /css/main.css " 200 14452 0.3160
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:41] "GET /shipments " 200 9848 0.0224
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:41] "GET /css/main.css " 200 14452 0.2596
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:45] "GET /requests " 200 8679 0.0245
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:45] "GET /css/main.css " 200 14452 0.2979
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:46] "GET /shipments " 200 9856 0.0304
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:46] "GET /css/main.css " 200 14452 0.2517
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:50] "GET /requests " 200 8692 0.0220
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:50] "GET /css/main.css " 200 14452 0.2418
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:51] "GET /shipments " 200 9873 0.0247
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:52] "GET /css/main.css " 200 14452 0.2494
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:53] "GET /requests " 200 8682 0.0226
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:53] "GET /css/main.css " 200 14452 0.2431
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:55] "GET /shipments " 200 9877 0.0240
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:21:55] "GET /css/main.css " 200 14452 0.2755
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:45] "GET /requests " 200 8691 0.0267
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:45] "GET /css/main.css " 200 14452 0.4055
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:46] "GET /shipments " 200 9852 0.0206
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:46] "GET /css/main.css " 200 14452 0.2446
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:47] "GET /requests " 200 8669 0.0246
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:47] "GET /css/main.css " 200 14452 0.2642
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:47] "GET /shipments " 200 9852 0.0212
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:48] "GET /css/main.css " 200 14452 0.2653
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:57] "GET /requests " 200 8684 0.0230
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:22:58] "GET /css/main.css " 200 14452 0.3126
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:00] "GET /shipments " 200 9862 0.0244
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:00] "GET /css/main.css " 200 14452 0.2314
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:04] "GET /requests " 200 8691 0.0239
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:04] "GET /css/main.css " 200 14452 0.2361
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:29] "GET /shipments " 200 9850 0.0241
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:29] "GET /css/main.css " 200 14452 0.2557
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:37] "GET /requests " 200 8694 0.0210
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:37] "GET /css/main.css " 200 14452 0.3124
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:37] "GET /products " 200 21165 0.0243
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:38] "GET /css/main.css " 200 14452 0.2827
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:39] "GET /requests " 200 8669 0.0270
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:39] "GET /css/main.css " 200 14452 0.2582
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:40] "GET /shipments " 200 9831 0.0236
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:23:40] "GET /css/main.css " 200 14452 0.2595
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:26:50] "GET /shipments " 200 9845 0.0296
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:26:50] "GET /css/main.css " 200 14452 0.4391
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:07] "GET /shipments " 200 9867 0.0297
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:07] "GET /css/main.css " 200 14452 0.2625
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:11] "GET /requests " 200 8664 0.0239
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:12] "GET /css/main.css " 200 14452 0.2883
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:12] "GET /shipments " 200 9867 0.0254
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:12] "GET /css/main.css " 200 14452 0.2592
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:23] "GET /shipments " 200 9794 0.0270
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:24] "GET /css/main.css " 200 14452 0.2842
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:24] "GET /requests " 200 9092 0.0232
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:24] "GET /css/main.css " 200 14452 0.2826
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:31] "GET /requests " 200 9110 0.0217
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:32] "GET /css/main.css " 200 14452 0.2615
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:35] "GET /shipments " 200 9812 0.0272
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:35] "GET /css/main.css " 200 14452 0.3006
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:36] "GET /requests " 200 9107 0.0277
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:36] "GET /css/main.css " 200 14452 0.2460
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:37] "GET /shipments " 200 9803 0.0214
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:37] "GET /css/main.css " 200 14452 0.2317
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:39] "GET /requests " 200 9131 0.0255
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:39] "GET /css/main.css " 200 14452 0.2480
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:41] "GET /shipments " 200 9803 0.0220
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:41] "GET /css/main.css " 200 14452 0.2368
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:43] "GET /products " 200 21171 0.0308
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:43] "GET /css/main.css " 200 14452 0.2842
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:44] "GET /shipments " 200 9803 0.0262
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:44] "GET /css/main.css " 200 14452 0.2620
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:53] "GET /requests " 200 9109 0.0225
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:53] "GET /css/main.css " 200 14452 0.2451
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:59] "GET /requests " 200 9104 0.0217
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:27:59] "GET /css/main.css " 200 14452 0.2629
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:28:06] "GET /requests " 200 8735 0.0215
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:28:06] "GET /css/main.css " 200 14452 0.2735
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:28:08] "GET /shipments " 200 9816 0.0261
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:28:08] "GET /css/main.css " 200 14452 0.2839
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:28:20] "GET /requests " 200 8763 0.0276
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:28:21] "GET /css/main.css " 200 14452 0.4222
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:28:24] "GET /shipments " 200 9796 0.0202
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:28:24] "GET /css/main.css " 200 14452 0.2403
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:29:16] "GET /requests " 200 8764 0.0350
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:29:16] "GET /css/main.css " 200 14452 0.4362
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:30:16] "GET /shipments " 200 9812 0.0273
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:30:16] "GET /css/main.css " 200 14452 0.4424
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:04] "GET /shipments " 200 10407 0.0291
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:05] "GET /css/main.css " 200 14452 0.4645
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:33] "GET /shipments " 200 10152 0.0434
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:34] "GET /css/main.css " 200 14452 0.4157
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:37] "GET /shipments " 200 10172 0.0222
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:37] "GET /css/main.css " 200 14452 0.2484
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:40] "GET /shipments " 200 10198 0.0379
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:40] "GET /css/main.css " 200 14452 0.2294
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:55] "GET /shipments " 200 10159 0.0213
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:31:55] "GET /css/main.css " 200 14452 0.2546
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:00] "GET /shipments " 200 10180 0.0283
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:00] "GET /css/main.css " 200 14452 0.3109
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:06] "GET /shipments " 200 10172 0.0257
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:07] "GET /css/main.css " 200 14452 0.2542
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:10] "GET /requests " 200 8756 0.0261
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:10] "GET /css/main.css " 200 14452 0.2452
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:18] "GET /shipments " 200 10164 0.0364
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:18] "GET /css/main.css " 200 14452 0.2597
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:21] "GET /requests " 200 8725 0.0215
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:21] "GET /css/main.css " 200 14452 0.2602
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:22] "GET /shipments " 200 10179 0.0270
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:22] "GET /css/main.css " 200 14452 0.2942
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:29] "GET /requests " 200 8743 0.0263
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:29] "GET /css/main.css " 200 14452 0.2176
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:35] "GET /shipments " 200 10152 0.0244
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:35] "GET /css/main.css " 200 14452 0.2360
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:48] "GET /requests " 200 8737 0.0404
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:32:48] "GET /css/main.css " 200 14452 0.4079
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:09] "GET /shipments " 200 10167 0.0363
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:09] "GET /css/main.css " 200 14452 0.4306
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:37] "GET /shipments " 200 10174 0.0357
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:37] "GET /css/main.css " 200 14452 0.4769
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:45] "GET /shipments " 200 10220 0.0291
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:46] "GET /css/main.css " 200 14452 0.2958
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:47] "GET /requests " 200 8738 0.0218
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:47] "GET /css/main.css " 200 14452 0.2313
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:48] "GET /shipments " 200 10193 0.0442
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:49] "GET /css/main.css " 200 14452 0.2414
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:51] "GET /requests " 200 8764 0.0232
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:52] "GET /css/main.css " 200 14452 0.2647
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:52] "GET /products " 200 21162 0.0335
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:52] "GET /css/main.css " 200 14452 0.2888
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:53] "GET /requests " 200 8747 0.0248
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:53] "GET /css/main.css " 200 14452 0.2572
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:53] "GET /shipments " 200 10214 0.0227
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:54] "GET /css/main.css " 200 14452 0.2564
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:54] "GET /shipments " 200 10207 0.0383
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:55] "GET /css/main.css " 200 14452 0.2352
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:56] "GET /requests " 200 8756 0.0249
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:33:56] "GET /css/main.css " 200 14452 0.2461
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:00] "GET /shipments " 200 10210 0.0323
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:00] "GET /css/main.css " 200 14452 0.3137
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:01] "GET /products " 200 21164 0.0281
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:01] "GET /css/main.css " 200 14452 0.2407
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:01] "GET /requests " 200 8747 0.0203
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:02] "GET /css/main.css " 200 14452 0.2404
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:02] "GET /shipments " 200 10219 0.0374
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:02] "GET /css/main.css " 200 14452 0.2526
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:04] "GET /requests " 200 8751 0.0227
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:04] "GET /css/main.css " 200 14452 0.2388
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:05] "GET /shipments " 200 10216 0.0271
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:05] "GET /css/main.css " 200 14452 0.3076
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:06] "GET /requests " 200 8738 0.0297
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:06] "GET /css/main.css " 200 14452 0.2563
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:16] "GET /requests " 200 8794 0.0256
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:16] "GET /css/main.css " 200 14452 0.3612
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:22] "GET /requests " 200 8620 0.0358
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:22] "GET /css/main.css " 200 14452 0.4356
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:27] "GET /requests " 200 8638 0.0214
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:27] "GET /css/main.css " 200 14452 0.2730
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:28] "GET /requests " 200 8618 0.0240
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:29] "GET /css/main.css " 200 14452 0.2983
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:37] "GET /requests " 200 8622 0.0252
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:38] "GET /css/main.css " 200 14452 0.2339
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:45] "GET /shipments " 200 10215 0.0289
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:45] "GET /css/main.css " 200 14452 0.2329
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:46] "GET /requests " 200 8625 0.0365
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:47] "GET /css/main.css " 200 14452 0.2390
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:56] "GET /requests " 200 9726 0.0227
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:57] "GET /css/main.css " 200 14452 0.2927
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:58] "GET /requests " 200 9734 0.0311
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:58] "GET /css/main.css " 200 14452 0.3217
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:59] "GET /shipments " 200 10197 0.0373
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:34:59] "GET /css/main.css " 200 14452 0.2572
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:00] "GET /requests " 200 9734 0.0354
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:00] "GET /css/main.css " 200 14452 0.2370
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:01] "GET /shipments " 200 10220 0.0433
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:01] "GET /css/main.css " 200 14452 0.2661
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:01] "GET /requests " 200 9743 0.0271
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:02] "GET /css/main.css " 200 14452 0.2595
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:02] "GET /products " 200 21168 0.0215
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:03] "GET /css/main.css " 200 14452 0.2749
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:03] "GET /requests " 200 9742 0.0233
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:03] "GET /css/main.css " 200 14452 0.2491
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:04] "GET /shipments " 200 10211 0.0227
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:04] "GET /css/main.css " 200 14452 0.2300
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:05] "GET /requests " 200 9743 0.0390
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:05] "GET /css/main.css " 200 14452 0.2652
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:06] "GET /products " 200 21164 0.0198
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:06] "GET /css/main.css " 200 14452 0.2488
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:07] "GET /requests " 200 9758 0.0261
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:07] "GET /css/main.css " 200 14452 0.2980
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:07] "GET /shipments " 200 10231 0.0310
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:08] "GET /css/main.css " 200 14452 0.2317
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:08] "GET /requests " 200 9750 0.0288
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:08] "GET /css/main.css " 200 14452 0.2541
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:09] "GET /products " 200 21169 0.0267
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:09] "GET /css/main.css " 200 14452 0.2553
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:09] "GET /requests " 200 9735 0.0219
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:10] "GET /css/main.css " 200 14452 0.2762
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:10] "GET /shipments " 200 10189 0.0278
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:10] "GET /css/main.css " 200 14452 0.3070
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:53] "GET /shipments " 200 10234 0.0277
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:53] "GET /css/main.css " 200 14452 0.4139
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:54] "GET /routes " 200 - 0.0011
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:35:55] "GET /routes " 200 - 0.0010
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:16] "GET /products " 200 21203 0.0204
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:16] "GET /css/main.css " 200 14452 0.4112
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:30] "GET /products " 200 21202 0.0328
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:30] "GET /css/main.css " 200 14452 0.4438
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:31] "GET /routes " 200 - 0.0012
+App 29378 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:32] "GET /routes " 200 - 0.0008
+App 30454 stdout: 
+[ 2015-04-25 06:36:40.1055 29216/0x101508000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 30454, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.30454
+App 30564 stdout: 
+App 30454 stderr: NoMethodError - undefined method `count' for nil:NilClass:
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:6:in `block in singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `instance_eval'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-3:in `__tilt_70251308046600'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 30454 stderr: 	/Users/acezoncay/fracht/fracht.rb:93:in `block in <top (required)>'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems
+App 30454 stderr: /ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:40] "GET /__sinatra__/500.png " 304 - 0.0089
+App 30454 stderr: NoMethodError - undefined method `count' for nil:NilClass:
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:6:in `block in singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `instance_eval'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-3:in `__tilt_70251308046600'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in 
+App 30454 stderr: `evaluate'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 30454 stderr: 	/Users/acezoncay/fracht/fracht.rb:93:in `block in <top (required)>'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:41] "GET /__sinatra__/500.png " 304 - 0.0011
+App 30454 stderr: NoMethodError - undefined method `each' for nil:NilClass:
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:11:in `block in singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `instance_eval'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-3:in `__tilt_70251308046600'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra
+App 30454 stderr: /engine_tracking.rb:91:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 30454 stderr: 	/Users/acezoncay/fracht/fracht.rb:93:in `block in <top (required)>'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:52] "GET /__sinatra__/500.png " 304 - 0.0015
+App 30454 stderr: NoMethodError - undefined method `each' for nil:NilClass:
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:11:in `block in singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `instance_eval'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-3:in `__tilt_70251308046600'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in 
+App 30454 stderr: `evaluate'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 30454 stderr: 	/Users/acezoncay/fracht/fracht.rb:93:in `block in <top (required)>'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:36:52] "GET /__sinatra__/500.png " 304 - 0.0013
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:29] "GET /routes " 200 4230 0.0342
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:30] "GET /css/main.css " 200 14452 0.4237
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:34] "GET /products " 200 21203 0.0215
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:35] "GET /css/main.css " 200 14452 0.2769
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:35] "GET /routes " 200 4230 0.0215
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:35] "GET /css/main.css " 200 14452 0.2453
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:38] "GET /routes " 200 4230 0.0203
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:38] "GET /css/main.css " 200 14452 0.2981
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:40] "GET /products " 200 21202 0.0272
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:40] "GET /css/main.css " 200 14452 0.2797
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:40] "GET /requests " 200 9746 0.0236
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:40] "GET /css/main.css " 200 14452 0.2347
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:41] "GET /shipments " 200 10216 0.0255
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:41] "GET /css/main.css " 200 14452 0.2347
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:42] "GET /requests " 200 9763 0.0249
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:42] "GET /css/main.css " 200 14452 0.2481
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:42] "GET /products " 200 21203 0.0211
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:43] "GET /css/main.css " 200 14452 0.3337
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:43] "GET /routes " 200 4229 0.0342
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:43] "GET /css/main.css " 200 14452 0.2679
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:44] "GET /products " 200 21202 0.0232
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:45] "GET /css/main.css " 200 14452 0.2488
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:45] "GET /requests " 200 9782 0.0384
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:45] "GET /css/main.css " 200 14452 0.2327
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:46] "GET /shipments " 200 10241 0.0219
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:46] "GET /css/main.css " 200 14452 0.2973
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:46] "GET /products " 200 21205 0.0228
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:47] "GET /css/main.css " 200 14452 0.3163
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:47] "GET /routes " 200 4228 0.0210
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:47] "GET /css/main.css " 200 14452 0.2314
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:48] "GET /products " 200 21204 0.0202
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:48] "GET /css/main.css " 200 14452 0.2573
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:48] "GET /routes " 200 4228 0.0237
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:49] "GET /css/main.css " 200 14452 0.2462
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:52] "GET /products " 200 21201 0.0218
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:52] "GET /css/main.css " 200 14452 0.2589
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:53] "GET /requests " 200 9752 0.0228
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:53] "GET /css/main.css " 200 14452 0.3557
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:54] "GET /shipments " 200 10272 0.0305
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:54] "GET /css/main.css " 200 14452 0.2190
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:55] "GET /requests " 200 9781 0.0279
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:55] "GET /css/main.css " 200 14452 0.2842
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:56] "GET /routes " 200 4229 0.0218
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:37:56] "GET /css/main.css " 200 14452 0.2512
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:08] "GET /routes " 200 4234 0.0274
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:08] "GET /css/main.css " 200 14452 0.4650
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:11] "GET /routes " 200 4233 0.0166
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:12] "GET /css/main.css " 200 14452 0.3175
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:14] "GET /products " 200 21203 0.0288
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:14] "GET /css/main.css " 200 14452 0.2450
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:15] "GET /routes " 200 4234 0.0259
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:15] "GET /css/main.css " 200 14452 0.2551
+App 30454 stderr: NameError - undefined local variable or method `product' for #<Sinatra::Application:0x007fc9555d5590>:
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:17:in `block (2 levels) in singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:11:in `times'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:11:in `each'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:11:in `block in singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `instance_eval'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-1:in `singleton class'
+App 30454 stderr: 	/Users/acezoncay/fracht/views/routes.slim:-3:in `__tilt_70251308046600'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 30454 stderr: 	/Users/acezoncay/fracht/fracht.rb:93:in `block in <top (required)>'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:
+App 30454 stderr: in `block (2 levels) in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 30454 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:39] "GET /__sinatra__/500.png " 304 - 0.0011
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:43] "GET /routes " 200 4930 0.0209
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:38:44] "GET /css/main.css " 200 14452 0.2752
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:39:02] "GET /routes " 200 4512 0.0194
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:39:03] "GET /css/main.css " 200 14452 0.2790
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:40:10] "GET /routes " 200 4512 0.0251
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:40:11] "GET /css/main.css " 200 14452 0.3401
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:40:13] "GET /products " 200 21201 0.0289
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:40:13] "GET /css/main.css " 200 14452 0.2358
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:40:14] "GET /routes " 200 4513 0.0183
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:40:14] "GET /css/main.css " 200 14452 0.2642
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:40:24] "GET /routes " 200 4513 0.0256
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:40:24] "GET /css/main.css " 200 14452 0.3377
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:41:25] "GET /routes " 200 4092 0.0161
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:41:25] "GET /css/main.css " 200 14486 0.4769
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:41:33] "GET /routes " 200 4093 0.0200
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:41:33] "GET /css/main.css " 200 14487 0.3037
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:42:22] "GET /routes " 200 4073 0.0204
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:42:22] "GET /css/main.css " 200 14557 0.3205
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:42:40] "GET /routes " 200 4072 0.0287
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:42:41] "GET /css/main.css " 200 14579 0.2992
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:42:52] "GET /routes " 200 4072 0.0237
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:42:53] "GET /css/main.css " 200 14579 0.3291
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:42:59] "GET /routes " 200 4073 0.0211
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:43:00] "GET /css/main.css " 200 14579 0.2754
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:43:03] "GET /routes " 200 4073 0.0202
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:43:04] "GET /css/main.css " 200 14579 0.3247
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:43:24] "GET /shipments " 200 10236 0.0424
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:43:24] "GET /css/main.css " 200 14579 0.5178
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:47:00] "GET /routes " 200 5673 0.0258
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:47:00] "GET /css/main.css " 200 14579 0.5004
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:47:02] "GET /routes " 200 5673 0.0374
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:47:02] "GET /css/main.css " 200 14579 0.2759
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:47:27] "GET /routes " 200 5672 0.0194
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:47:28] "GET /css/main.css " 200 14593 0.3174
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:47:57] "GET /routes " 200 6003 0.0189
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:47:58] "GET /css/main.css " 200 14593 0.2292
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:07] "GET /routes " 200 6093 0.0218
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:08] "GET /css/main.css " 200 14593 0.3085
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:10] "GET /products " 200 21205 0.0203
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:10] "GET /css/main.css " 200 14593 0.2488
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:11] "GET /routes " 200 6093 0.0211
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:12] "GET /css/main.css " 200 14593 0.3315
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:12] "GET /requests " 200 9768 0.0226
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:12] "GET /css/main.css " 200 14593 0.2472
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:12] "GET /shipments " 200 10247 0.0311
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:13] "GET /css/main.css " 200 14593 0.3462
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:13] "GET /routes " 200 6093 0.0234
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:14] "GET /css/main.css " 200 14593 0.2797
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:14] "GET /products " 200 21207 0.0200
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:15] "GET /css/main.css " 200 14593 0.2262
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:16] "GET /routes " 200 6093 0.0228
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:16] "GET /css/main.css " 200 14593 0.2316
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:57] "GET /routes " 200 6093 0.0204
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:48:58] "GET /css/main.css " 200 14720 0.3396
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:01] "GET /routes " 200 6092 0.0209
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:01] "GET /css/main.css " 200 14721 0.2549
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:02] "GET /routes " 200 6093 0.0194
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:02] "GET /css/main.css " 200 14721 0.2269
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:09] "GET /routes " 200 6091 0.0181
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:10] "GET /css/main.css " 200 14719 0.3298
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:18] "GET /routes " 200 6094 0.0245
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:19] "GET /css/main.css " 200 14722 0.2774
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:22] "GET /routes " 200 6093 0.0175
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:22] "GET /css/main.css " 200 14725 0.3332
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:46] "GET /routes " 200 6092 0.0221
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:46] "GET /css/main.css " 200 14725 0.2755
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:56] "GET /routes " 200 6094 0.0185
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:56] "GET /css/main.css " 200 14741 0.2796
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:57] "GET /routes " 200 6092 0.0174
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:49:57] "GET /css/main.css " 200 14741 0.2350
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:04] "GET /routes " 200 6093 0.0370
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:04] "GET /css/main.css " 200 14762 0.3267
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:07] "GET /routes " 200 6093 0.0228
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:08] "GET /css/main.css " 200 14761 0.3139
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:16] "GET /routes " 200 4613 0.0172
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:16] "GET /css/main.css " 200 14761 0.2767
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:27] "GET /routes " 200 5603 0.0194
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:27] "GET /css/main.css " 200 14761 0.2404
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:47] "GET /routes " 200 5583 0.0216
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:50:48] "GET /css/main.css " 200 14761 0.2551
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:51:24] "GET /routes " 200 5873 0.0215
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:51:25] "GET /css/main.css " 200 14761 0.2870
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:51:25] "GET /routes " 200 5873 0.0203
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:51:26] "GET /css/main.css " 200 14761 0.2826
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:51:27] "GET /routes " 200 5872 0.0192
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:51:27] "GET /css/main.css " 200 14761 0.2341
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:08] "GET /routes " 200 5854 0.0200
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:08] "GET /css/main.css " 200 14769 0.2934
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:09] "GET /routes " 200 5852 0.0283
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:09] "GET /css/main.css " 200 14769 0.2961
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:38] "GET /routes " 200 5830 0.0225
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:38] "GET /css/main.css " 200 14769 0.2269
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:39] "GET /routes " 200 5868 0.0190
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:39] "GET /css/main.css " 200 14769 0.2647
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:40] "GET /routes " 200 5838 0.0331
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:40] "GET /css/main.css " 200 14769 0.2606
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:40] "GET /routes " 200 5848 0.0254
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:41] "GET /css/main.css " 200 14769 0.2652
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:44] "GET /routes " 200 5849 0.0181
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:45] "GET /css/main.css " 200 14769 0.2619
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:49] "GET /routes " 200 5944 0.0227
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:50] "GET /css/main.css " 200 14769 0.2913
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:50] "GET /routes " 200 5940 0.0273
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:51] "GET /css/main.css " 200 14769 0.3252
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:52] "GET /routes " 200 5966 0.0279
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:52:52] "GET /css/main.css " 200 14769 0.2844
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:53:11] "GET /routes " 200 6705 0.0224
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:53:12] "GET /css/main.css " 200 14769 0.2411
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:53:45] "GET /routes " 200 6691 0.0231
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:53:46] "GET /css/main.css " 200 14831 0.4398
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:54:11] "GET /routes " 200 6691 0.0245
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:54:12] "GET /css/main.css " 200 14883 0.3113
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:54:18] "GET /routes " 200 6697 0.0226
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:54:18] "GET /css/main.css " 200 14947 0.3129
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:55:44] "GET /routes " 200 7127 0.0280
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:55:44] "GET /css/main.css " 200 14947 0.4386
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:55:57] "GET /routes " 200 7123 0.0315
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:55:58] "GET /css/main.css " 200 14947 0.4328
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:55:59] "GET /products " 200 21117 0.0247
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:55:59] "GET /css/main.css " 200 14947 0.2537
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:56:02] "GET /routes " 200 7110 0.0216
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:56:02] "GET /css/main.css " 200 14947 0.2690
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:56:10] "GET /routes " 200 7121 0.0272
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:56:10] "GET /css/main.css " 200 14947 0.3459
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:56:11] "GET /products " 200 22880 0.0224
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:56:11] "GET /css/main.css " 200 14947 0.3315
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:56:27] "GET /routes " 200 7117 0.0376
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:56:27] "GET /css/main.css " 200 14947 0.4076
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:08] "GET /routes " 200 7105 0.0262
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:08] "GET /css/main.css " 200 14947 0.4324
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:09] "GET /routes " 200 7101 0.0180
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:10] "GET /css/main.css " 200 14947 0.2649
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:18] "GET /routes " 200 7905 0.0236
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:19] "GET /css/main.css " 200 14947 0.3233
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:50] "GET /routes " 200 7893 0.0303
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:51] "GET /css/main.css " 200 15018 0.2801
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:51] "GET /routes " 200 7907 0.0196
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:57:52] "GET /css/main.css " 200 15018 0.2585
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:18] "GET /routes " 200 7916 0.0230
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:18] "GET /css/main.css " 200 15019 0.3192
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:19] "GET /routes " 200 7905 0.0250
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:19] "GET /css/main.css " 200 15019 0.3013
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:34] "GET /routes " 200 7890 0.0265
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:34] "GET /css/main.css " 200 15019 0.3093
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:41] "GET /routes " 200 7904 0.0200
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:41] "GET /css/main.css " 200 15023 0.3294
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:56] "GET /routes " 200 7798 0.0221
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:58:56] "GET /css/main.css " 200 15023 0.2338
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:02] "GET /routes " 200 7801 0.0311
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:02] "GET /css/main.css " 200 15023 0.3127
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:12] "GET /routes " 200 7797 0.0266
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:12] "GET /css/main.css " 200 15040 0.3420
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:18] "GET /products " 200 22883 0.0206
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:18] "GET /css/main.css " 200 15040 0.2572
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:18] "GET /routes " 200 7803 0.0222
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:19] "GET /css/main.css " 200 15040 0.2447
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:20] "GET /products " 200 22879 0.0241
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:20] "GET /css/main.css " 200 15040 0.2788
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:25] "GET /routes " 200 7806 0.0218
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 06:59:26] "GET /css/main.css " 200 15040 0.3346
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:10] "GET /routes " 200 8527 0.0238
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:10] "GET /css/main.css " 200 15124 0.4206
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:36] "GET /products " 200 22876 0.0217
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:36] "GET /css/main.css " 200 15124 0.3959
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:37] "GET /requests " 200 9782 0.0274
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:37] "GET /css/main.css " 200 15124 0.2849
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:38] "GET /shipments " 200 10221 0.0235
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:38] "GET /css/main.css " 200 15124 0.2162
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:38] "GET /requests " 200 9765 0.0245
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:39] "GET /css/main.css " 200 15124 0.3194
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:39] "GET /shipments " 200 10247 0.0278
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:39] "GET /css/main.css " 200 15124 0.2148
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:40] "GET /requests " 200 9766 0.0250
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:06:40] "GET /css/main.css " 200 15124 0.2239
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:03] "GET /requests " 200 9787 0.0714
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:03] "GET /css/main.css " 200 15124 0.2369
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:28] "GET /requests " 200 9779 0.0199
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:29] "GET /css/main.css " 200 15169 0.2533
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:37] "GET /requests " 200 9794 0.0204
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:37] "GET /css/main.css " 200 15169 0.3222
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:38] "GET / " 200 10245 0.0242
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:38] "GET /css/main.css " 200 15169 0.2179
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:39] "GET / " 200 10274 0.0249
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:39] "GET /css/main.css " 200 15169 0.2573
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:40] "GET /requests " 200 9761 0.0242
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:40] "GET /css/main.css " 200 15169 0.2631
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:40] "GET /products " 200 22886 0.0225
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:40] "GET /css/main.css " 200 15169 0.2507
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:41] "GET /shipments " 200 10264 0.0264
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:41] "GET /css/main.css " 200 15169 0.3448
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:42] "GET /requests " 200 9780 0.0238
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:42] "GET /css/main.css " 200 15169 0.2278
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:42] "GET /products " 200 22885 0.0201
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:43] "GET /css/main.css " 200 15169 0.2376
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:43] "GET /routes " 200 8550 0.0285
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:43] "GET /css/main.css " 200 15169 0.2424
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:48] "GET /products " 200 22887 0.0504
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:48] "GET /css/main.css " 200 15169 0.2580
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:49] "GET /routes " 200 8528 0.0202
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:49] "GET /css/main.css " 200 15169 0.2247
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:53] "GET /products " 200 22884 0.0202
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:54] "GET /css/main.css " 200 15169 0.2540
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:58] "GET /requests " 200 9785 0.0377
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:07:58] "GET /css/main.css " 200 15169 0.2517
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:01] "GET /shipments " 200 10252 0.0274
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:01] "GET /css/main.css " 200 15169 0.3278
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:03] "GET /requests " 200 9789 0.0241
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:03] "GET /css/main.css " 200 15169 0.2245
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:04] "GET /products " 200 22887 0.0263
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:04] "GET /css/main.css " 200 15169 0.2197
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:13] "GET /routes " 200 8546 0.0208
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:13] "GET /css/main.css " 200 15169 0.2789
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:20] "GET /products " 200 22885 0.0235
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:08:20] "GET /css/main.css " 200 15169 0.2242
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:14:28] "GET /routes " 200 8534 0.0340
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:14:28] "GET /css/main.css " 200 15169 0.4183
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:14:28] "GET /shipments " 200 10269 0.0209
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:14:29] "GET /css/main.css " 200 15169 0.2718
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:15:13] "GET /requests " 200 9782 0.0466
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:15:13] "GET /css/main.css " 200 15169 0.2456
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:15:32] "GET /requests " 200 9773 0.0225
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:15:32] "GET /css/main.css " 200 15169 0.2610
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:15:48] "GET /requests " 200 9777 0.0222
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:15:48] "GET /css/main.css " 200 15169 0.2611
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:10] "GET /requests " 200 9812 0.0347
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:11] "GET /css/main.css " 200 15169 0.5219
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:12] "GET /request/add " 404 448 0.0015
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:12] "GET /__sinatra__/404.png " 200 18893 0.0036
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:32] "GET /requests " 200 9807 0.0303
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:33] "GET /requests " 200 9783 0.0297
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:34] "GET /css/main.css " 200 15186 0.4178
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:35] "GET /products " 200 22887 0.0197
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:35] "GET /css/main.css " 200 15186 0.2451
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:35] "GET /requests " 200 9803 0.0213
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:36] "GET /css/main.css " 200 15186 0.2837
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:36] "GET /shipments " 200 10256 0.0371
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:36] "GET /css/main.css " 200 15186 0.2265
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:37] "GET /requests " 200 9793 0.0216
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:37] "GET /css/main.css " 200 15186 0.2392
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:38] "GET /products " 200 22881 0.0200
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:38] "GET /css/main.css " 200 15186 0.2934
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:38] "GET /routes " 200 8519 0.0317
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:39] "GET /css/main.css " 200 15186 0.2543
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:39] "GET /products " 200 22886 0.0220
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:39] "GET /css/main.css " 200 15186 0.2375
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:39] "GET /requests " 200 9795 0.0388
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:40] "GET /css/main.css " 200 15186 0.2481
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:44] "GET /requests " 200 9813 0.0245
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:45] "GET /css/main.css " 200 15202 0.2575
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:45] "GET /requests " 200 9806 0.0205
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:46] "GET /css/main.css " 200 15202 0.3297
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:47] "GET /products " 200 22886 0.0207
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:47] "GET /css/main.css " 200 15202 0.2256
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:55] "GET /requests " 200 9798 0.0247
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:16:56] "GET /css/main.css " 200 15202 0.2223
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:41] "GET /products " 200 22882 0.0204
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:41] "GET /css/main.css " 200 15202 0.4677
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:50] "GET /products " 200 22887 0.0212
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:50] "GET /css/main.css " 200 15217 0.2460
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:51] "GET /requests " 200 9791 0.0369
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:51] "GET /css/main.css " 200 15217 0.2357
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:52] "GET /products " 200 22884 0.0839
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:52] "GET /css/main.css " 200 15217 0.2284
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:53] "GET /routes " 200 8527 0.0273
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:53] "GET /css/main.css " 200 15217 0.2238
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:53] "GET /products " 200 22884 0.0216
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:17:54] "GET /css/main.css " 200 15217 0.2844
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:18:15] "GET /requests " 200 9798 0.0698
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:18:16] "GET /css/main.css " 200 15217 0.4361
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:08] "GET /products " 200 22888 0.0195
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:08] "GET /css/main.css " 200 15217 0.4075
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:19] "GET /products " 200 22885 0.0233
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:19] "GET /css/main.css " 200 15217 0.4531
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:20] "GET /requests " 200 9803 0.0235
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:20] "GET /css/main.css " 200 15217 0.2411
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:46] "GET /requests " 200 9806 0.0268
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:47] "GET /css/main.css " 200 15234 0.4115
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:49] "GET /requests " 200 9780 0.0174
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:50] "GET /css/main.css " 200 15234 0.3089
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:50] "GET /requests " 200 9798 0.0255
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:19:51] "GET /css/main.css " 200 15234 0.2437
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:05] "GET /shipments " 200 10271 0.0337
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:05] "GET /css/main.css " 200 15234 0.2478
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:06] "GET /requests " 200 9794 0.0217
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:06] "GET /css/main.css " 200 15234 0.2599
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:06] "GET /products " 200 22884 0.0279
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:07] "GET /css/main.css " 200 15234 0.3904
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:07] "GET /products " 200 22884 0.0245
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:08] "GET /css/main.css " 200 15234 0.2341
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:08] "GET /products " 200 22885 0.0197
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:09] "GET /css/main.css " 200 15234 0.2338
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:10] "GET /routes " 200 8540 0.0267
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:10] "GET /css/main.css " 200 15234 0.2723
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:11] "GET /shipments " 200 10247 0.0222
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:11] "GET /css/main.css " 200 15234 0.2469
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:14] "GET /requests " 200 9777 0.0232
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:14] "GET /css/main.css " 200 15234 0.2817
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:18] "GET /routes " 200 8549 0.0232
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:18] "GET /css/main.css " 200 15234 0.2239
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:18] "GET /products " 200 22888 0.0295
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:19] "GET /css/main.css " 200 15234 0.2219
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:19] "GET /requests " 200 9806 0.0684
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:19] "GET /css/main.css " 200 15234 0.2697
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:20] "GET /products " 200 22883 0.0207
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:21] "GET /css/main.css " 200 15234 0.2366
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:21] "GET /routes " 200 8529 0.0229
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:21] "GET /css/main.css " 200 15234 0.3262
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:22] "GET /requests " 200 9805 0.0310
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:22] "GET /css/main.css " 200 15234 0.2281
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:58] "GET /products " 200 22886 0.0311
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:58] "GET /css/main.css " 200 15234 0.4147
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:59] "GET /routes " 200 8539 0.0252
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:20:59] "GET /css/main.css " 200 15234 0.2981
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:00] "GET /requests " 200 9784 0.0211
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:00] "GET /css/main.css " 200 15234 0.2170
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:23] "GET /requests " 200 9775 0.0273
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:24] "GET /css/main.css " 200 15234 0.4468
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:25] "GET /request/add " 404 448 0.0017
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:26] "GET /request/add " 404 448 0.0019
+App 30454 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:26] "GET /__sinatra__/404.png " 304 - 0.0011
+App 32692 stdout: 
+[ 2015-04-25 07:21:33.6627 29216/0x101508000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 32692, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.32692
+App 32801 stdout: 
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:33] "GET /request/add " 404 448 0.0114
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:33] "GET /__sinatra__/404.png " 304 - 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:34] "GET /request/add " 404 448 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:34] "GET /__sinatra__/404.png " 304 - 0.0010
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:43] "GET /requests " 200 9798 0.0429
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/add " 200 9810 0.0229
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/css/feather.css " 404 461 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/css/selectize.css " 404 463 0.0009
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/css/selectize.default.css " 404 471 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/css/main.css " 404 458 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/js/vendor/modernizr.js " 404 468 0.0008
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/js/vendor/jquery.js " 404 465 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/js/vendor/selectize.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/js/vendor/salvattore.js " 404 469 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:44] "GET /requests/js/main.js " 404 456 0.0011
+App 32810 stdout: 
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/add " 200 9766 0.0344
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/css/feather.css " 404 461 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/css/selectize.default.css " 404 471 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/css/main.css " 404 458 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/js/vendor/jquery.js " 404 465 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/js/vendor/selectize.js " 404 468 0.0017
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/js/vendor/salvattore.js " 404 469 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/js/main.js " 404 456 0.0014
+App 32818 stdout: 
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:53] "GET /requests/css/selectize.css " 404 463 0.0118
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/add " 200 9800 0.0595
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/css/feather.css " 404 461 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/css/selectize.default.css " 404 471 0.0095
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/css/main.css " 404 458 0.0024
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/js/vendor/modernizr.js " 404 468 0.0017
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/js/vendor/jquery.js " 404 465 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/js/vendor/selectize.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/js/main.js " 404 456 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/js/vendor/salvattore.js " 404 469 0.0026
+App 32821 stdout: 
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:54] "GET /requests/css/selectize.css " 404 463 0.0186
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:55] "GET /shipments " 200 10268 0.0522
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:55] "GET /css/main.css " 200 15234 0.4474
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:57] "GET /requests " 200 9798 0.0299
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:21:57] "GET /css/main.css " 200 15234 0.2480
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:13] "GET /requests " 200 9803 0.0272
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:13] "GET /css/main.css " 200 15234 0.2782
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/add " 200 9800 0.0242
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/css/feather.css " 404 461 0.0016
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/css/selectize.css " 404 463 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/css/main.css " 404 458 0.0017
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/js/vendor/jquery.js " 404 465 0.0016
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/js/vendor/salvattore.js " 404 469 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/js/vendor/selectize.js " 404 468 0.0016
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/js/main.js " 404 456 0.0012
+App 32836 stdout: 
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:14] "GET /requests/css/selectize.default.css " 404 471 0.0094
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:43] "GET /requests " 200 9780 0.0434
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/add " 200 9794 0.0218
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/css/feather.css " 404 461 0.0016
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/css/selectize.css " 404 463 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/css/selectize.default.css " 404 471 0.0025
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/js/vendor/jquery.js " 404 465 0.0019
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/js/vendor/salvattore.js " 404 469 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/js/main.js " 404 456 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/js/vendor/selectize.js " 404 468 0.0012
+App 32859 stdout: 
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:22:44] "GET /requests/css/main.css " 404 458 0.0094
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:01] "GET /requests/add " 200 9794 0.0376
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:01] "GET /requests/js/vendor/jquery.js " 404 465 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:01] "GET /requests/js/vendor/selectize.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:01] "GET /requests/js/vendor/salvattore.js " 404 469 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:01] "GET /requests/js/main.js " 404 456 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:01] "GET /requests/js/vendor/modernizr.js " 404 468 0.0112
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:01] "GET /css/main.css " 200 15234 0.2826
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:03] "GET /requests/add " 200 9803 0.0275
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:03] "GET /requests/js/vendor/jquery.js " 404 465 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:03] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:03] "GET /requests/js/vendor/selectize.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:03] "GET /requests/js/vendor/salvattore.js " 404 469 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:03] "GET /requests/js/main.js " 404 456 0.0016
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:04] "GET /css/main.css " 200 15234 0.2611
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:05] "GET /requests " 200 9779 0.0242
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:05] "GET /css/main.css " 200 15234 0.3085
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:09] "GET /requests " 200 9794 0.0255
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:09] "GET /css/main.css " 200 15234 0.2671
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:10] "GET /requests " 200 9807 0.0271
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:10] "GET /css/main.css " 200 15234 0.2296
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:11] "GET /requests/add " 200 9792 0.0368
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:11] "GET /requests/js/vendor/modernizr.js " 404 468 0.0009
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:11] "GET /css/main.css " 200 15234 0.2378
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:29] "GET /requests/add " 200 9782 0.0543
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:30] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:23:30] "GET /css/main.css " 200 15234 0.4419
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:24:10] "GET /requests/add " 200 9731 0.0364
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:24:10] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:24:11] "GET /css/main.css " 200 15234 0.4106
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:24:38] "GET /requests/add " 200 9731 0.0347
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:24:38] "GET /requests/js/vendor/modernizr.js " 404 468 0.0017
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:24:39] "GET /css/main.css " 200 15234 0.4377
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:22] "GET /requests/add " 200 9773 0.0385
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:22] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:23] "GET /css/main.css " 200 15234 0.4316
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:25] "GET /requests " 200 9810 0.0276
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:25] "GET /css/main.css " 200 15234 0.2517
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:26] "GET /requests/add " 200 9743 0.0227
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:26] "GET /requests/js/vendor/modernizr.js " 404 468 0.0008
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:26] "GET /css/main.css " 200 15234 0.2856
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:40] "GET /requests/add " 200 9753 0.0419
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:40] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:40] "GET /css/main.css " 200 15234 0.4365
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:47] "GET /requests/add " 200 9695 0.0224
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:47] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:47] "GET /css/main.css " 200 15234 0.2369
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:51] "GET /requests/add " 200 9698 0.0353
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:51] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:25:51] "GET /css/main.css " 200 15234 0.2430
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:26:53] "GET /requests/add " 200 9806 0.0217
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:26:53] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:26:54] "GET /css/main.css " 200 15234 0.2853
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:15] "GET /requests/add " 200 9791 0.0281
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:15] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:15] "GET /css/main.css " 200 15246 0.2654
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:27] "GET /requests/add " 200 9895 0.0337
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:27] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:27] "GET /css/main.css " 200 15246 0.2535
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:35] "GET /requests/add " 200 9915 0.0236
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:35] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:35] "GET /css/main.css " 200 15246 0.2632
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:36] "GET /requests/add " 200 9913 0.0233
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:36] "GET /requests/js/vendor/modernizr.js " 404 468 0.0024
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:37] "GET /css/main.css " 200 15246 0.3076
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:51] "GET /requests/add " 200 9976 0.0226
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:51] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:51] "GET /css/main.css " 200 15246 0.2345
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:53] "GET /shipments " 200 10263 0.0321
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:54] "GET /css/main.css " 200 15246 0.2570
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:56] "GET /requests " 200 9775 0.0254
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:56] "GET /css/main.css " 200 15246 0.2377
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:57] "GET /products " 200 22896 0.0262
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:58] "GET /css/main.css " 200 15246 0.2924
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:58] "GET /requests " 200 9781 0.0278
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:58] "GET /css/main.css " 200 15246 0.2470
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:59] "GET /requests/add " 200 9974 0.0246
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:59] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:27:59] "GET /css/main.css " 200 15246 0.2680
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:28:33] "GET /requests/add " 200 10108 0.0250
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:28:33] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:28:34] "GET /css/main.css " 200 15246 0.2410
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:29:01] "GET /requests/add " 200 10111 0.0255
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:29:01] "GET /requests/js/vendor/modernizr.js " 404 468 0.0018
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:29:02] "GET /css/main.css " 200 15246 0.3001
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:29:25] "GET /requests/add " 200 10200 0.0266
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:29:25] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:29:25] "GET /css/main.css " 200 15246 0.2570
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:02] "GET /requests/add " 200 10227 0.0234
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:02] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:03] "GET /css/main.css " 200 15246 0.4314
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:06] "GET /requests/add " 200 10243 0.0382
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:06] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:07] "GET /css/main.css " 200 15246 0.2913
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:13] "GET /requests/add " 200 10214 0.0281
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:13] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:13] "GET /css/main.css " 200 15246 0.3014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:18] "GET /requests/add " 200 10232 0.0265
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:18] "GET /requests/js/vendor/modernizr.js " 404 468 0.0029
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:18] "GET /css/main.css " 200 15246 0.2262
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:27] "GET /requests/add " 200 10234 0.0228
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:27] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:27] "GET /css/main.css " 200 15246 0.2893
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:47] "GET /requests/add " 200 10214 0.0245
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:47] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:48] "GET /css/main.css " 200 15246 0.2586
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:52] "GET /requests/add " 200 10211 0.0258
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:52] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:53] "GET /css/main.css " 200 15246 0.2900
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:56] "GET /requests/add " 200 10248 0.0261
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:56] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:56] "GET /css/main.css " 200 15246 0.2204
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:59] "GET /requests/add " 200 10247 0.0305
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:59] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:30:59] "GET /css/main.css " 200 15246 0.2945
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:08] "GET /requests/add " 200 10216 0.0248
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:08] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:08] "GET /css/main.css " 200 15246 0.2444
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:12] "GET /requests/add " 200 10209 0.0260
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:12] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:12] "GET /css/main.css " 200 15246 0.3000
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:40] "GET /requests/add " 200 10306 0.0287
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:40] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:40] "GET /css/main.css " 200 15246 0.2905
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:42] "GET /requests/add " 200 10307 0.0235
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:42] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:43] "GET /css/main.css " 200 15246 0.2592
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:50] "GET /requests/add " 200 10330 0.0254
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:50] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:31:50] "GET /css/main.css " 200 15246 0.2715
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:04] "GET /requests/add " 200 10316 0.0247
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:05] "GET /requests/js/vendor/modernizr.js " 404 468 0.0043
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:05] "GET /css/main.css " 200 15246 0.3147
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:34] "GET /requests/add " 200 10312 0.0243
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:34] "GET /requests/js/vendor/modernizr.js " 404 468 0.0032
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:34] "GET /css/main.css " 200 15246 0.2353
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:42] "GET /requests/add " 200 10306 0.0279
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:42] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:43] "GET /css/main.css " 200 15246 0.3178
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:55] "GET /requests/add " 200 10300 0.0242
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:55] "GET /requests/js/vendor/modernizr.js " 404 468 0.0029
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:32:56] "GET /css/main.css " 200 15246 0.2545
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:33:04] "GET /requests/add " 200 10270 0.0281
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:33:04] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:33:04] "GET /css/main.css " 200 15246 0.3123
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:16] "GET /requests/add " 200 10299 0.0319
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:16] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:17] "GET /css/main.css " 200 15246 0.4161
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:39] "GET /requests/add " 200 10292 0.0247
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:39] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:40] "GET /css/main.css " 200 15246 0.2827
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:48] "GET /requests/add " 200 10285 0.0268
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:48] "GET /requests/js/vendor/modernizr.js " 404 468 0.0021
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:48] "GET /css/main.css " 200 15246 0.2675
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:58] "GET /requests/add " 200 10303 0.0277
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:58] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:34:58] "GET /css/main.css " 200 15246 0.2927
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:35:25] "GET /requests/add " 200 10303 0.0315
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:35:25] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:35:25] "GET /css/main.css " 200 15246 0.4101
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:35:58] "GET /requests/add " 200 10310 0.0366
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:35:58] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:35:59] "GET /css/main.css " 200 15276 0.4540
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:05] "GET /requests/add " 200 10299 0.0302
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:05] "GET /requests/js/vendor/modernizr.js " 404 468 0.0024
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:05] "GET /css/main.css " 200 15276 0.2608
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:11] "GET /requests " 200 9776 0.0269
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:12] "GET /css/main.css " 200 15276 0.2992
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:12] "GET /requests/add " 200 10291 0.0286
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:12] "GET /requests/js/vendor/modernizr.js " 404 468 0.0010
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:13] "GET /css/main.css " 200 15276 0.2311
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:14] "GET /requests " 200 9760 0.0270
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:15] "GET /css/main.css " 200 15276 0.2540
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:16] "GET /requests/add " 200 10299 0.0397
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:16] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:16] "GET /css/main.css " 200 15276 0.2554
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:19] "GET /requests " 200 9788 0.0272
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:20] "GET /css/main.css " 200 15276 0.3323
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:22] "GET /requests/add " 200 10297 0.0279
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:22] "GET /requests/js/vendor/modernizr.js " 404 468 0.0023
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:22] "GET /css/main.css " 200 15276 0.2331
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:45] "GET /routes " 200 8550 0.0214
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:45] "GET /css/main.css " 200 15276 0.4396
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:47] "GET /requests " 200 9779 0.0240
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:36:48] "GET /css/main.css " 200 15276 0.3025
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:00] "GET /requests " 200 9783 0.0375
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:00] "GET /css/main.css " 200 15276 0.5390
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:02] "GET /requests/add " 200 10300 0.0353
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:02] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:02] "GET /css/main.css " 200 15276 0.2340
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:34] "GET /requests/add " 200 9094 0.0334
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:34] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:34] "GET /css/main.css " 200 15276 0.4637
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:59] "GET /requests/add " 200 9181 0.0259
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:59] "GET /requests/js/vendor/modernizr.js " 404 468 0.0020
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:37:59] "GET /css/main.css " 200 15276 0.2727
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:38:30] "GET /requests/add " 200 9154 0.0396
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:38:30] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:38:31] "GET /css/main.css " 200 15276 0.4831
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:39:05] "GET /requests/add " 200 9148 0.0364
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:39:05] "GET /requests/js/vendor/modernizr.js " 404 468 0.0017
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:39:06] "GET /css/main.css " 200 15318 0.4364
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:39:06] "GET /requests/add " 200 9161 0.0247
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:39:06] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:39:07] "GET /css/main.css " 200 15318 0.2750
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:40:17] "GET /requests/add " 200 8814 0.0309
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:40:17] "GET /requests/js/vendor/modernizr.js " 404 468 0.0049
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:40:17] "GET /css/main.css " 200 15318 0.2919
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:40:25] "GET /requests/add " 200 9036 0.0278
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:40:25] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:40:26] "GET /css/main.css " 200 15318 0.2838
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:41:09] "GET /requests/add " 200 9028 0.0419
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:41:09] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:41:09] "GET /css/main.css " 200 15404 0.2896
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:41:11] "GET /requests/add " 200 9037 0.0317
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:41:11] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:41:11] "GET /css/main.css " 200 15404 0.2501
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:05] "GET /requests/add " 200 9243 0.0338
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:05] "GET /requests/js/vendor/modernizr.js " 404 468 0.0016
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:06] "GET /css/main.css " 200 15375 0.2949
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:19] "GET /requests/add " 200 9226 0.0265
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:19] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:19] "GET /css/main.css " 200 15419 0.3904
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:32] "GET /requests/add " 200 9251 0.0267
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:32] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:32] "GET /css/main.css " 200 15451 0.2801
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:39] "GET /requests/add " 200 9247 0.0212
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:39] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:39] "GET /css/main.css " 200 15439 0.3499
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:50] "GET /requests/add " 200 9232 0.0293
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:50] "GET /requests/js/vendor/modernizr.js " 404 468 0.0021
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:42:50] "GET /css/main.css " 200 15431 0.2889
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:13] "GET /requests/add " 200 9234 0.0249
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:13] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:13] "GET /css/main.css " 200 15434 0.2894
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:26] "GET /requests/add " 200 9241 0.0239
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:26] "GET /requests/js/vendor/modernizr.js " 404 468 0.0009
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:26] "GET /css/main.css " 200 15487 0.2649
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:27] "GET /requests/add " 200 9231 0.0307
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:28] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:28] "GET /css/main.css " 200 15487 0.3143
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:38] "GET /requests/add " 200 9374 0.0570
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:38] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:43:38] "GET /css/main.css " 200 15487 0.3325
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:44:36] "GET /requests/add " 200 9375 0.0370
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:44:36] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:44:36] "GET /css/main.css " 200 15546 0.4570
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:44:41] "GET /requests/add " 200 9381 0.0301
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:44:41] "GET /requests/js/vendor/modernizr.js " 404 468 0.0016
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:44:41] "GET /css/main.css " 200 15546 0.2878
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:04] "GET /requests/add " 200 9395 0.0293
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:04] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:04] "GET /css/main.css " 200 15546 0.3944
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:10] "GET /requests/add " 200 9416 0.0246
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:10] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:10] "GET /css/main.css " 200 15546 0.3242
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:23] "GET /requests/add " 200 9392 0.0365
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:23] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:24] "GET /css/main.css " 200 15546 0.4293
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:28] "GET /requests/add " 200 9396 0.0226
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:28] "GET /requests/js/vendor/modernizr.js " 404 468 0.0031
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:28] "GET /css/main.css " 200 15546 0.3385
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:44] "GET /shipments " 200 10257 0.0507
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:45] "GET /css/main.css " 200 15546 0.3743
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:45] "GET /products " 200 22895 0.0207
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:46] "GET /css/main.css " 200 15546 0.2209
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:48] "GET /requests " 200 9794 0.0264
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:48] "GET /css/main.css " 200 15546 0.2637
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:51] "GET /requests/add " 200 9404 0.0356
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:51] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:51] "GET /css/main.css " 200 15546 0.2954
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:52] "GET /requests " 200 9794 0.0254
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:53] "GET /css/main.css " 200 15546 0.2591
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:55] "GET /requests/add " 200 9409 0.0252
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:55] "GET /requests/js/vendor/modernizr.js " 404 468 0.0007
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:55] "GET /css/main.css " 200 15546 0.2483
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:58] "GET /requests/add " 200 9387 0.0342
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:58] "GET /requests/js/vendor/modernizr.js " 404 468 0.0008
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:45:58] "GET /css/main.css " 200 15546 0.2754
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:19] "GET /requests " 200 9779 0.0274
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:19] "GET /css/main.css " 200 15546 0.4469
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:26] "GET /products " 200 22894 0.0342
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:27] "GET /css/main.css " 200 15546 0.3024
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:31] "GET /routes " 200 8547 0.0293
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:31] "GET /css/main.css " 200 15546 0.2648
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:35] "GET /products " 200 22897 0.0225
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:35] "GET /css/main.css " 200 15546 0.2550
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:38] "GET /routes " 200 8536 0.0241
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:38] "GET /css/main.css " 200 15546 0.3622
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:40] "GET /requests " 200 9790 0.0469
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:40] "GET /css/main.css " 200 15546 0.2450
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:41] "GET /requests/add " 200 9405 0.0318
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:41] "GET /requests/js/vendor/modernizr.js " 404 468 0.0010
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:41] "GET /css/main.css " 200 15546 0.2693
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:52] "GET /routes " 200 8547 0.0321
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:52] "GET /css/main.css " 200 15546 0.4336
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:58] "GET /products " 200 22891 0.0346
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:46:59] "GET /css/main.css " 200 15546 0.4613
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:05] "GET /products " 200 22890 0.0223
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:06] "GET /css/main.css " 200 15546 0.2737
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:06] "GET /routes " 200 8540 0.0228
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:06] "GET /css/main.css " 200 15546 0.2290
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:07] "GET /products " 200 22888 0.0225
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:07] "GET /css/main.css " 200 15546 0.2716
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:08] "GET /requests " 200 9773 0.0352
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:08] "GET /css/main.css " 200 15546 0.3062
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:27] "GET /requests " 200 9793 0.0213
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:27] "GET /css/main.css " 200 15622 0.4210
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:28] "GET /requests/add " 200 9396 0.0482
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:28] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:47:29] "GET /css/main.css " 200 15622 0.3278
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:07] "GET /requests/add " 200 9386 0.0247
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:08] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:08] "GET /css/main.css " 200 15622 0.4549
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:20] "GET /requests/add " 200 9384 0.0284
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:20] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:20] "GET /css/main.css " 200 15622 0.5024
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:53] "GET /requests/add " 200 9374 0.0273
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:53] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:53] "GET /css/main.css " 200 15672 0.2757
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:53] "GET /requests/add " 200 9406 0.0249
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:54] "GET /requests/js/vendor/modernizr.js " 404 468 0.0028
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:48:54] "GET /css/main.css " 200 15672 0.2327
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:23] "GET /requests/add " 200 9398 0.0331
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:23] "GET /requests/js/vendor/modernizr.js " 404 468 0.0020
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:23] "GET /css/main.css " 200 15676 0.4902
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:28] "GET /requests/add " 200 9391 0.0211
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:28] "GET /requests/js/vendor/modernizr.js " 404 468 0.0020
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:28] "GET /css/main.css " 200 15677 0.2611
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:29] "GET /requests/add " 200 9408 0.0227
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:29] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:29] "GET /css/main.css " 200 15677 0.2474
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:30] "GET /requests/add " 200 9395 0.0221
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:30] "GET /requests/js/vendor/modernizr.js " 404 468 0.0030
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:30] "GET /css/main.css " 200 15677 0.2647
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:44] "GET /requests/add " 200 9442 0.0237
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:44] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:44] "GET /css/main.css " 200 15677 0.2429
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:54] "GET /requests/add " 200 9432 0.0225
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:54] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:55] "GET /css/main.css " 200 15677 0.2864
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:55] "GET /requests/add " 200 9452 0.0263
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:55] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:49:56] "GET /css/main.css " 200 15677 0.2592
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:50:09] "GET /requests/add " 200 9438 0.0237
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:50:09] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:50:10] "GET /css/main.css " 200 15677 0.3687
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:01] "GET /requests/add " 200 9483 0.0302
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:01] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:01] "GET /css/main.css " 200 15677 0.4335
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:11] "GET /requests/add " 200 9500 0.0213
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:11] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:11] "GET /css/main.css " 200 15677 0.4724
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:13] "GET /requests/add " 200 9476 0.0268
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:13] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:13] "GET /css/main.css " 200 15677 0.2339
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:21] "GET /requests/add " 200 9461 0.0214
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:21] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:21] "GET /css/main.css " 200 15677 0.2747
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:22] "GET /requests/add " 200 9471 0.0259
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:22] "GET /requests/js/vendor/modernizr.js " 404 468 0.0017
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:22] "GET /css/main.css " 200 15677 0.2637
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:25] "GET /requests " 200 9776 0.0287
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:25] "GET /css/main.css " 200 15677 0.3103
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:27] "GET /requests/add " 200 9468 0.0203
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:27] "GET /requests/js/vendor/modernizr.js " 404 468 0.0008
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:27] "GET /css/main.css " 200 15677 0.2193
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:47] "GET /requests/add " 200 9526 0.0369
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:48] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:51:48] "GET /css/main.css " 200 15677 0.4122
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:06] "GET /requests/add " 200 9527 0.0203
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:06] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:06] "GET /css/main.css " 200 15706 0.2602
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:07] "GET /requests/add " 200 9518 0.0310
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:07] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:07] "GET /css/main.css " 200 15706 0.3034
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:18] "GET /requests/add " 200 9527 0.0260
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:18] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:18] "GET /css/main.css " 200 15720 0.2850
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:32] "GET /requests/add " 200 9516 0.0248
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:32] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:33] "GET /css/main.css " 200 15737 0.2614
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:54] "GET /requests/add " 200 9533 0.0217
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:54] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:55] "GET /css/main.css " 200 15760 0.2974
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:55] "GET /requests/add " 200 9524 0.0664
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:55] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:52:56] "GET /css/main.css " 200 15760 0.2527
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:03] "GET /requests/add " 200 9539 0.0249
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:03] "GET /requests/js/vendor/modernizr.js " 404 468 0.0018
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:03] "GET /css/main.css " 200 15780 0.2518
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:04] "GET /requests/add " 200 9539 0.0263
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:04] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:04] "GET /css/main.css " 200 15780 0.2402
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:22] "GET /requests/add " 200 9513 0.0247
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:22] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:22] "GET /css/main.css " 200 15844 0.2657
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:28] "GET /requests/add " 200 9545 0.0273
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:28] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:28] "GET /css/main.css " 200 15844 0.3111
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:29] "GET /requests " 200 9778 0.0255
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:29] "GET /css/main.css " 200 15844 0.3020
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:30] "GET /requests/add " 200 9537 0.0294
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:30] "GET /requests/js/vendor/modernizr.js " 404 468 0.0008
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:31] "GET /css/main.css " 200 15844 0.2859
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:32] "GET /requests " 200 9815 0.0252
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:32] "GET /css/main.css " 200 15844 0.2811
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:48] "GET /requests " 200 9755 0.0264
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:48] "GET /css/main.css " 200 15859 0.3462
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:49] "GET /requests/add " 200 9572 0.0228
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:49] "GET /requests/js/vendor/modernizr.js " 404 468 0.0009
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:53:49] "GET /css/main.css " 200 15859 0.2345
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:54:27] "GET /requests/add " 200 9547 0.0260
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:54:27] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:54:27] "GET /css/main.css " 200 15889 0.2511
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:54:47] "GET /requests/add " 200 9559 0.0226
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:54:47] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:54:48] "GET /css/main.css " 200 15889 0.3145
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:55:06] "GET /requests/add " 200 9581 0.0268
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:55:06] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 32692 stderr: 127.0.0.1 - - [25/Apr/2015 07:55:06] "GET /css/main.css " 200 15889 0.2617
