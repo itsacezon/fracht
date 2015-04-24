@@ -7,6 +7,7 @@ require 'bcrypt'
 require 'slim'
 require 'pg'
 require 'sass'
+require 'uifaces'
 
 configure do
   set :database, ENV['HEROKU_POSTGRESQL_VIOLET_URL'] || 'postgres://localhost/upacmdb'

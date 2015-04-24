@@ -9179,3 +9179,591 @@ App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:50:31] "GET /shipments " 200 103
 App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:50:31] "GET /css/main.css " 200 12967 0.2233
 App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:52:26] "GET /shipments " 200 2436 0.0119
 App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:52:27] "GET /css/main.css " 200 12967 0.4477
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:58:52] "GET /products " 200 20979 0.0406
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:58:52] "GET /css/main.css " 200 12967 0.4134
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:01] "GET /shipments " 200 2436 0.0259
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:02] "GET /css/main.css " 200 12967 0.2389
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:48] "GET /shipments " 200 2407 0.0243
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:48] "GET /css/main.css " 200 12967 0.3469
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:51] "GET /products " 200 20975 0.0188
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:51] "GET /css/main.css " 200 12967 0.2109
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:51] "GET /shipments " 200 2407 0.0171
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:52] "GET /css/main.css " 200 12967 0.2890
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:59] "GET /products " 200 20975 0.0186
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 03:59:59] "GET /css/main.css " 200 12967 0.2379
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 04:00:00] "GET /shipments " 200 2407 0.0173
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 04:00:00] "GET /css/main.css " 200 12967 0.2144
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 04:01:03] "GET /shipments " 200 4206 0.0170
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 04:01:03] "GET /css/main.css " 200 12967 0.2696
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 04:01:44] "GET /products " 200 20980 0.0239
+App 16595 stderr: 127.0.0.1 - - [25/Apr/2015 04:01:45] "GET /css/main.css " 200 12967 0.3971
+App 21884 stdout: 
+[ 2015-04-25 04:03:33.0292 8353/0x104171000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 21884, listening on unix:/tmp/passenger.1.0.8350/generation-0/backends/preloader.21884
+App 21991 stdout: 
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:03:33] "GET /shipments " 200 5635 0.0559
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:03:33] "GET /css/main.css " 200 12967 0.4379
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:03:42] "GET /shipments " 200 5641 0.0184
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:03:42] "GET /css/main.css " 200 12967 0.2382
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:04:36] "GET /shipments " 200 5644 0.0226
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:04:37] "GET /css/main.css " 200 12967 0.2759
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:04:38] "GET /shipments " 200 5644 0.0204
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:04:38] "GET /css/main.css " 200 12967 0.2706
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:04:50] "GET /shipments " 200 5633 0.0252
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:04:50] "GET /css/main.css " 200 13008 0.2521
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:04:52] "GET /shipments " 200 5619 0.0159
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:04:52] "GET /css/main.css " 200 13008 0.2421
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:09] "GET /shipments " 200 5643 0.0189
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:09] "GET /css/main.css " 200 13047 0.2632
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:45] "GET /shipments " 200 5635 0.0455
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:45] "GET /css/main.css " 200 13153 0.2952
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:47] "GET /shipments " 200 5653 0.0180
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:47] "GET /css/main.css " 200 13153 0.2607
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:54] "GET /shipments " 200 5624 0.0189
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:54] "GET /css/main.css " 200 13172 0.2769
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:57] "GET /shipments " 200 5631 0.0202
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:05:57] "GET /css/main.css " 200 13150 0.3054
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:06:11] "GET /shipments " 200 5656 0.0185
+App 21884 stderr: Sass::SyntaxError - Undefined mixin 'border-radius'.:
+App 21884 stderr: 	/Users/acezoncay/fracht/views/sass/components/_user.scss:10:in `border-radius'
+App 21884 stderr: 	/Users/acezoncay/fracht/views/sass/components/_user.scss:10
+App 21884 stderr: 	/Users/acezoncay/fracht/views/sass/main.scss:12
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:98:in `block in with_mixin'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass
+App 21884 stderr: -3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:98:in `with_mixin'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `map'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `map'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `map'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:88:in `block in with_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:88:in `with_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `map'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:157:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:8:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/root_node.rb:20:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/engine.rb:268:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/css.rb:24:in `evaluate'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:684:in `scss'
+App 21884 stderr: 	/Users/acezoncay/fracht/fracht.rb:28:in `block in <top (required)>'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1592:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1592:in `block in compile!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/
+App 21884 stderr: lib/sinatra/base.rb:1049:in `block in invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:06:12] "GET /shipments " 200 5624 0.0184
+App 21884 stderr: Sass::SyntaxError - Undefined mixin 'border-radius'.:
+App 21884 stderr: 	/Users/acezoncay/fracht/views/sass/components/_user.scss:10:in `border-radius'
+App 21884 stderr: 	/Users/acezoncay/fracht/views/sass/components/_user.scss:10
+App 21884 stderr: 	/Users/acezoncay/fracht/views/sass/main.scss:12
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:98:in `block in with_mixin'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:98:in `with_mixin'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sas
+App 21884 stderr: s-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `map'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `map'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `map'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:88:in `block in with_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:88:in `with_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `map'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:157:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:8:in `visit'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/tree/root_node.rb:20:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/engine.rb:268:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/css.rb:24:in `evaluate'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:684:in `scss'
+App 21884 stderr: 	/Users/acezoncay/fracht/fracht.rb:28:in `block in <top (required)>'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1592:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1592:in `block in compile!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call
+App 21884 stderr: '
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:07:22] "GET /shipments " 200 5647 0.0204
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:07:22] "GET /css/main.css " 200 13270 0.2691
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:07:24] "GET /shipments " 200 5648 0.0314
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:07:24] "GET /css/main.css " 200 13270 0.2718
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:07:36] "GET /shipments " 200 5615 0.0194
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:07:37] "GET /css/main.css " 200 13270 0.2565
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:09] "GET /shipments " 200 5789 0.0195
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:10] "GET /css/main.css " 200 13235 0.3636
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:20] "GET /shipments " 200 5800 0.0207
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:21] "GET /css/main.css " 200 13254 0.2732
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:22] "GET /shipments " 200 5803 0.0210
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:23] "GET /css/main.css " 200 13254 0.2586
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:30] "GET /shipments " 200 5814 0.0169
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:31] "GET /css/main.css " 200 13270 0.3147
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:49] "GET /shipments " 200 5812 0.0293
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:08:49] "GET /css/main.css " 200 13270 0.4105
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:10:00] "GET /shipments " 200 6743 0.0228
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:10:00] "GET /css/main.css " 200 13270 0.2291
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:10:24] "GET /shipments " 200 6732 0.0226
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:10:24] "GET /css/main.css " 200 13270 0.3212
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:10:51] "GET /shipments " 200 6847 0.0224
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:10:51] "GET /css/main.css " 200 13270 0.2930
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:01] "GET /shipments " 200 6831 0.0192
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:01] "GET /css/main.css " 200 13270 0.2712
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:12] "GET /shipments " 200 7292 0.0179
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:12] "GET /css/main.css " 200 13270 0.2464
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:25] "GET /shipments " 200 7633 0.0207
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:26] "GET /css/main.css " 200 13270 0.3079
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:27] "GET /shipments " 200 7659 0.0238
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:27] "GET /css/main.css " 200 13270 0.2515
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:42] "GET /shipments " 200 8190 0.0196
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:11:42] "GET /css/main.css " 200 13270 0.2770
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:33] "GET /shipments " 200 8215 0.0241
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:33] "GET /css/main.css " 200 13304 0.4436
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:34] "GET /shipments " 200 8194 0.0174
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:34] "GET /css/main.css " 200 13304 0.2895
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:54] "GET /shipments " 200 8185 0.0319
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:55] "GET /css/main.css " 200 13345 0.4234
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:55] "GET /shipments " 200 8187 0.0213
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:55] "GET /css/main.css " 200 13345 0.2689
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:58] "GET /shipments " 200 8183 0.0211
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:12:58] "GET /css/main.css " 200 13342 0.3287
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:02] "GET /shipments " 200 8210 0.0418
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:02] "GET /css/main.css " 200 13346 0.3128
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:03] "GET /shipments " 200 8206 0.0190
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:03] "GET /css/main.css " 200 13346 0.3010
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:07] "GET /shipments " 200 8212 0.0210
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:08] "GET /css/main.css " 200 13343 0.3083
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:10] "GET /shipments " 200 8221 0.0206
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:11] "GET /css/main.css " 200 13343 0.3233
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:46] "GET /shipments " 200 8204 0.0284
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:46] "GET /css/main.css " 200 13408 0.3828
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:47] "GET /shipments " 200 8196 0.0196
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:47] "GET /css/main.css " 200 13408 0.2460
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:48] "GET /shipments " 200 8206 0.0190
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:13:48] "GET /css/main.css " 200 13408 0.2472
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:08] "GET /shipments " 200 8185 0.0200
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:09] "GET /css/main.css " 200 13443 0.2537
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:12] "GET /shipments " 200 8194 0.0203
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:12] "GET /css/main.css " 200 13443 0.2963
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:26] "GET /shipments " 200 8189 0.0238
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:27] "GET /css/main.css " 200 13490 0.2865
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:32] "GET /shipments " 200 8196 0.0230
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:32] "GET /css/main.css " 200 13507 0.3367
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:38] "GET /shipments " 200 8189 0.0251
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:38] "GET /css/main.css " 200 13507 0.2497
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:44] "GET /shipments " 200 8203 0.0163
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:44] "GET /css/main.css " 200 13506 0.2819
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:45] "GET /shipments " 200 8191 0.0199
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:14:45] "GET /css/main.css " 200 13506 0.2588
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:15:14] "GET /shipments " 200 8180 0.0192
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:15:14] "GET /css/main.css " 200 13506 0.3157
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:15:22] "GET /shipments " 200 8187 0.0232
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:15:22] "GET /css/main.css " 200 13507 0.2962
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:15:23] "GET /shipments " 200 8191 0.0221
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:15:23] "GET /css/main.css " 200 13507 0.2421
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:16:37] "GET /shipments " 200 8371 0.0221
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:16:38] "GET /css/main.css " 200 13507 0.4324
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:16:48] "GET /shipments " 200 8710 0.0206
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:16:49] "GET /css/main.css " 200 13507 0.2789
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:16:49] "GET /shipments " 200 8717 0.0258
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:16:49] "GET /css/main.css " 200 13507 0.2532
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:18:28] "GET /shipments " 200 9132 0.0282
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:18:29] "GET /css/main.css " 200 13507 0.4316
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:18:34] "GET /shipments " 200 8684 0.0247
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:18:35] "GET /css/main.css " 200 13507 0.3079
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:18:38] "GET /shipments " 200 9118 0.0338
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:18:38] "GET /css/main.css " 200 13507 0.2611
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:18:46] "GET /shipments " 200 8667 0.0209
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:18:46] "GET /css/main.css " 200 13507 0.2903
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:40] "GET /shipments " 200 8894 0.0266
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:40] "GET /css/main.css " 200 13507 0.4412
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:41] "GET /shipments " 200 8903 0.0240
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:41] "GET /css/main.css " 200 13507 0.2932
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:44] "GET /shipments " 200 8836 0.0240
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:44] "GET /css/main.css " 200 13507 0.2747
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:47] "GET /shipments " 200 8821 0.0218
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:47] "GET /css/main.css " 200 13507 0.2256
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:47] "GET /shipments " 200 8839 0.0196
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:48] "GET /css/main.css " 200 13507 0.2500
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:48] "GET /shipments " 200 8854 0.0272
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:19:49] "GET /css/main.css " 200 13507 0.2466
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:20:31] "GET /shipments " 200 8852 0.0209
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:20:31] "GET /css/main.css " 200 13569 0.2944
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:21:04] "GET /shipments " 200 8851 0.0253
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:21:05] "GET /css/main.css " 200 13591 0.4283
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:21:28] "GET /shipments " 200 8866 0.0337
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:21:29] "GET /css/main.css " 200 13591 0.4662
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:21:31] "GET /shipments " 200 8871 0.0319
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:21:31] "GET /css/main.css " 200 13591 0.2376
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:22:03] "GET /shipments " 200 8857 0.0343
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:22:03] "GET /css/main.css " 200 13596 0.4501
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:22:15] "GET /shipments " 200 8861 0.0314
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:22:15] "GET /css/main.css " 200 13597 0.4269
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:22:43] "GET /shipments " 200 8864 0.0263
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:22:44] "GET /css/main.css " 200 13646 0.4783
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:23:26] "GET /shipments " 200 8844 0.0265
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:23:27] "GET /css/main.css " 200 13643 0.4198
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:23:57] "GET /products " 200 20980 0.0163
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:23:57] "GET /css/main.css " 200 13643 0.2484
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:24:01] "GET /shipments " 200 8866 0.0177
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:24:01] "GET /css/main.css " 200 13643 0.2789
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:24:29] "GET /shipments " 200 9111 0.0319
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:24:29] "GET /css/main.css " 200 13643 0.4279
+App 21884 stderr: SyntaxError - /Users/acezoncay/fracht/views/shipments.slim:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+App 21884 stderr: ...s.escape_html((rand(60..100) lb))}; Order #{::Temple::Utils....
+App 21884 stderr: ...                               ^:
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `class_eval'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `compile_template_method'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:240:in `compiled_method'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:169:in `evaluate'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 21884 stderr: 	/Users/acezoncay/fracht/fracht.rb:36:in `block in <top (required)>'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 21884 stderr: 	/Users/acezoncay/.rv
+App 21884 stderr: m/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:17] "GET /__sinatra__/500.png " 200 24378 0.0035
+App 21884 stderr: SyntaxError - /Users/acezoncay/fracht/views/shipments.slim:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+App 21884 stderr: ...s.escape_html((rand(60..100) lb))}; Order #{::Temple::Utils....
+App 21884 stderr: ...                               ^:
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `class_eval'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `compile_template_method'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:240:in `compiled_method'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:169:in `evaluate'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 21884 stderr: 	/Users/acezoncay/fracht/fracht.rb:36:in `block in <top (required)>'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 21884 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:18] "GET /__sinatra__/500.png " 304 - 0.0012
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:36] "GET /shipments " 200 7576 0.0222
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:36] "GET /css/main.css " 200 13643 0.2758
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:51] "GET /shipments " 200 7685 0.0254
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:51] "GET /css/main.css " 200 13643 0.3234
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:53] "GET /shipments " 200 7564 0.0259
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:54] "GET /css/main.css " 200 13643 0.2697
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:58] "GET /shipments " 200 7579 0.0186
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:26:58] "GET /css/main.css " 200 13643 0.2503
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:27:13] "GET /shipments " 200 7565 0.0207
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:27:13] "GET /css/main.css " 200 13643 0.2823
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:28:00] "GET /shipments " 200 8962 0.0198
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:28:00] "GET /css/main.css " 200 13643 0.2477
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:28:22] "GET /shipments " 200 9423 0.0232
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:28:22] "GET /css/main.css " 200 13677 0.2671
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:28:23] "GET /shipments " 200 9436 0.0217
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:28:23] "GET /css/main.css " 200 13677 0.2509
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:28:39] "GET /shipments " 200 9421 0.0238
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:28:39] "GET /css/main.css " 200 13728 0.2922
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:29:16] "GET /products " 200 20977 0.0346
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:29:16] "GET /css/main.css " 200 13728 0.2526
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:29:17] "GET /shipments " 200 9428 0.0232
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:29:17] "GET /css/main.css " 200 13728 0.2727
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:29] "GET /products " 200 20980 0.0202
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:30] "GET /css/main.css " 200 13728 0.2519
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:41] "GET /shipments " 200 9437 0.0266
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:30:41] "GET /css/main.css " 200 13728 0.2755
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:31:46] "GET /products " 200 20978 0.0214
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:31:47] "GET /css/main.css " 200 13728 0.2560
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:31:47] "GET /shipments " 200 9414 0.0217
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:31:47] "GET /css/main.css " 200 13728 0.2418
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:36:49] "GET /shipments " 200 9432 0.0243
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:36:50] "GET /css/main.css " 200 13739 0.4269
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:36:59] "GET /shipments " 200 9425 0.0242
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:36:59] "GET /css/main.css " 200 13739 0.2557
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:37:00] "GET /shipments " 200 9410 0.0259
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:37:00] "GET /css/main.css " 200 13739 0.2667
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:37:23] "GET /products " 200 20980 0.0208
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:37:24] "GET /css/main.css " 200 13739 0.2484
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:38:11] "GET /shipments " 200 9399 0.0320
+App 21884 stderr: 127.0.0.1 - - [25/Apr/2015 04:38:11] "GET /css/main.css " 200 13739 0.4566
