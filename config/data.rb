@@ -1,17 +1,26 @@
 class User < Sequel::Model
 end
 
-class Transactions < Sequel::Model
+class Transaction < Sequel::Model
 end
 
-class Assets < Sequel::Model
+class Asset < Sequel::Model
 end
 
 class Schedule < Sequel::Model
 end
 
-class Routes < Sequel::Model
+class Route < Sequel::Model
 end
 
 class AssetRoute < Sequel::Model
+end
+
+class Message < Sequel::Model
+end
+
+class Request < Sequel::Model
+end
+
+class Deliverable < Sequel::Model
 end

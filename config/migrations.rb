@@ -1,6 +1,6 @@
 #table migrations
 migration "create sender table" do
-  database.create_table:user do
+  database.create_table:users do
     primary_key :id
     String :type
     String :email, :unique => true
@@ -11,9 +11,25 @@ end
 
 migration "create transactions" do
   database.create_table:transactions do
-    primary_key: id
-    foreign_key: :senderid, :user
-    foreign_key: :transporterid, :user
+    primary_key :id
+    String :status
+    Time :pickup
+    Time :deliver
+    foreign_key :senderid, :users
+    foreign_key :transporterid, :users
+    foreign_key :assetused, :assets
+    foreign_key :deliverable, :deliverables
+  end
+end
+
+migration "create deliverable" do
+  database.create_table:deliverables do
+    primary_key :id
+    String :description
+    Real :weight
+    String :image
+    Integer :quantity
+    foreign_key :owner, :users
   end
 end
 
@@ -23,13 +39,13 @@ migration "assets" do
     String :type
     Boolean :availability
     Integer :capacity
-    foreign_key :owner :user
-    foreign_key :schedule :sched
+    foreign_key :owner :users
+    foreign_key :schedule :schedules
   end
 end
 
 migration "create schedule table" do
-  database.create_table:sched do
+  database.create_table:schedules do
     primary_key :id
     Date :availableFrom
     Date :availableTo
@@ -37,16 +53,16 @@ migration "create schedule table" do
 end
 
 migration "create Transaction table" do
-  database.create_table:transaction do
+  database.create_table:transactions do
     primary_key :id
-    foreign_key :transporterid, :user
-    foreign_key :senderid, :user
+    foreign_key :transporterid, :users
+    foreign_key :senderid, :users
     foreign_key :transportused :assets
   end
 end
 
 migration "create routes" do
-  database.create_table:route do
+  database.create_table:routes do
     primary_key :id
     String :from
     String :to
@@ -54,9 +70,28 @@ migration "create routes" do
 end
 
 migration "route-asset relation" do
-  database.create_table: assetRoute do
+  database.create_table: assetRoutes do
     primary_key :id
     foreign_key :assetUsed, :assets
-    foreign_key :assetRoute, :route
+    foreign_key :assetRoute, :routes
+  end
+end
+
+migration "simple messaging" do
+  database.create_table: messages do
+    primary_key :id
+    String :message
+    foreign_key :transporter, :users
+    foreign_key :sender, :users
+    Timestamp :timestamp
+  end
+end
+
+migration "request asset" do
+  database.create_table: requests do
+    primary_key :id
+    String :status
+    foreign_key :assetid, :assets
+    foreign_key :senderid, :users
   end
 end
