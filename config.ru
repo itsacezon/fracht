@@ -1,3 +1,3 @@
 # encoding: UTF-8
-require './halalan'
+require './fracht'
 run Sinatra::Application
