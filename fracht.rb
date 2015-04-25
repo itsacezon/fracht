@@ -88,6 +88,12 @@ get '/profile/:id' do
 
 end
 
+get '/profile/:id/contact'
+  @from_me ||= Message[:from => @user.id, :to => params[:id]]
+  @to_me ||= Message[:from => params[:id], :to => @user.id]
+
+end
+
 get '/shipments/' do
   @shipments  ||= Transaction[:senderid => @user.id]
 end
@@ -125,14 +131,6 @@ post '/message' do
   message.to = params[:to]
   message.save
 end
-
-get '/message/' do
-  @messages ||= Message.where(:to => @user.id).or(:from => @user.id)
-#@messages.each{
-#     |message|
-#    if message.from == @user.id
-#      @message
-#    end
 
 
 post '/search' do
