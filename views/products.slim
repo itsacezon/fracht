@@ -2,26 +2,30 @@
 
 article
   .filters
-    h5.u-pull-left
-      | #{@products.count}
-      span items
+    - if @productdata
+      h5.u-pull-left
+        | #{@productdata.count}
+        span items
     a.button.button-primary.u-pull-right href="/products/add" Add product
 
-  .grid-4 data-columns=true
-    - @products.each do |product|
-      .card
-        / .card-quantity
-        /   | #{rand(5..100)}
-        /   i.icon-bag
-        .card-image
-          .card-image-container style="background-image:url('#{product.sub("public/", "")}')"
-        .card-details
-          .card-actions
-            a.button href="/products/edit/1"
-              i.icon-cog
-            button
-              i.icon-trash
-          .card-details-container
-            .card-product-name Product name
-            .card-product-detail #{rand(50..100)} grams
-            .card-product-detail #{rand(5..100)} in stock
+  - if @productdata
+    .grid-4 data-columns=true
+      - @productdata.each do |product|
+        .card
+          / .card-quantity
+          /   | #{rand(5..100)}
+          /   i.icon-bag
+          .card-image
+            .card-image-container style="background-image:url('/img/uploads/upload_#{product.image}')"
+          .card-details
+            .card-actions
+              a.button href="/products/edit/#{product.id}"
+                i.icon-cog
+              button
+                i.icon-trash
+            .card-details-container
+              .card-product-name = product.description
+              .card-product-detail #{product.weight} kgs
+              .card-product-detail #{product.quantity} in stock
+  - else
+    h2 No products yet.

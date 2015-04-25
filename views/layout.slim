@@ -20,9 +20,9 @@ html
             - if @user
               .user
                 .user-image
-                  img.small src="/img/user-default-avatar.png"
+                  img.small src=@user_image
                 .user-info
-                  a href="/profile" = @user.name
+                  a href="/profile/#{@user.id}" = @user.name
               a.link href="/logout" Log out
             - else
               a.link href="/register" Register

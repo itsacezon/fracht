@@ -26,6 +26,7 @@ end
 
 before do
   @user ||= User[session[:userid]]
+  @user_image = UIFaces.face
 end
 
 get '/css/:name.css' do |name|
@@ -39,10 +40,6 @@ get '/' do
   else
     slim :index
   end
-end
-
-get '/profile' do
-  slim :profile
 end
 
 get '/requests' do
@@ -68,18 +65,6 @@ post '/request/approve/:id' do
   end
 end
 
-get '/products' do
-  @productdata = Deliverable[:owner => @user.id]
-  @products = Dir['public/img/products/*.jpg']
-  slim :products
-end
-get '/products/add' do
-  slim :addproduct
-end
-get '/products/edit/:id' do
-  slim :editproduct
-end
-
 get '/register' do
   slim :register
 end
@@ -96,15 +81,16 @@ post '/register' do
   redirect "/login"
 end
 
-get '/profile/:id' do
+get '/profile/:id' do |id|
   if !@user
     redirect '/login'
   else
-    if(user.type=="transporter")
-      @assets ||= Asset[:owner => user.id]
+    if(@user.type == "transporter")
+      @assets ||= Deliverable.where(:owner => @user.id)
     else
-      @products ||= Deliverable[:owner => user.id]
+      @products ||= Deliverable.where(:owner => @user.id)
     end
+
     slim :profile
   end
 
@@ -115,7 +101,7 @@ get '/profile/:id/contact' do
   @to_me ||= Message[:from => params[:id], :to => @user.id]
 end
 
-get '/shipments/' do
+get '/shipments' do
   @shipments ||= Transaction[:senderid => @user.id]
   slim :shipments
 end
@@ -201,32 +187,71 @@ put '/deleteroutes' do
   route.destroy
 end
 
-post '/product/' do
+get '/products' do
+  @productdata ||= Deliverable.where(:owner => @user.id)
+  @products = Dir['public/img/products/*.jpg']
+  slim :products
+end
+get '/products/add' do
+  slim :addproduct
+end
+get '/products/edit/:id' do |id|
+  @productdata ||= Deliverable[id]
+  slim :editproduct
+end
+post '/products/add' do
   deliverable = Deliverable.new
   deliverable.description = params[:description]
   deliverable.weight = params[:weight]
 
   deliverable.quantity = params[:quantity]
-  File.open('public/img/' + params['picture'][:filename], "w") do |f|
-    f.write(params['myfile'][:tempfile].read)
+
+  filename  = params[:picture][:filename]
+  tempfile  = params[:picture][:tempfile]
+  realname  = File.basename(filename, '.*')
+  extension = File.extname(filename).downcase
+  file      = "upload_" + realname + extension
+  url       = "img/uploads/#{file}"
+  target    = "public/" + url
+
+  File.open(target, "wb") do |f|
+    f.write tempfile.read
   end
-  deliverable.image = params['picture'][:filename]
+
+  deliverable.image = params[:picture][:filename]
   deliverable.owner = @user.id
   deliverable.save
 
-
+  redirect "/products"
 end
 
-post '/product/edit/:id' do
-  deliverable = Deliverable[:id]
-  if(deliver.owner==@user.id)
+post '/products/edit/:id' do |id|
+  deliverable = Deliverable[id]
+
+  if(deliverable.owner == @user.id)
     deliverable.description = params[:description]
     deliverable.weight = params[:weight]
-    deliverable.image = params[:image]
+
+    filename  = params[:picture][:filename]
+    tempfile  = params[:picture][:tempfile]
+    realname  = File.basename(filename, '.*')
+    extension = File.extname(filename).downcase
+    file      = "upload_" + realname + extension
+    url       = "img/uploads/#{file}"
+    target    = "public/" + url
+
+    File.open(target, "wb") do |f|
+      f.write tempfile.read
+    end
+
+    deliverable.image = params[:picture][:filename]
+    deliverable.owner = @user.id
+
     deliverable.quantity = params[:quantity]
     deliverable.save
   end
 
+  redirect "/products"
 end
 
 delete '/deletedeliverables' do

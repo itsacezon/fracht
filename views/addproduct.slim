@@ -7,23 +7,23 @@ article
       | Back to products
 
   .card
-    form
+    form method="POST" action="/products/add" enctype="multipart/form-data"
       .row
         h5 Add an item
       .row
         .six.columns
           label Product Name
-          input.u-full-width type="text"
+          input.u-full-width type="text" name="description"
         .six.columns
           label Product Image
-          input.u-full-width type="file"
+          input.u-full-width type="file" name="picture"
       .row
         .three.columns
           label Items in stock
-          input.u-full-width type="number" min="1" value="1"
+          input.u-full-width type="number" min="1" value="1" name="quantity"
         .three.columns
           label Weight (kgs)
-          input.u-full-width type="number" min="1" value="1"
+          input.u-full-width type="number" min="1" value="1" name="weight"
       .row
         .twelve.columns
           button.button-primary type="submit" Add product

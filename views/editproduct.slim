@@ -7,7 +7,7 @@ article
       | Back to products
 
   .card
-    form
+    form method="POST" action="/products/edit/#{@productdata.id}" enctype="multipart/form-data"
       .row
         h5 Edit an item
       .row
@@ -15,19 +15,19 @@ article
           .row
             .twelve.columns
               label Product Name
-              input.u-full-width type="text"
+              input.u-full-width type="text" value="#{@productdata.description}"
           .row
             .six.columns
               label Items in stock
-              input.u-full-width type="number" min="1" value="1"
+              input.u-full-width type="number" min="1" value="#{@productdata.quantity}"
             .six.columns
               label Weight (kgs)
-              input.u-full-width type="number" min="1" value="1"
+              input.u-full-width type="number" min="1" value="#{@productdata.weight}"
           .row
             .twelve.columns
               button.button-primary type="submit" Save
 
         .six.columns
           label Product Image
-          input.u-full-width type="file"
-          .card-image-container.square.bordered style="background-image:url('http://www.digicution.com/wp-content/uploads/2012/06/HTML5-Repsonsive-Google-Maps-Tutorial-1.png');background-size:cover;"
+          input.u-full-width type="file" value="#{@productdata.image}"
+          .card-image-container.square.bordered style="background-image:url('/img/uploads/upload_#{@productdata.image}');"

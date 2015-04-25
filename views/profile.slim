@@ -1,6 +1,6 @@
 .profile-cover
   article
-    img src=UIFaces.face
+    img src=@user_image
     h4 = @user.name
     .profile-details
       h5
@@ -21,23 +21,31 @@ article
         | Transportation Provider
 
     h5.u-pull-right
-      | #{rand(60..100)}
+      | #{@products.count}
       span = @user.type == "sender" ? 'items' : 'routes'
   - if @user.type == "sender"
-    .grid-4 data-columns=true
-      .card
-        .card-image
-          .card-image-container
-        .card-details
-          .card-actions
-            a.button href="/products/edit/1"
-              i.icon-cog
-            button
-              i.icon-trash
-          .card-details-container
-            .card-product-name Product name
-            .card-product-detail #{rand(50..100)} grams
-            .card-product-detail #{rand(5..100)} in stock
+    - if @products
+      .grid-4 data-columns=true
+        - @products.each do |product|
+          .card
+            / .card-quantity
+            /   | #{rand(5..100)}
+            /   i.icon-bag
+            .card-image
+              .card-image-container style="background-image:url('/img/uploads/upload_#{product.image}')"
+            .card-details
+              .card-actions
+                a.button href="/products/edit/#{product.id}"
+                  i.icon-cog
+                button
+                  i.icon-trash
+              .card-details-container
+                .card-product-name = product.description
+                .card-product-detail #{product.weight} kgs
+                .card-product-detail #{product.quantity} in stock
+    - else
+      h2 No products yet.
+
 
   - else
     .cards

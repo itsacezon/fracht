@@ -15712,3 +15712,1557 @@ App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:27:18] "GET /profile " 200 2160 
 App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:27:19] "GET /css/main.css " 200 18386 0.2827
 App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:27:40] "GET /profile " 200 2135 0.0261
 App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:27:40] "GET /css/main.css " 200 18386 0.3379
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:21] "GET /profile " 200 2133 0.0322
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:21] "GET /css/main.css " 200 18386 0.3089
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:23] "GET / " 200 1551 0.0289
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:23] "GET /css/main.css " 200 18386 0.2678
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:24] "GET /products " 200 1481 0.0248
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:25] "GET /css/main.css " 200 18386 0.2821
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:26] "GET /requests " 200 1486 0.0258
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:26] "GET /css/main.css " 200 18386 0.3237
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:27] "GET /products " 200 1481 0.0291
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:27] "GET /css/main.css " 200 18386 0.2967
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:27] "GET /requests " 200 1486 0.0247
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:27] "GET /css/main.css " 200 18386 0.2874
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:29] "GET /products " 200 1481 0.0299
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:29] "GET /css/main.css " 200 18386 0.3282
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:30] "GET /products " 200 1481 0.0235
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:31] "GET /css/main.css " 200 18386 0.3287
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:33] "GET /products/add " 200 2163 0.0326
+App 49485 stderr: 127.0.0.1 - - [25/Apr/2015 11:30:33] "GET /css/main.css " 200 18386 0.2591
+App 50788 stdout: 
+[ 2015-04-25 11:32:26.5384 42102/0x10c93b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 50788, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.50788
+App 50897 stdout: 
+App 50788 stderr: 127.0.0.1 - - [25/Apr/2015 11:32:26] "GET /products/add " 200 2264 0.0496
+App 50788 stderr: 127.0.0.1 - - [25/Apr/2015 11:32:27] "GET /css/main.css " 200 18386 0.2822
+App 50788 stderr: 127.0.0.1 - - [25/Apr/2015 11:34:25] "GET /products/add " 200 2264 0.0244
+App 50788 stderr: 127.0.0.1 - - [25/Apr/2015 11:34:25] "GET /css/main.css " 200 18386 0.2833
+App 50788 stderr: TypeError - no implicit conversion of Symbol into Integer:
+App 50788 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `[]'
+App 50788 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `block in <top (required)>'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sin
+App 50788 stderr: atra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 50788 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 51050 stdout: 
+[ 2015-04-25 11:35:18.8360 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 51050, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.51050
+App 51159 stdout: 
+App 51050 stderr: TypeError - no implicit conversion of Symbol into Integer:
+App 51050 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `[]'
+App 51050 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `block in <top (required)>'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-prote
+App 51050 stderr: ction-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 51050 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 51050 stderr: 127.0.0.1 - - [25/Apr/2015 11:35:18] "GET /__sinatra__/500.png " 304 - 0.0105
+App 51220 stdout: 
+[ 2015-04-25 11:36:05.6649 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 51220, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.51220
+App 51329 stdout: 
+App 51220 stderr: TypeError - no implicit conversion of Symbol into Integer:
+App 51220 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `[]'
+App 51220 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `block in <top (required)>'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/si
+App 51220 stderr: natra/base.rb:1049:in `block in invoke'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 51220 stderr: 127.0.0.1 - - [25/Apr/2015 11:36:05] "GET /__sinatra__/500.png " 304 - 0.0089
+App 51220 stderr: TypeError - no implicit conversion of Symbol into Integer:
+App 51220 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `[]'
+App 51220 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `block in <top (required)>'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sin
+App 51220 stderr: atra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 51220 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 51220 stderr: 127.0.0.1 - - [25/Apr/2015 11:36:07] "GET /__sinatra__/500.png " 304 - 0.0018
+App 51404 stdout: 
+[ 2015-04-25 11:37:16.2763 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 51404, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.51404
+App 51512 stdout: 
+App 51404 stderr: TypeError - no implicit conversion of Symbol into Integer:
+App 51404 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `[]'
+App 51404 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `block in <top (required)>'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 51404 stderr: 127.0.0.1 - - [25/Apr/2015 11:37:16] "GET /__sinatra__/500.png " 304 - 0.0085
+App 51404 stderr: TypeError - no implicit conversion of Symbol into Integer:
+App 51404 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `[]'
+App 51404 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `block in <top (required)>'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/si
+App 51404 stderr: natra/base.rb:1049:in `block in invoke'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 51404 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 51404 stderr: 127.0.0.1 - - [25/Apr/2015 11:37:19] "GET /__sinatra__/500.png " 304 - 0.0018
+App 51559 stdout: 
+[ 2015-04-25 11:37:44.5811 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 51559, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.51559
+App 51667 stdout: 
+App 51559 stderr: TypeError - no implicit conversion of Symbol into Integer:
+App 51559 stderr: 	/Users/acezoncay/fracht/fracht.rb:211:in `[]'
+App 51559 stderr: 	/Users/acezoncay/fracht/fracht.rb:211:in `block (2 levels) in <top (required)>'
+App 51559 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `open'
+App 51559 stderr: 	/Users/acezoncay/fracht/fracht.rb:210:in `block in <top (required)>'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1
+App 51559 stderr: .2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 51559 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 51559 stderr: 127.0.0.1 - - [25/Apr/2015 11:37:44] "GET /__sinatra__/500.png " 304 - 0.0079
+App 51859 stdout: 
+[ 2015-04-25 11:40:36.8365 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 51859, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.51859
+App 51967 stdout: 
+App 51859 stderr: TypeError - no implicit conversion of Symbol into Integer:
+App 51859 stderr: 	/Users/acezoncay/fracht/fracht.rb:211:in `[]'
+App 51859 stderr: 	/Users/acezoncay/fracht/fracht.rb:211:in `block in <top (required)>'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/si
+App 51859 stderr: natra/base.rb:1049:in `block in invoke'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 51859 stderr: 127.0.0.1 - - [25/Apr/2015 11:40:37] "GET /__sinatra__/500.png " 304 - 0.0105
+App 51859 stderr: 127.0.0.1 - - [25/Apr/2015 11:40:39] "GET /products/add " 200 2294 0.0543
+App 51859 stderr: 127.0.0.1 - - [25/Apr/2015 11:40:40] "GET /css/main.css " 200 18386 0.4824
+App 51859 stderr: Errno::ENOENT - No such file or directory @ rb_sysopen - public/img/uploads/upload_nj4y9mxoxwdnwxcrmgl2.jpg:
+App 51859 stderr: 	/Users/acezoncay/fracht/fracht.rb:219:in `initialize'
+App 51859 stderr: 	/Users/acezoncay/fracht/fracht.rb:219:in `open'
+App 51859 stderr: 	/Users/acezoncay/fracht/fracht.rb:219:in `block in <top (required)>'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ru
+App 51859 stderr: by-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 51859 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 51859 stderr: 127.0.0.1 - - [25/Apr/2015 11:41:17] "POST /products/add " 200 - 0.0316
+App 52074 stdout: 
+[ 2015-04-25 11:42:18.0065 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 52074, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.52074
+App 52187 stdout: 
+App 52074 stderr: 127.0.0.1 - - [25/Apr/2015 11:42:18] "POST /products/add " 302 - 0.0165
+App 52074 stderr: NoMethodError - undefined method `count' for #<Deliverable:0x007fb6f13d84e8>:
+App 52074 stderr: 	/Users/acezoncay/fracht/views/products.slim:7:in `block in singleton class'
+App 52074 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `instance_eval'
+App 52074 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `singleton class'
+App 52074 stderr: 	/Users/acezoncay/fracht/views/products.slim:-3:in `__tilt_70211847997500'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 52074 stderr: 	/Users/acezoncay/fracht/fracht.rb:74:in `block in <top (required)>'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.r
+App 52074 stderr: b:995:in `catch'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 52074 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 52074 stderr: 127.0.0.1 - - [25/Apr/2015 11:42:18] "GET /__sinatra__/500.png " 304 - 0.0023
+App 52241 stdout: 
+[ 2015-04-25 11:42:52.0906 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 52241, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.52241
+App 52351 stdout: 
+App 52241 stderr: NoMethodError - undefined method `count' for #<Deliverable:0x007f8c830ecd80>:
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:7:in `block in singleton class'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `instance_eval'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `singleton class'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-3:in `__tilt_70120718354420'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/l
+App 52241 stderr: ib/tilt/template.rb:170:in `evaluate'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 52241 stderr: 	/Users/acezoncay/fracht/fracht.rb:74:in `block in <top (required)>'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 52241 stderr: 	/Us
+App 52241 stderr: ers/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:42:52] "GET /__sinatra__/500.png " 304 - 0.0126
+App 52241 stderr: NoMethodError - undefined method `image' for [:id, 1]:Array:
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:19:in `block (2 levels) in singleton class'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/model/base.rb:1063:in `each'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/model/base.rb:1063:in `each'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:13:in `block in singleton class'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `instance_eval'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `singleton class'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-3:in `__tilt_70120718354420'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 52241 stderr: 	/Users/acezoncay/fracht/fracht.rb:74:in `block in <top (required)>'
+App 52241 stderr: 	/Users/acezoncay/.rvm
+App 52241 stderr: /gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:42:58] "GET /__sinatra__/500.png " 304 - 0.0021
+App 52241 stderr: NoMethodError - undefined method `image' for [:id, 1]:Array:
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:19:in `block (2 levels) in singleton class'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/model/base.rb:1063:in `each'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sequel-4.8.0/lib/sequel/model/base.rb:1063:in `each'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:13:in `block in singleton class'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `instance_eval'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `singleton class'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-3:in `__tilt_70120718354420'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rv
+App 52241 stderr: m/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 52241 stderr: 	/Users/acezoncay/fracht/fracht.rb:74:in `block in <top (required)>'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:42:59] "GET /__sinatra__/500.png " 304 - 0.0024
+App 52241 stderr: NoMethodError - undefined method `count' for #<Deliverable:0x007f8c81b44190>:
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:7:in `block in singleton class'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `instance_eval'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `singleton class'
+App 52241 stderr: 	/Users/acezoncay/fracht/views/products.slim:-3:in `__tilt_70120718354420'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 52241 stderr: 	/Users/acezoncay/fracht/fracht.rb:74:in `block in <top (required)>'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 52241 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:43:56] "GET /__sinatra__/500.png " 304 - 0.0021
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:44:06] "GET /products " 200 1514 0.0413
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:44:06] "GET /css/main.css " 200 18386 0.4655
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:44:20] "GET /products " 200 1540 0.0256
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:44:21] "GET /css/main.css " 200 18386 0.2831
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:44:31] "GET /products " 200 1527 0.0216
+App 52241 stderr: 127.0.0.1 - - [25/Apr/2015 11:44:32] "GET /css/main.css " 200 18386 0.3209
+App 52596 stdout: 
+[ 2015-04-25 11:47:44.9476 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 52596, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.52596
+App 52705 stdout: 
+App 52596 stderr: NoMethodError - undefined method `image' for #<Sequel::Postgres::Dataset:0x007fccaa28dd58>:
+App 52596 stderr: 	/Users/acezoncay/fracht/views/products.slim:7:in `block in singleton class'
+App 52596 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `instance_eval'
+App 52596 stderr: 	/Users/acezoncay/fracht/views/products.slim:-1:in `singleton class'
+App 52596 stderr: 	/Users/acezoncay/fracht/views/products.slim:-3:in `__tilt_70258497046700'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 52596 stderr: 	/Users/acezoncay/fracht/fracht.rb:195:in `block in <top (required)>'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib
+App 52596 stderr: /sinatra/base.rb:995:in `catch'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 52596 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:47:45] "GET /__sinatra__/500.png " 304 - 0.0091
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:47:50] "GET /products " 200 1504 0.0348
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:47:51] "GET /css/main.css " 200 18386 0.3191
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:47:56] "GET /products " 200 2602 0.0315
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:47:57] "GET /css/main.css " 200 18386 0.2984
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:47:57] "GET /img/uploads/nj4y9mxoxwdnwxcrmgl2.jpg " 404 473 0.0020
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:48:29] "GET /products " 200 2616 0.0381
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:48:29] "GET /css/main.css " 200 18386 0.3315
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:48:43] "GET /products/add " 200 2294 0.0368
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:48:44] "GET /css/main.css " 200 18386 0.2528
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:49:24] "POST /products/add " 302 - 0.0190
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:49:24] "GET /products " 200 3164 0.0269
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:49:25] "GET /css/main.css " 200 18386 0.4904
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:49:31] "GET /products/edit/3 " 200 2426 0.0377
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:49:31] "GET /css/main.css " 200 18386 0.4616
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:49:34] "GET /products/edit/2 " 200 2426 0.0248
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:49:35] "GET /css/main.css " 200 18386 0.3663
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:49:37] "GET /products/edit/1 " 200 2426 0.0366
+App 52596 stderr: 127.0.0.1 - - [25/Apr/2015 11:49:37] "GET /css/main.css " 200 18386 0.4723
+App 52904 stdout: 
+[ 2015-04-25 11:51:34.9619 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 52904, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.52904
+App 53012 stdout: 
+App 52904 stderr: 127.0.0.1 - - [25/Apr/2015 11:51:35] "GET /products " 200 3164 0.0574
+App 52904 stderr: 127.0.0.1 - - [25/Apr/2015 11:51:35] "GET /css/main.css " 200 18386 0.4771
+App 52904 stderr: NameError - undefined local variable or method `productdata' for #<Sinatra::Application:0x007fb574cfc638>:
+App 52904 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:18:in `block in singleton class'
+App 52904 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:-1:in `instance_eval'
+App 52904 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:-1:in `singleton class'
+App 52904 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:-3:in `__tilt_70208656091720'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 52904 stderr: 	/Users/acezoncay/fracht/fracht.rb:202:in `block in <top (required)>'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sin
+App 52904 stderr: atra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 52904 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 53062 stdout: 
+[ 2015-04-25 11:52:02.3985 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 53062, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.53062
+App 53170 stdout: 
+App 53062 stderr: NameError - undefined local variable or method `productdata' for #<Sinatra::Application:0x007fa0c99b48a0>:
+App 53062 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:18:in `block in singleton class'
+App 53062 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:-1:in `instance_eval'
+App 53062 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:-1:in `singleton class'
+App 53062 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:-3:in `__tilt_70164272013140'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 53062 stderr: 	/Users/acezon
+App 53062 stderr: cay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 53062 stderr: 	/Users/acezoncay/fracht/fracht.rb:202:in `block in <top (required)>'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 53062 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:02] "GET /__sinatra__/500.png " 304 - 0.0104
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:17] "GET /products/edit/3 " 200 2368 0.0379
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:17] "GET /css/main.css " 200 18386 0.4772
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:21] "GET /products " 200 3164 0.0303
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:21] "GET /css/main.css " 200 18386 0.3136
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:23] "GET /products/edit/3 " 200 2368 0.0267
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:23] "GET /css/main.css " 200 18386 0.3007
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:31] "GET /products " 200 3164 0.0236
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:31] "GET /css/main.css " 200 18386 0.2777
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:34] "GET /products/edit/2 " 200 2368 0.0291
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:34] "GET /css/main.css " 200 18386 0.3007
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:36] "GET /products " 200 3164 0.0324
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:36] "GET /css/main.css " 200 18386 0.2669
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:37] "GET /products/edit/1 " 200 2368 0.0234
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:37] "GET /css/main.css " 200 18386 0.2802
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:38] "GET /products " 200 3164 0.0281
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:39] "GET /css/main.css " 200 18386 0.2689
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:39] "GET /products/edit/3 " 200 2368 0.0252
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:39] "GET /css/main.css " 200 18386 0.2664
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:43] "GET /products/edit/4 " 200 2368 0.0334
+App 53062 stderr: 127.0.0.1 - - [25/Apr/2015 11:52:43] "GET /css/main.css " 200 18386 0.2838
+App 53265 stdout: 
+[ 2015-04-25 11:53:37.1895 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 53265, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.53265
+App 53373 stdout: 
+App 53265 stderr: NoMethodError - undefined method `description' for nil:NilClass:
+App 53265 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:18:in `block in singleton class'
+App 53265 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:-1:in `instance_eval'
+App 53265 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:-1:in `singleton class'
+App 53265 stderr: 	/Users/acezoncay/fracht/views/editproduct.slim:-3:in `__tilt_70366697506740'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 53265 stderr: 	/Users/acezoncay/fracht/fracht.rb:202:in `block in <top (required)>'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1592:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1592:in `block in compile!'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.
+App 53265 stderr: rb:995:in `catch'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 53265 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 53265 stderr: 127.0.0.1 - - [25/Apr/2015 11:53:37] "GET /__sinatra__/500.png " 304 - 0.0107
+App 53265 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:01] "GET /products/edit/3 " 200 2381 0.0285
+App 53265 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:01] "GET /css/main.css " 200 18386 0.5289
+App 53265 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:20] "GET /products/edit/3 " 200 2381 0.0249
+App 53265 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:20] "GET /css/main.css " 200 18386 0.3174
+App 53265 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:22] "GET /products " 200 3164 0.0316
+App 53265 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:22] "GET /css/main.css " 200 18386 0.2568
+App 53265 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:24] "GET /products " 200 3164 0.0306
+App 53265 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:24] "GET /css/main.css " 200 18386 0.3216
+App 53454 stdout: 
+[ 2015-04-25 11:54:48.1005 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 53454, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.53454
+App 53563 stdout: 
+App 53454 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:48] "GET /products " 200 3164 0.0654
+App 53454 stderr: 127.0.0.1 - - [25/Apr/2015 11:54:48] "GET /css/main.css " 200 18386 0.4022
+App 53603 stdout: 
+[ 2015-04-25 11:55:03.0006 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 53603, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.53603
+App 53711 stdout: 
+App 53603 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:03] "GET /products " 200 3164 0.0587
+App 53603 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:03] "GET /css/main.css " 200 18386 0.3591
+App 53603 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:05] "GET /products/edit/3 " 200 2381 0.0286
+App 53603 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:05] "GET /css/main.css " 200 18386 0.3530
+App 53603 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:13] "GET /products/edit/3 " 200 2381 0.0555
+App 53603 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:13] "GET /css/main.css " 200 18386 0.3401
+App 53603 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:18] "GET /products " 200 3164 0.0244
+App 53603 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:18] "GET /css/main.css " 200 18386 0.2823
+App 53773 stdout: 
+[ 2015-04-25 11:55:54.6916 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 53773, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.53773
+App 53881 stdout: 
+App 53773 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:54] "GET /products " 200 3164 0.0529
+App 53773 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:55] "GET /css/main.css " 200 18386 0.3178
+App 53773 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:57] "GET /products/edit/3 " 200 2451 0.0244
+App 53773 stderr: 127.0.0.1 - - [25/Apr/2015 11:55:57] "GET /css/main.css " 200 18386 0.3446
+App 53954 stdout: 
+[ 2015-04-25 11:56:55.4486 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 53954, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.53954
+App 54062 stdout: 
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:56:55] "GET /__sinatra__/500.png " 304 - 0.0108
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:57:09] "GET /products/edit/3 " 200 2451 0.0535
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:57:09] "GET /css/main.css " 200 18386 0.3344
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:57:56] "GET /products/edit/3 " 200 2484 0.0244
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:57:56] "GET /css/main.css " 200 18386 0.3067
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:57:57] "GET /products/edit/3 " 200 2484 0.0304
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:57:57] "GET /css/main.css " 200 18386 0.2804
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:58:40] "GET /products " 200 3164 0.0273
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:58:41] "GET /css/main.css " 200 18386 0.4649
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:58:45] "GET /requests " 200 1486 0.0281
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:58:45] "GET /css/main.css " 200 18386 0.2872
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:58:48] "GET /requests/add " 200 9729 0.0677
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:58:48] "GET /css/main.css " 200 18386 0.2800
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:01] "GET /shipments " 404 446 0.0021
+App 53954 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:03] "GET /shipments " 404 446 0.0020
+App 54221 stdout: 
+[ 2015-04-25 11:59:21.4990 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 54221, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.54221
+App 54330 stdout: 
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:21] "GET /shipments " 200 1551 0.0603
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:22] "GET /css/main.css " 200 18386 0.4781
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:23] "GET /requests " 200 1486 0.0327
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:23] "GET /css/main.css " 200 18386 0.2595
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:24] "GET /products " 200 3164 0.0535
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:24] "GET /css/main.css " 200 18386 0.3165
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:25] "GET /requests " 200 1486 0.0252
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:25] "GET /css/main.css " 200 18386 0.2858
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:27] "GET /requests/add " 200 9702 0.0348
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:27] "GET /css/main.css " 200 18386 0.2932
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:36] "GET /requests " 200 1486 0.0262
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:37] "GET /css/main.css " 200 18386 0.3094
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:38] "GET /products " 200 3164 0.0302
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:38] "GET /css/main.css " 200 18386 0.2884
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:40] "GET /profile " 200 2134 0.0491
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 11:59:41] "GET /css/main.css " 200 18386 0.3150
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:00:35] "GET /profile " 200 1633 0.0245
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:00:36] "GET /css/main.css " 200 18386 0.4580
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:00:43] "GET / " 200 1551 0.0352
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:00:43] "GET /css/main.css " 200 18386 0.2910
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:00:44] "GET /products " 200 3164 0.0325
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:00:44] "GET /css/main.css " 200 18386 0.3285
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:00:57] "GET / " 200 1551 0.0347
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:00:57] "GET /css/main.css " 200 18386 0.4410
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:01:47] "GET /profile " 200 1633 0.0469
+App 54221 stderr: 127.0.0.1 - - [25/Apr/2015 12:01:48] "GET /css/main.css " 200 18386 0.4553
+App 54492 stdout: 
+[ 2015-04-25 12:02:22.2544 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 54492, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.54492
+App 54600 stdout: 
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:22] "GET /profile " 404 444 0.0145
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:26] "GET / " 200 1553 0.0435
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:26] "GET /css/main.css " 200 18386 0.4832
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:27] "GET /profile/2 " 200 3270 0.0261
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:28] "GET /css/main.css " 200 18386 0.2540
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:31] "GET / " 200 1553 0.0567
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:32] "GET /css/main.css " 200 18386 0.2892
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:33] "GET /products " 200 3166 0.0260
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:33] "GET /css/main.css " 200 18386 0.3206
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:53] "GET /products " 200 3166 0.0317
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:53] "GET /css/main.css " 200 18386 0.3081
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:55] "GET /profile/2 " 200 3275 0.0253
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:02:55] "GET /css/main.css " 200 18386 0.3003
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:06] "GET /profile/2 " 200 3269 0.0394
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:06] "GET /css/main.css " 200 18386 0.4768
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:08] "GET / " 200 1553 0.0289
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:08] "GET /css/main.css " 200 18386 0.2434
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:10] "GET /requests " 200 1488 0.0348
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:10] "GET /css/main.css " 200 18386 0.2671
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:11] "GET /products " 200 3166 0.0239
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:12] "GET /css/main.css " 200 18386 0.2784
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:16] "GET /requests " 200 1488 0.0262
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:16] "GET /css/main.css " 200 18386 0.3594
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:22] "GET /shipments " 200 1553 0.0281
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:03:23] "GET /css/main.css " 200 18386 0.2594
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:04:18] "GET /shipments " 200 11644 0.0580
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:04:18] "GET /css/main.css " 200 18386 0.2798
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:04:44] "GET /shipments " 200 11631 0.0285
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:04:44] "GET /css/main.css " 200 18386 0.4862
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:04:50] "GET /shipments " 200 11651 0.0307
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:04:50] "GET /css/main.css " 200 18386 0.3345
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:04:55] "GET /products " 200 3166 0.0296
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:04:55] "GET /css/main.css " 200 18386 0.2634
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:05:02] "GET /profile/2 " 200 3269 0.0395
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:05:02] "GET /css/main.css " 200 18386 0.2649
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:07:01] "GET /profile/2 " 200 3303 0.0313
+App 54492 stderr: 127.0.0.1 - - [25/Apr/2015 12:07:02] "GET /css/main.css " 200 18386 0.4738
+App 55064 stdout: 
+[ 2015-04-25 12:09:44.8075 42102/0x10c93b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 55064, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.55064
+App 55172 stdout: 
+App 55064 stderr: NoMethodError - undefined method `image=' for #<User:0x007fd1fb246d80>:
+App 55064 stderr: 	/Users/acezoncay/fracht/fracht.rb:29:in `block in <top (required)>'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `[]'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `block in filter!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `each'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `filter!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1066:in `block in dispatch!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 55064 stderr: 	/Users/acezo
+App 55064 stderr: ncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 55064 stderr: NoMethodError - undefined method `image=' for #<User:0x007fd1fb72ce08>:
+App 55064 stderr: 	/Users/acezoncay/fracht/fracht.rb:29:in `block in <top (required)>'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `[]'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `block in filter!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `each'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `filter!'
+App 55064 stderr: 
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1066:in `block in dispatch!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 55064 stderr: NoMethodError - undefined method `image=' for #<User:0x007fd1faccdbb0>:
+App 55064 stderr: 	/Users/acezoncay/fracht/fracht.rb:29:in `block in <top (required)>'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `[]'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:
+App 55064 stderr: in `block in process_route'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `block in filter!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `each'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `filter!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1066:in `block in dispatch!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 55064 stderr: NoMethodError - undefined method `image=' for #<User:0x007fd1fc0a6e70>:
+App 55064 stderr: 	/Users/acezoncay/fracht/fracht.rb:29:in `block in <top (required)>'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `[]'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `block in filter!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `each'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:948:in `filter!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1066:in `block in dispatch!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 55064 stderr: 	/Users/acezo
+App 55064 stderr: ncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 55064 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 55224 stdout: 
+[ 2015-04-25 12:10:18.4435 42102/0x10c97e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 55224, listening on unix:/tmp/passenger.1.0.42099/generation-0/backends/preloader.55224
+App 55332 stdout: 
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:18] "GET /profile/2 " 200 3373 0.0712
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:19] "GET /css/main.css " 200 18386 0.4840
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:29] "GET /profile/2 " 200 3381 0.0284
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:30] "GET /css/main.css " 200 18386 0.2639
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:32] "GET / " 200 11692 0.0560
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:32] "GET /css/main.css " 200 18386 0.3467
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:34] "GET /requests " 200 1518 0.0292
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:34] "GET /css/main.css " 200 18386 0.2697
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:35] "GET /products " 200 3200 0.0276
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:35] "GET /css/main.css " 200 18386 0.2829
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:37] "GET /products/add " 200 2327 0.0237
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:37] "GET /css/main.css " 200 18386 0.2902
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:40] "GET /products " 200 3202 0.0292
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:40] "GET /css/main.css " 200 18386 0.3609
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:42] "GET /requests " 200 1524 0.0245
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:10:42] "GET /css/main.css " 200 18386 0.3210
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:03] "GET /requests " 200 10310 0.0271
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:04] "GET /css/main.css " 200 18386 0.3010
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:07] "GET /requests/add " 200 9755 0.0287
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:07] "GET /css/main.css " 200 18386 0.2773
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:10] "GET /requests/add/1 " 200 2524 0.0312
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:11] "GET /css/main.css " 200 18386 0.3310
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:13] "GET /requests/add/1 " 200 2515 0.0253
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:13] "GET /css/main.css " 200 18386 0.2433
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:15] "GET /requests/add " 200 9754 0.0433
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:15] "GET /css/main.css " 200 18386 0.3105
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:16] "GET /shipments " 200 11683 0.0420
+App 55224 stderr: 127.0.0.1 - - [25/Apr/2015 12:11:17] "GET /css/main.css " 200 18386 0.2991
