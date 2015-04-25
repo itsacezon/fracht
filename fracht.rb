@@ -69,6 +69,7 @@ post '/request/approve/:id' do
 end
 
 get '/products' do
+  @productdata = Deliverable[:owner => @user.id]
   @products = Dir['public/img/products/*.jpg']
   slim :products
 end
