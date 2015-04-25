@@ -8,6 +8,7 @@ require 'slim'
 require 'pg'
 require 'sass'
 require 'uifaces'
+require 'json'
 
 configure do
   set :database, ENV['HEROKU_POSTGRESQL_VIOLET_URL'] || 'postgres:///fracht'
@@ -44,22 +45,28 @@ get '/profile' do
   slim :profile
 end
 
-get '/shipments' do
-  slim :shipments
-end
-
 get '/requests' do
+  if !@user
+    redirect '/'
+  end
+
+  @request ||= Request.join_table(:assets, :assetid => :id).join(:users, :ownerid => :id).where(:ownerid => @user.id)
   slim :requests
 end
-
 get '/requests/add' do
   slim :addrequest
 end
-
 get '/requests/add/:id' do
   slim :requestroute
 end
-
+post '/request/approve/:id' do
+  @request = Request[:id]
+  @asset = Asset[:id => @request.assetid]
+  if(@asset.owner == @user.id)
+    @request.status = "approved"
+    @request.save
+  end
+end
 
 get '/products' do
   @products = Dir['public/img/products/*.jpg']
@@ -82,14 +89,15 @@ post '/register' do
   user.home = params[:home]
   user.number = params[:number]
   user.type = params[:type]
-  user.password  = BCrypt::Password.new(params[:password])
+  user.password = BCrypt::Password.create(params[:password])
   user.save
+
+  redirect "/login"
 end
 
 get '/profile/:id' do
   if !@user
     redirect '/login'
-
   else
     if(user.type=="transporter")
       @assets ||= Asset[:owner => user.id]
@@ -101,8 +109,25 @@ get '/profile/:id' do
 
 end
 
+get '/profile/:id/contact' do
+  @from_me ||= Message[:from => @user.id, :to => params[:id]]
+  @to_me ||= Message[:from => params[:id], :to => @user.id]
+end
+
 get '/shipments/' do
   @shipments ||= Transaction[:senderid => @user.id]
+  slim :shipments
+end
+
+post '/shipments/view/:id' do
+  @shipments  ||= Transaction[:id => params[:id]]
+  @sender ||= User[:id => @shipments.senderid]
+  @transporter ||= User[:id => @shipments.transporterid]
+  @asset ||= Asset[:id =>@shipment.assetused]
+  @deliverable ||= Deliverable[:id => @shipment.deliverable]
+  content_type :json
+  { :id => @shipments.id ,:status => @shipments.status,:pickup => @shipments,:deliver => @shipments.deliver,
+    :sender => @sender.name,:transporter => @transporter.id,:assettype => @asset.type,:deliverable => @deliverable.description}.to_json
 end
 
 get '/login' do
@@ -137,10 +162,6 @@ post '/message' do
   message.from = @user.id
   message.to = params[:to]
   message.save
-end
-
-get '/message/' do
-  @messages ||= Message.where(:to => @user.id).or(:from => @user)
 end
 
 post '/search' do

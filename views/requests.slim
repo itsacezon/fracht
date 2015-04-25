@@ -2,45 +2,49 @@
 
 article
   .filters
-    h5.u-pull-left
-      | #{rand(60..100)}
-      span pending
+    - if @requests
+      h5.u-pull-left
+        | #{@requests.count}
+        span pending
     a.button.button-primary.u-pull-right href="/requests/add" Request delivery
 
-  table.u-full-width
-    thead
-      tr
-        th Carrier
-        th Shipment
-        th Route
-        th Created
-        th
-    tbody
-      - for i in 20.times do
+  - if @requests
+    table.u-full-width
+      thead
         tr
-          / td.shipment-status
-          /   i class=(['icon-circle-check', 'icon-circle-minus', 'icon-circle-cross'].sample)
-          td
-            .user
-              .user-image
-                img.small src=UIFaces.face
-              .user-info = ['Shipme, LLC', 'Dexter Edep', 'Suzuki Cars'].sample
+          th Carrier
+          th Shipment
+          th Route
+          th Created
+          th
+      tbody
+        - for i in 20.times do
+          tr
+            / td.shipment-status
+            /   i class=(['icon-circle-check', 'icon-circle-minus', 'icon-circle-cross'].sample)
+            td
+              .user
+                .user-image
+                  img.small src=UIFaces.face
+                .user-info = ['Shipme, LLC', 'Dexter Edep', 'Suzuki Cars'].sample
 
-          td.shipment-item
-            / ul
-            /   li
-            /     | 1 &times; Product name
-            /     a href="#0" view
-            | #{rand(60..100)} kgs, Order #{rand(100..600)}
-            / a.view-more href="#0" view
+            td.shipment-item
+              / ul
+              /   li
+              /     | 1 &times; Product name
+              /     a href="#0" view
+              | #{rand(60..100)} kgs, Order #{rand(100..600)}
+              / a.view-more href="#0" view
 
-          td.shipment-route
-            span Start
-            i.icon-arrow-right
-            span Destination
+            td.shipment-route
+              span Start
+              i.icon-arrow-right
+              span Destination
 
-          td
-            | #{Time.at(rand * Time.now.to_i).strftime("%e %b %Y, %k:%I %p")}
+            td
+              | #{Time.at(rand * Time.now.to_i).strftime("%e %b %Y, %k:%I %p")}
 
-          td.shipment-actions
-            button View
+            td.shipment-actions
+              button View
+  - else
+    h2 No requests yet.

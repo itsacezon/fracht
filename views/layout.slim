@@ -8,7 +8,7 @@ html
     link rel="stylesheet" href="/css/selectize.default.css"
     link rel="stylesheet" href="/css/jquery.remodal.css"
     link rel="stylesheet" href="/css/main.css"
-    script src="js/vendor/modernizr.js"
+    script src="/js/vendor/modernizr.js"
     script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCR70TTs1WtODu963y1CPMG3yfGWRYgZuQ"
   body
     .remodal-bg
@@ -20,7 +20,7 @@ html
             - if @user
               .user
                 .user-image
-                  img.small src=UIFaces.face
+                  img.small src="/img/user-default-avatar.png"
                 .user-info
                   a href="/profile" = @user.name
               a.link href="/logout" Log out
