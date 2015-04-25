@@ -117,7 +117,7 @@ put '/deleteroutes' do
   route.destroy
 end
 
-post '/deliverables' do
+post '/product/' do
   deliverable = Deliverable.new
   deliverable.description = params[:description]
   deliverable.weight = params[:weight]
@@ -127,7 +127,7 @@ post '/deliverables' do
   deliverable.save
 end
 
-put '/editdeliverables' do
+post '/product/edit/:id' do
   deliverable = Deliverable[:id]
   if(deliver.owner==@user.id)
     deliverable.description = params[:description]
