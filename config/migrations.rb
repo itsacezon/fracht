@@ -31,7 +31,7 @@ migration "create schedule table" do
 end
 
 migration "create routes" do
-  database.create_table:routes do
+  database.create_table :routes do
     primary_key :id
     String :from
     String :to

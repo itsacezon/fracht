@@ -41,6 +41,7 @@ get '/shipments' do
 end
 
 get '/requests' do
+  @request = Request.join_table(:assets, :assetid =>id).join(:users,:ownerid => id)
   slim :requests
 end
 
@@ -48,7 +49,14 @@ get '/requests/add' do
   slim :addrequest
 end
 
-
+post '/request/approve/:id' do
+  @request = Request[:id]
+  @asset = Asset[:id => @request.assetid]
+  if(@asset.owner == @user.id)
+    @request.status = "approved"
+    @request.save
+  end
+end
 get '/products' do
   @products = Dir['public/img/products/*.jpg']
   slim :products
@@ -80,7 +88,7 @@ get '/profile/:id' do
 
 end
 
-get '/shipments/'
+get '/shipments/' do
   @shipments  ||= Transaction[:senderid => @user.id]
 end
 
@@ -119,8 +127,13 @@ post '/message' do
 end
 
 get '/message/' do
-  @messages ||= Message.where(:to => @user.id).or(:from => @user)
-end
+  @messages ||= Message.where(:to => @user.id).or(:from => @user.id)
+#@messages.each{
+#     |message|
+#    if message.from == @user.id
+#      @message
+#    end
+
 
 post '/search' do
   @scheds ||= Schedule.filter(:from => params[:from],:to => params[:to]) #get all schedule same with search

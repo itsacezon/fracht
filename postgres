@@ -1,0 +1,11 @@
+\q
+\l
+\c posgres
+\c postgres
+\q
+create database fracht;
+\q
+alter role postgres password null;
+\q
+drop database fracht;
+\s postgres
