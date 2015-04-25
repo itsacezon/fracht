@@ -80,6 +80,12 @@ get '/profile/:id' do
 
 end
 
+get '/shipments/'
+  @shipments  ||= Transaction[:senderid => @user.id]
+end
+
+
+
 post '/login' do
   user ||= User.filter(:email => params[:email]).first
   pass unless user
@@ -112,12 +118,13 @@ post '/message' do
   message.save
 end
 
-get '/message' do
-  slim :message
+get '/message/' do
+  @messages ||= Message.where(:to => @user.id).or(:from => @user)
 end
 
 post '/search' do
-  results = Schedule.filter(:from => params[:from],:to => params[:to])
+  @scheds ||= Schedule.filter(:from => params[:from],:to => params[:to]) #get all schedule same with search
+  @assets ||= Asset.filter(:capacity => params[:capacity],:schedule => @scheds.id) #get all assets with the same sched as above
 end
 
 get '/routes' do

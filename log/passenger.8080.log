@@ -1054,3 +1054,29 @@ App 13297 stderr: 127.0.0.1 - - [25/Apr/2015 08:52:45] "GET /routes " 200 8661 0
 App 13297 stderr: 127.0.0.1 - - [25/Apr/2015 08:52:45] "GET /css/main.css " 200 15889 0.3168
 App 13297 stderr: 127.0.0.1 - - [25/Apr/2015 08:52:46] "GET /shipments " 200 10365 0.0339
 App 13297 stderr: 127.0.0.1 - - [25/Apr/2015 08:52:47] "GET /css/main.css " 200 15889 0.4997
+[ 2015-04-25 09:03:49.9674 15063/7f89537e9780 agents/Watchdog/Main.cpp:526 ]: Options: { 'analytics_log_user' => 'dexter', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xY3lxNWlwL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'dexter', 'default_python' => 'python', 'default_ruby' => '/home/dexter/.rvm/gems/ruby-2.1.2/wrappers/ruby', 'default_user' => 'dexter', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1cyq5ip/locations.ini', 'passenger_version' => '4.0.35', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6ODA4MAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.35', 'web_server_pid' => '15062', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-04-25 09:03:49.9755 15066/7fe75b5e8780 agents/HelperAgent/Main.cpp:636 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.15062/generation-0/request
+[ 2015-04-25 09:03:49.9842 15072/7ff2d1477780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.15062/generation-0/logging
+[ 2015-04-25 09:03:49.9846 15063/7f89537e9780 agents/Watchdog/Main.cpp:713 ]: All Phusion Passenger agents started!
+App 15101 stdout: 
+[ 2015-04-25 09:03:53.6770 15066/7fe75b502700 Pool2/SmartSpawner.h:301 ]: Preloader for /home/dexter/fracht started on PID 15101, listening on unix:/tmp/passenger.1.0.15062/generation-0/backends/preloader.15101
+App 15175 stdout: 
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:53] "HEAD / " 200 10352 0.0523
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:55] "GET /shipments " 200 10390 0.0327
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:55] "GET /css/main.css " 200 15889 0.4014
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:04] "GET /requests " 200 9881 0.0270
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:04] "GET /css/main.css " 200 15889 0.3459
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:06] "GET /shipments " 200 10347 0.0291
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:06] "GET /css/main.css " 200 15889 0.3755
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:10] "GET /requests " 200 9896 0.0274
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:11] "GET /css/main.css " 200 15889 0.3106
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:15] "GET /products " 200 23002 0.0248
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:15] "GET /css/main.css " 200 15889 0.4238
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:20] "GET /requests " 200 9897 0.0278
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:21] "GET /css/main.css " 200 15889 0.3106
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:25] "GET /routes " 200 8670 0.0268
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:26] "GET /css/main.css " 200 15889 0.3558
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:34] "GET /products " 200 23001 0.0262
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:34] "GET /css/main.css " 200 15889 0.3604
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:35] "GET /requests " 200 9889 0.0279
+App 15101 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:36] "GET /css/main.css " 200 15889 0.4234
