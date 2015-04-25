@@ -4,9 +4,7 @@ header
       a class=(page.eql?('shipments') ? 'active' : '') href="/shipments" Shipments
     li
       a class=(page.eql?('requests') ? 'active' : '') href="/requests" Requests
-    - if @user.type == "sender"
-      li
-        a class=(page.eql?('products') ? 'active' : '') href="/products" Products
-    - if @user.type == "transporter"
-      li
-        a class=(page.eql?('routes') ? 'active' : '') href="/routes" Routes
+    li
+      a class=(page.eql?('products') ? 'active' : '') href="/products" Products
+    li
+      a class=(page.eql?('routes') ? 'active' : '') href="/routes" Routes
