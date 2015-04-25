@@ -1,47 +1,63 @@
 .profile-cover
   article
     img src=UIFaces.face
-    h4 Dexter Edep
+    h4 = @user.name
     .profile-details
       h5
         i.icon-globe
-        | Makati, PH
+        | #{@user.home}
       h5
         i.icon-head
-        | +63 929 599 0454
+        | #{@user.number}
 
       a.button.edit Edit profile
       a.button.button-primary.contact Contact
 article
   .filters
-    h5.u-pull-left Transportation Provider
+    h5.u-pull-left
+      - if @user.type == "sender"
+        | Product Seller
+      - else
+        | Transportation Provider
+
     h5.u-pull-right
       | #{rand(60..100)}
-      span routes
-
-  .cards
-    - for i in 10.times do
+      span = @user.type == "sender" ? 'items' : 'routes'
+  - if @user.type == "sender"
+    .grid-4 data-columns=true
       .card
-        / .card-quantity
-        /   | #{rand(5..100)}
-        /   i.icon-bag
-        .card-route
-          .card-actions.card-actions-primary
-            a.button.button-primary href="/requests/add/1"
-              i.icon-plus
-              span Request
+        .card-image
+          .card-image-container
+        .card-details
+          .card-actions
+            a.button href="/products/edit/1"
+              i.icon-cog
+            button
+              i.icon-trash
+          .card-details-container
+            .card-product-name Product name
+            .card-product-detail #{rand(50..100)} grams
+            .card-product-detail #{rand(5..100)} in stock
 
-          .card-routename
-            h5
-              | Start
-              i.icon-arrow-right
-              | Destination
-          .card-product-detail
-            i.icon-location
-            | via #{['Motorcycle', 'Truck', 'Van'].sample}
-          .card-product-detail Can handle #{rand(50..100)} lbs
-          .card-product-detail.fix-bottom Created #{Time.at(rand * Time.now.to_i).strftime("%e %b %Y")}
-          .card-product-detail.fix-bottom.fix-right Used #{rand(50..100)} times
+  - else
+    .cards
+      - for i in 10.times do
+        .card
+          .card-route
+            .card-actions.card-actions-primary
+              a.button.button-primary href="/requests/add/1"
+                i.icon-plus
+                span Request
 
-
-        .card-map style="background-image:url('http://www.digicution.com/wp-content/uploads/2012/06/HTML5-Repsonsive-Google-Maps-Tutorial-1.png');background-size:cover;"
+            .card-routename
+              h5
+                | Start
+                i.icon-arrow-right
+                | Destination
+            .card-product-detail
+              i.icon-location
+              | via #{['Motorcycle', 'Truck', 'Van'].sample}
+            .card-product-detail Can handle #{rand(50..100)} lbs
+            .card-product-detail.fix-bottom Created #{Time.at(rand * Time.now.to_i).strftime("%e %b %Y")}
+            .card-product-detail.fix-bottom.fix-right Used #{rand(50..100)} times
+          .card-map style="background-image:url('http://www.digicution.com/wp-content/uploads/2012/06/HTML5-Repsonsive-Google-Maps-Tutorial-1.png');background-size:cover;"
