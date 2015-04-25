@@ -4,6 +4,7 @@ migration "create user table" do
     primary_key :id
     String :type
     String :name
+    String :home
     String :email, :unique => true
     String :number
     String :password

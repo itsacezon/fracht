@@ -75,6 +75,35 @@ end
 get '/register' do
   slim :register
 end
+post '/register' do
+  user = User.new
+  user.name = params[:name]
+  user.email = params[:email]
+  user.home = params[:home]
+  user.number = params[:number]
+  user.type = params[:type]
+  user.password  = BCrypt::Password.new(params[:password])
+  user.save
+end
+
+get '/profile/:id' do
+  if !@user
+    redirect '/login'
+
+  else
+    if(user.type=="transporter")
+      @assets ||= Asset[:owner => user.id]
+    else
+      @products ||= Deliverable[:owner => user.id]
+    end
+    slim :profile
+  end
+
+end
+
+get '/shipments/'
+  @shipments  ||= Transaction[:senderid => @user.id]
+end
 
 get '/login' do
   slim :login
@@ -110,12 +139,13 @@ post '/message' do
   message.save
 end
 
-get '/message' do
-  slim :message
+get '/message/' do
+  @messages ||= Message.where(:to => @user.id).or(:from => @user)
 end
 
 post '/search' do
-  results = Schedule.filter(:from => params[:from],:to => params[:to])
+  @scheds ||= Schedule.filter(:from => params[:from],:to => params[:to]) #get all schedule same with search
+  @assets ||= Asset.filter(:capacity => params[:capacity],:schedule => @scheds.id) #get all assets with the same sched as above
 end
 
 get '/routes' do
@@ -149,7 +179,7 @@ put '/deleteroutes' do
   route.destroy
 end
 
-post '/deliverables' do
+post '/product/' do
   deliverable = Deliverable.new
   deliverable.description = params[:description]
   deliverable.weight = params[:weight]
@@ -159,7 +189,7 @@ post '/deliverables' do
   deliverable.save
 end
 
-put '/editdeliverables' do
+post '/product/edit/:id' do
   deliverable = Deliverable[:id]
   if(deliver.owner==@user.id)
     deliverable.description = params[:description]
@@ -177,7 +207,6 @@ delete '/deletedeliverables' do
     deliverable.destroy
   end
 end
-
 
 post '/asset' do
   asset = Asset.new
@@ -229,6 +258,7 @@ delete '/deleteassetroute' do
   assetroute = AssetRoute[:id]
   assetroute.destroy
 end
+
 post '/request' do
     request = Request.new
     request.sender = @user.id
