@@ -54,6 +54,32 @@ get '/products' do
   slim :products
 end
 
+post '/register' do
+  user = User.new
+  user.name = params[:name]
+  user.email = params[:email]
+  user.home = params[:home]
+  user.number = params[:number]
+  user.type = params[:type]
+  user.password  = BCrypt::Password.new(params[:password])
+  user.save
+end
+
+get '/profile/:id' do
+  if !@user
+    redirect '/login'
+
+  else
+    if(user.type=="transporter")
+      @assets ||= Asset[:owner => user.id]
+    else
+      @products ||= Deliverable[:owner => user.id]
+    end
+    slim :profile
+  end
+
+end
+
 post '/login' do
   user ||= User.filter(:email => params[:email]).first
   pass unless user
@@ -146,7 +172,6 @@ delete '/deletedeliverables' do
   end
 end
 
-
 post '/asset' do
   asset = Asset.new
   schedule = Schedule.new
@@ -197,6 +222,7 @@ delete '/deleteassetroute' do
   assetroute = AssetRoute[:id]
   assetroute.destroy
 end
+
 post '/request' do
     request = Request.new
     request.sender = @user.id
