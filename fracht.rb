@@ -8,6 +8,7 @@ require 'slim'
 require 'pg'
 require 'sass'
 require 'uifaces'
+require 'json'
 
 configure do
   set :database, ENV['HEROKU_POSTGRESQL_VIOLET_URL'] || 'postgres:///fracht'
@@ -97,8 +98,16 @@ end
 get '/shipments/' do
   @shipments  ||= Transaction[:senderid => @user.id]
 end
-
-
+post '/shipments/view/:id' do
+  @shipments  ||= Transaction[:id => params[:id]]
+  @sender ||= User[:id => @shipments.senderid]
+  @transporter ||= User[:id => @shipments.transporterid]
+  @asset ||= Asset[:id =>@shipment.assetused]
+  @deliverable ||= Deliverable[:id => @shipment.deliverable]
+  content_type :json
+  { :id => @shipments.id ,:status => @shipments.status,:pickup => @shipments,:deliver => @shipments.deliver
+    :sender => @sender.name,:transporter => @transporter.id,:assettype => @asset.type,:deliverable => @deliverable.description}.to_json
+end
 
 post '/login' do
   user ||= User.filter(:email => params[:email]).first
@@ -131,7 +140,6 @@ post '/message' do
   message.to = params[:to]
   message.save
 end
-
 
 post '/search' do
   @scheds ||= Schedule.filter(:from => params[:from],:to => params[:to]) #get all schedule same with search
