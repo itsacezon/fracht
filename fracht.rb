@@ -204,10 +204,16 @@ post '/product/' do
   deliverable = Deliverable.new
   deliverable.description = params[:description]
   deliverable.weight = params[:weight]
-  deliverable.image = params[:image]
+
   deliverable.quantity = params[:quantity]
+  File.open('public/img/' + params['picture'][:filename], "w") do |f|
+    f.write(params['myfile'][:tempfile].read)
+  end
+  deliverable.image = params['picture'][:filename]
   deliverable.owner = @user.id
   deliverable.save
+
+
 end
 
 post '/product/edit/:id' do
