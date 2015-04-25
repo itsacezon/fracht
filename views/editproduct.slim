@@ -1,0 +1,33 @@
+== slim :"partials/header", :locals => {:page => 'products'}
+
+article
+  .filters
+    a.link.solo href="/products"
+      i.icon-arrow-left
+      | Back to products
+
+  .card
+    form
+      .row
+        h5 Edit an item
+      .row
+        .six.columns
+          .row
+            .twelve.columns
+              label Product Name
+              input.u-full-width type="text"
+          .row
+            .six.columns
+              label Items in stock
+              input.u-full-width type="number" min="1" value="1"
+            .six.columns
+              label Weight (kgs)
+              input.u-full-width type="number" min="1" value="1"
+          .row
+            .twelve.columns
+              button.button-primary type="submit" Save
+
+        .six.columns
+          label Product Image
+          input.u-full-width type="file"
+          .card-image-container.square.bordered style="background-image:url('http://www.digicution.com/wp-content/uploads/2012/06/HTML5-Repsonsive-Google-Maps-Tutorial-1.png');background-size:cover;"

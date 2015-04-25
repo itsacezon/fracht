@@ -14,6 +14,11 @@
   &:hover .card-details {
     opacity: 1;
   }
+
+  > form {
+    margin: 0;
+    padding: 1.5em;
+  }
 }
 
 .card-quantity {
@@ -68,6 +73,18 @@
 .card-image-container {
   @include size(100% 200px);
   background-size: cover;
+
+  &.square {
+    width: 200px;
+  }
+
+  &.larger {
+    height: 400px;
+  }
+
+  &.bordered {
+    border: 1px #dadada solid;
+  }
 }
 
 .card-details {
@@ -85,9 +102,13 @@
   &.card-actions-primary {
     right: 1.5em;
     top: 1.5em;
+
+    button:hover, .button:hover {
+      color: white;
+    }
   }
 
-  button {
+  button, .button {
     @include transition(250ms);
 
     border: none;

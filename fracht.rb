@@ -48,10 +48,22 @@ get '/requests/add' do
   slim :addrequest
 end
 
+get '/requests/add/:id' do
+  slim :requestroute
+end
+
 
 get '/products' do
   @products = Dir['public/img/products/*.jpg']
   slim :products
+end
+
+get '/products/add' do
+  slim :addproduct
+end
+
+get '/products/edit/:id' do
+  slim :editproduct
 end
 
 post '/login' do
@@ -96,6 +108,14 @@ end
 
 get '/routes' do
   slim :routes
+end
+
+get '/routes/add' do
+  slim :addroute
+end
+
+get '/routes/edit/:id' do
+  slim :editroute
 end
 
 post '/routes' do

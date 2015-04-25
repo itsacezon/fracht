@@ -15,6 +15,10 @@
     &:hover {
       text-decoration: underline;
     }
+
+    &.solo {
+      margin-bottom: 0;
+    }
   }
 
   label.hide {
@@ -25,41 +29,10 @@
     &.u-pull-left {
       margin-bottom: 0;
     }
-
-    span {
-      margin-left: 0.25em;
-      color: #aaa;
-    }
   }
 
   form {
     margin-bottom: 0;
-  }
-
-  .selectize-input {
-    margin-bottom: 0;
-    height: 38px !important;
-    min-width: 180px;
-    padding: 0.65em 14px;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-
-    background: #fcfcfc !important;
-    border-color: #dadada !important;
-
-    input {
-      height: auto !important;
-    }
-  }
-
-  .selectize-dropdown {
-    border-color: #dadada !important;
-
-    .option {
-      padding: 0.5em 14px;
-      font-size: 16px;
-    }
   }
 
   button, .button {
@@ -67,9 +40,5 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 36px;
-  }
-
-  .two.columns .selectize-input {
-    min-width: 120px;
   }
 }

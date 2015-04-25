@@ -5,7 +5,7 @@ article
     h5.u-pull-left
       | #{@products.count}
       span items
-    button.button-primary.u-pull-right Add product
+    a.button.button-primary.u-pull-right href="/products/add" Add product
 
   .grid-4 data-columns=true
     - @products.each do |product|
@@ -17,7 +17,7 @@ article
           .card-image-container style="background-image:url('#{product.sub("public/", "")}')"
         .card-details
           .card-actions
-            button
+            a.button href="/products/edit/1"
               i.icon-cog
             button
               i.icon-trash

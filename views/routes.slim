@@ -5,7 +5,7 @@ article
     h5.u-pull-left
       | #{rand(60..100)}
       span in service
-    button.button-primary.u-pull-right Add route
+    a.button.button-primary.u-pull-right href="/routes/add" Add route
 
   .cards
     - for i in 10.times do
@@ -15,16 +15,16 @@ article
         /   i.icon-bag
         .card-route
           .card-actions
-            button
+            a.button href="/routes/edit/1"
               i.icon-cog
             button
               i.icon-trash
 
           .card-routename
             h5
-              span Start
+              | Start
               i.icon-arrow-right
-              span Destination
+              | Destination
           .card-product-detail
             i.icon-location
             | via #{['Motorcycle', 'Truck', 'Van'].sample}

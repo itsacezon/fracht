@@ -1,0 +1,38 @@
+== slim :"partials/header", :locals => {:page => 'routes'}
+
+article
+  .filters
+    a.link.solo href="/routes"
+      i.icon-arrow-left
+      | Back to routes
+
+  .card
+    form
+      .row
+        h5 Add a route
+      .row
+        .six.columns
+          .row
+            .six.columns
+              label From
+              input.u-full-width type="text"
+            .six.columns
+              label To
+              input.u-full-width type="text"
+          .row
+            .six.columns
+              label Vehicle Type
+              select#vehicle-type
+                option value="in-progress" selected=true All
+                option value="delivered" Motorcycle
+                option value="delivered" Truck
+                option value="returned" Van
+            .three.columns
+              label Capacity (kgs)
+              input.u-full-width type="number" min="1" value="1"
+          .row
+            .twelve.columns
+              button.button-primary type="submit" Add route
+        .six.columns
+          .row
+            .card-image-container.larger.bordered style="background-image:url('http://www.digicution.com/wp-content/uploads/2012/06/HTML5-Repsonsive-Google-Maps-Tutorial-1.png');background-size:cover;"

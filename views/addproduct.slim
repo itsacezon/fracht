@@ -1,0 +1,29 @@
+== slim :"partials/header", :locals => {:page => 'products'}
+
+article
+  .filters
+    a.link.solo href="/products"
+      i.icon-arrow-left
+      | Back to products
+
+  .card
+    form
+      .row
+        h5 Add an item
+      .row
+        .six.columns
+          label Product Name
+          input.u-full-width type="text"
+        .six.columns
+          label Product Image
+          input.u-full-width type="file"
+      .row
+        .three.columns
+          label Items in stock
+          input.u-full-width type="number" min="1" value="1"
+        .three.columns
+          label Weight (kgs)
+          input.u-full-width type="number" min="1" value="1"
+      .row
+        .twelve.columns
+          button.button-primary type="submit" Add product

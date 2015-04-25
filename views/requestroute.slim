@@ -1,0 +1,40 @@
+== slim :"partials/header", :locals => {:page => 'requests'}
+
+article
+  .filters
+    a.link.solo href="/requests/add"
+      i.icon-arrow-left
+      | Back to add requests
+
+  .card
+    form
+      .row
+        h5 Request this route
+      .row
+        .six.columns
+          .row
+            .six.columns
+              label From
+              h6 Start
+            .six.columns
+              label To
+              h6 Destination
+          .row
+            .six.columns
+              label Vehicle Type
+              h6 Motorcycle
+            .three.columns
+              label Capacity
+              h6
+                | #{rand(60..100)}
+                span kgs
+          .row
+            .twelve.columns
+              label Products
+              button Add product
+          .row
+            .twelve.columns
+              button.button-primary style="margin-top:2em;" type="submit" Submit request
+        .six.columns
+          .row
+            .card-image-container.larger.bordered style="background-image:url('http://www.digicution.com/wp-content/uploads/2012/06/HTML5-Repsonsive-Google-Maps-Tutorial-1.png');background-size:cover;"
