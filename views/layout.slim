@@ -6,30 +6,33 @@ html
     link rel="stylesheet" href="/css/feather.css"
     link rel="stylesheet" href="/css/selectize.css"
     link rel="stylesheet" href="/css/selectize.default.css"
+    link rel="stylesheet" href="/css/jquery.remodal.css"
     link rel="stylesheet" href="/css/main.css"
     script src="js/vendor/modernizr.js"
     script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCR70TTs1WtODu963y1CPMG3yfGWRYgZuQ"
   body
-    #nav-wrap
-      nav
-        .u-pull-left
-          a.logo href="/" fracht
-        .u-pull-right
-          - if @user
-            .user
-              .user-image
-                img.small src=UIFaces.face
-              .user-info
-                a href="#0" = ['Shipme, LLC', 'Dexter Edep', 'Suzuki Cars'].sample
-            a.link href="/logout" Log out
-          - else
-            a.link href="/register" Register
-            a.link href="/login" Log in
+    .remodal-bg
+      #nav-wrap
+        nav
+          .u-pull-left
+            a.logo href="/" fracht
+          .u-pull-right
+            - if @user
+              .user
+                .user-image
+                  img.small src=UIFaces.face
+                .user-info
+                  a href="/profile" = @user.name
+              a.link href="/logout" Log out
+            - else
+              a.link href="/register" Register
+              a.link href="/login" Log in
 
-    #content-wrap
-      == yield
+      #content-wrap
+        == yield
 
     script src="/js/vendor/jquery.js"
+    script src="/js/vendor/jquery.remodal.js"
     script src="/js/vendor/selectize.js"
     script src="/js/vendor/salvattore.js"
     script src="/js/main.js"

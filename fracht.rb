@@ -11,7 +11,7 @@ require 'uifaces'
 
 configure do
   set :database, ENV['HEROKU_POSTGRESQL_VIOLET_URL'] || 'postgres:///fracht'
-  #require "./config/migrations"
+  # require "./config/migrations"
   require "./config/data"
 
   ENV['TZ'] = 'Asia/Manila'
@@ -36,7 +36,7 @@ get '/' do
   if @user
     slim :shipments
   else
-    redirect '/login'
+    slim :index
   end
 end
 
@@ -101,8 +101,8 @@ get '/profile/:id' do
 
 end
 
-get '/shipments/'
-  @shipments  ||= Transaction[:senderid => @user.id]
+get '/shipments/' do
+  @shipments ||= Transaction[:senderid => @user.id]
 end
 
 get '/login' do
@@ -112,7 +112,7 @@ post '/login' do
   user ||= User.filter(:email => params[:email]).first
   pass unless user
 
-  user_hash = BCrypt::Password.new(user.hashed_password)
+  user_hash = BCrypt::Password.new(user.password)
   pass unless user_hash == params[:password]
 
   session[:token] = BCrypt::Engine.generate_salt()

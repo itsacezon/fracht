@@ -1,17 +1,17 @@
 article
   section.small
     .card
-      form
+      form method="POST" action="/login"
         .row
           h5 Log in to Fracht
         .row
           .twelve.columns
             label Email address
-            input.u-full-width type="email"
+            input.u-full-width type="email" name="email"
         .row
           .twelve.columns
             label Password
-            input.u-full-width type="password"
+            input.u-full-width type="password" name="password"
         .row
           .twelve.columns
             button.button-primary type="submit" Log in

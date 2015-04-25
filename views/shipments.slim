@@ -1,5 +1,10 @@
 == slim :"partials/header", :locals => {:page => 'shipments'}
 
+.remodal data-remodal-id="shipment-modal"
+  .remodal-form
+    h1 Crap
+    a class="remodal-confirm" href="#" Hello!
+
 article
   .filters
     h5.u-pull-left
@@ -53,4 +58,4 @@ article
             | #{Time.at(rand * Time.now.to_i).strftime("%k")} hours
 
           td.shipment-actions
-            button View
+            button data-remodal-target="shipment-modal" View
