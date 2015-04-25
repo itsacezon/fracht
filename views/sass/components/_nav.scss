@@ -3,6 +3,7 @@ nav {
 }
 
 header {
+  @include outer-container;
   padding: 2em 0;
   border-bottom: 1px #dadada solid;
 
@@ -50,6 +51,34 @@ header {
   text-decoration: none;
 
   &:hover {
-    color: white;
+    color: $primary-color;
+  }
+}
+
+.user {
+  float: left;
+  margin-top: 0.25em;
+
+  .user-info {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.link {
+  float: left;
+  margin-top: 10px;
+  margin-left: 1.5em;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary-color;
   }
 }

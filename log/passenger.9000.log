@@ -12423,3 +12423,666 @@ App 36765 stderr: 127.0.0.1 - - [25/Apr/2015 08:33:42] "GET /products/edit/js/ve
 App 36765 stderr: 127.0.0.1 - - [25/Apr/2015 08:33:43] "GET /css/main.css " 200 16212 0.2334
 App 36765 stderr: 127.0.0.1 - - [25/Apr/2015 08:33:44] "GET /requests " 200 9799 0.0207
 App 36765 stderr: 127.0.0.1 - - [25/Apr/2015 08:33:44] "GET /css/main.css " 200 16212 0.2682
+App 37433 stdout: 
+[ 2015-04-25 08:35:23.3178 29216/0x10154b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 37433, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.37433
+App 37542 stdout: 
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:23] "GET /requests " 200 9774 0.0516
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:23] "GET /css/main.css " 200 16212 0.4332
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:24] "GET / " 302 - 0.0011
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:24] "GET /login " 200 646 0.0108
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:25] "GET /css/main.css " 200 16212 0.2787
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:25] "GET / " 302 - 0.0010
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:25] "GET /login " 200 646 0.0103
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:26] "GET /css/main.css " 200 16212 0.2793
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:54] "GET /login " 200 659 0.0202
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:35:55] "GET /css/main.css " 200 16212 0.2682
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:36:03] "GET /login " 200 677 0.0131
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:36:03] "GET /css/main.css " 200 16212 0.2479
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:36:18] "GET /login " 200 881 0.0129
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:36:19] "GET /css/main.css " 200 16212 0.3035
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:36:28] "GET /login " 200 937 0.0123
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:36:29] "GET /css/main.css " 200 16212 0.2847
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:36:32] "GET /login " 200 897 0.0137
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:36:32] "GET /css/main.css " 200 16212 0.2707
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:37:31] "GET /login " 200 897 0.0145
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:37:31] "GET /css/main.css " 200 16235 0.4536
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:38:10] "GET /login " 200 905 0.0205
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:38:11] "GET /css/main.css " 200 16288 0.3685
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:38:52] "GET /login " 200 943 0.0189
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:38:52] "GET /css/main.css " 200 16288 0.5082
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:39:54] "GET /login " 200 943 0.0147
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:39:54] "GET /css/main.css " 200 16299 0.4105
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:08] "GET /login " 200 938 0.0121
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:08] "GET /css/main.css " 200 16333 0.2964
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:16] "GET /login " 200 943 0.0163
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:16] "GET /css/main.css " 200 16332 0.3035
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:19] "GET /login " 200 946 0.0138
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:19] "GET /css/main.css " 200 16332 0.3152
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:20] "GET /login " 200 936 0.0152
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:20] "GET /css/main.css " 200 16332 0.2463
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:22] "GET /login " 200 947 0.0136
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:23] "GET /css/main.css " 200 16332 0.3101
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:25] "GET /login " 200 943 0.0133
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:26] "GET /css/main.css " 200 16331 0.2967
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:30] "GET /login " 200 941 0.0128
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:30] "GET /css/main.css " 200 16332 0.3464
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:37] "GET /login " 200 947 0.0167
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:37] "GET /css/main.css " 200 16350 0.2683
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:40] "GET /login " 200 941 0.0130
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:41] "GET /css/main.css " 200 16350 0.3106
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:54] "GET /login " 200 945 0.0126
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:40:54] "GET /css/main.css " 200 16388 0.2894
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:05] "GET /login " 200 935 0.0151
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:05] "GET /css/main.css " 200 16414 0.3307
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:06] "GET /login " 200 937 0.0143
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:06] "GET /css/main.css " 200 16414 0.2557
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:07] "GET /login " 200 942 0.0139
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:07] "GET /css/main.css " 200 16414 0.2751
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:09] "GET /login " 200 942 0.0132
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:10] "GET /css/main.css " 200 16409 0.3157
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:21] "GET /login " 200 937 0.0133
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:22] "GET /css/main.css " 200 16448 0.3665
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:29] "GET /login " 200 935 0.0192
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:29] "GET /css/main.css " 200 16450 0.2464
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:33] "GET /logout " 302 - 0.0026
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:33] "GET / " 302 - 0.0019
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:33] "GET /login " 200 944 0.0080
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:33] "GET /css/main.css " 200 16450 0.2801
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:37] "GET /login " 200 939 0.0139
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:38] "GET /css/main.css " 200 16450 0.2870
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:38] "GET /logout " 302 - 0.0018
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:38] "GET / " 302 - 0.0013
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:38] "GET /login " 200 942 0.0088
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:39] "GET /css/main.css " 200 16450 0.2975
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:39] "GET /logout " 302 - 0.0016
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:39] "GET / " 302 - 0.0009
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:39] "GET /login " 200 941 0.0105
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:39] "GET /css/main.css " 200 16450 0.2358
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:40] "GET /logout " 302 - 0.0009
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:40] "GET / " 302 - 0.0011
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:40] "GET /login " 200 944 0.0081
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:41:40] "GET /css/main.css " 200 16450 0.2561
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:42:02] "GET /logout " 302 - 0.0011
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:42:02] "GET / " 302 - 0.0008
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:42:02] "GET /login " 200 943 0.0116
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:42:02] "GET /css/main.css " 200 16450 0.2709
+App 37433 stderr: SyntaxError - /Users/acezoncay/fracht/views/layout.slim:18: syntax error, unexpected keyword_do, expecting keyword_then or ';' or '\n'
+App 37433 stderr: ""); if @user do; 
+App 37433 stderr:                 ^
+App 37433 stderr: /Users/acezoncay/fracht/views/layout.slim:35: syntax error, unexpected keyword_end, expecting end-of-input
+App 37433 stderr: end;end;end;end
+App 37433 stderr:                ^:
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `class_eval'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `compile_template_method'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:240:in `compiled_method'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:169:in `evaluate'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:814:in `block in render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:814:in `catch'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:814:in `rende
+App 37433 stderr: r'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 37433 stderr: 	/Users/acezoncay/fracht/fracht.rb:72:in `block in <top (required)>'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:42:39] "GET /__sinatra__/500.png " 304 - 0.0013
+App 37433 stderr: SyntaxError - /Users/acezoncay/fracht/views/layout.slim:18: syntax error, unexpected keyword_do, expecting keyword_then or ';' or '\n'
+App 37433 stderr: ""); if @user do; 
+App 37433 stderr:                 ^
+App 37433 stderr: /Users/acezoncay/fracht/views/layout.slim:35: syntax error, unexpected keyword_end, expecting end-of-input
+App 37433 stderr: end;end;end;end
+App 37433 stderr:                ^:
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `class_eval'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `compile_template_method'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:240:in `compiled_method'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:169:in `evaluate'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:805:in `render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 37433 stderr: 	/Us
+App 37433 stderr: ers/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:814:in `block in render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:814:in `catch'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:814:in `render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `block in render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:83:in `with_engine'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-contrib-1.4.2/lib/sinatra/engine_tracking.rb:91:in `render'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:737:in `slim'
+App 37433 stderr: 	/Users/acezoncay/fracht/fracht.rb:72:in `block in <top (required)>'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1593:in `block in compile!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `[]'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (3 levels) in route!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:976:in `route_eval'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:957:in `block (2 levels) in route!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:997:in `block in process_route'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `catch'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:995:in `process_route'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:955:in `block in route!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `each'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:954:in `route!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1067:in `block in dispatch!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1064:in `dispatch!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `block in call!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `block in invoke'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `catch'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1049:in `invoke'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:889:in `call!'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:877:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/xss_header.rb:18:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/path_traversal.rb:16:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/json_csrf.rb:18:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/base.rb:50:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-protection-1.5.2/lib/rack/protection/frame_options.rb:31:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:217:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:210:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/show_exceptions.rb:21:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:180:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:2004:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `block in call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1778:in `synchronize'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sinatra-1.4.4/lib/sinatra/base.rb:1469:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/sass-3.4.5/lib/sass/plugin/rack.rb:54:in `call'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:142:in `accept_and_process_next_request'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+App 37433 stderr: 	/Users/acezoncay/.rvm/gems/ruby-2.1.2/gems/passenger-4.0.35/lib/phusion_passenger/reques
+App 37433 stderr: t_handler.rb:441:in `block (3 levels) in start_threads'
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:42:41] "GET /__sinatra__/500.png " 304 - 0.0017
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:43:08] "GET /login " 200 709 0.0150
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:43:08] "GET /css/main.css " 200 16450 0.2651
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:43:14] "GET /login " 200 709 0.0144
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:43:15] "GET /css/main.css " 200 16450 0.2609
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:43:38] "GET /login " 200 794 0.0149
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:43:38] "GET /css/main.css " 200 16450 0.2509
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:43:46] "GET /register " 404 445 0.0012
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:44:52] "GET /login " 200 883 0.0121
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:44:52] "GET /css/main.css " 200 16488 0.4244
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:44:59] "GET /login " 200 883 0.0132
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:45:00] "GET /css/main.css " 200 16488 0.3153
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:45:12] "GET /login " 200 908 0.0148
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:45:12] "GET /css/main.css " 200 16488 0.2773
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:46:13] "GET /login " 200 1260 0.0156
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:46:14] "GET /css/main.css " 200 16488 0.3098
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:46:28] "GET /login " 200 1302 0.0170
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:46:29] "GET /css/main.css " 200 16488 0.2493
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:48:26] "GET /login " 200 1302 0.0220
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:48:26] "GET /css/main.css " 200 16488 0.2976
+App 37433 stderr: 127.0.0.1 - - [25/Apr/2015 08:48:26] "GET /register " 404 445 0.0014
+App 38181 stdout: 
+[ 2015-04-25 08:48:31.3300 29216/0x101508000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 38181, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.38181
+App 38290 stdout: 
+App 38181 stderr: 127.0.0.1 - - [25/Apr/2015 08:48:31] "GET /register " 404 445 0.0114
+App 38181 stderr: 127.0.0.1 - - [25/Apr/2015 08:48:31] "GET /__sinatra__/404.png " 304 - 0.0012
+App 38333 stdout: 
+[ 2015-04-25 08:48:55.6419 29216/0x10154b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 38333, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.38333
+App 38442 stdout: 
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:48:55] "GET /register " 200 1670 0.0446
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:48:56] "GET /css/main.css " 200 16488 0.4468
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:18] "GET /register " 200 1679 0.0191
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:18] "GET /css/main.css " 200 16488 0.4523
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:20] "GET /login " 200 1302 0.0160
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:20] "GET /css/main.css " 200 16488 0.3323
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:21] "GET /register " 200 1679 0.0174
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:22] "GET /css/main.css " 200 16488 0.2619
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:23] "GET /login " 200 1302 0.0171
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:23] "GET /css/main.css " 200 16488 0.2651
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:25] "GET /register " 200 1679 0.0228
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:25] "GET /css/main.css " 200 16488 0.2464
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:28] "GET /login " 200 1302 0.0396
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:28] "GET /css/main.css " 200 16488 0.2778
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:28] "GET /register " 200 1679 0.0207
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:49:29] "GET /css/main.css " 200 16488 0.2589
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:50:09] "GET /register " 200 1758 0.0215
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:50:10] "GET /css/main.css " 200 16488 0.4390
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:50:35] "GET /register " 200 1792 0.0214
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:50:35] "GET /css/main.css " 200 16488 0.2446
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:51:08] "GET /register " 200 1867 0.0191
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:51:08] "GET /css/main.css " 200 16488 0.2581
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:51:53] "GET /register " 200 1867 0.0284
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:51:53] "GET /css/main.css " 200 16525 0.3317
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:51:54] "GET /register " 200 1867 0.0467
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:51:54] "GET /css/main.css " 200 16525 0.3035
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:52:28] "GET /register " 200 1867 0.0198
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:52:28] "GET /css/main.css " 200 16525 0.2577
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:50] "GET /register " 200 1867 0.0269
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:51] "GET /css/main.css " 200 16525 0.4545
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:53] "GET /routes " 200 8727 0.0277
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:53] "GET /css/main.css " 200 16525 0.2667
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:55] "GET /routes/add " 200 2271 0.0338
+App 38673 stdout: 
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:56] "GET /css/main.css " 200 16525 0.3790
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:56] "GET /routes/js/vendor/modernizr.js " 404 466 0.0038
+[ 2015-04-25 08:53:57.9657 29216/0x10129e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 38673, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.38673
+App 38783 stdout: 
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:58] "GET /requests " 200 9941 0.0411
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:58] "GET /css/main.css " 200 16525 0.2477
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:58] "GET /requests/add " 200 9661 0.0596
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:59] "GET /requests/js/vendor/modernizr.js " 404 468 0.0114
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:53:59] "GET /css/main.css " 200 16525 0.3042
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:02] "GET /requests/add " 200 9651 0.0291
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:02] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:02] "GET /css/main.css " 200 16525 0.2739
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:11] "GET /products " 200 24306 0.0270
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:11] "GET /css/main.css " 200 16525 0.2541
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:12] "GET /products " 200 24310 0.0384
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:13] "GET /css/main.css " 200 16525 0.2922
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:13] "GET /requests " 200 9940 0.0330
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:13] "GET /css/main.css " 200 16525 0.3531
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:14] "GET /requests/add " 200 9663 0.0345
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:14] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:14] "GET /css/main.css " 200 16525 0.2343
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:26] "GET /requests " 200 9931 0.0337
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:54:26] "GET /css/main.css " 200 16525 0.4797
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:17] "GET /requests/add " 200 9672 0.0381
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:17] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:18] "GET /css/main.css " 200 16545 0.4407
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:20] "GET /products " 200 24307 0.0300
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:21] "GET /css/main.css " 200 16545 0.2880
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:22] "GET /products/add " 200 1832 0.0225
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:22] "GET /products/js/vendor/modernizr.js " 404 468 0.0014
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:22] "GET /css/main.css " 200 16545 0.2762
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:23] "GET /products " 200 24305 0.0429
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:23] "GET /css/main.css " 200 16545 0.2963
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:24] "GET /products/edit/1 " 200 2095 0.0483
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:24] "GET /products/edit/js/vendor/modernizr.js " 404 473 0.0010
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:24] "GET /css/main.css " 200 16545 0.2841
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:25] "GET /routes " 200 8714 0.0365
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:26] "GET /css/main.css " 200 16545 0.3318
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:27] "GET /routes/add " 200 2276 0.0338
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:27] "GET /routes/js/vendor/modernizr.js " 404 466 0.0010
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:27] "GET /css/main.css " 200 16545 0.2695
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:28] "GET /routes " 200 8719 0.0290
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:28] "GET /css/main.css " 200 16545 0.2995
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:29] "GET /routes/edit/1 " 200 2272 0.0316
+App 38333 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:29] "GET /routes/edit/js/vendor/modernizr.js " 404 471 0.0014
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:29] "GET /css/main.css " 200 16545 0.2781
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:30] "GET /products " 200 24309 0.0361
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:31] "GET /css/main.css " 200 16545 0.2863
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:32] "GET /requests " 200 9931 0.0333
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:32] "GET /css/main.css " 200 16545 0.2649
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:35] "GET /shipments " 200 10388 0.0380
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:35] "GET /css/main.css " 200 16545 0.2559
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:36] "GET / " 302 - 0.0013
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:37] "GET /login " 200 1302 0.0226
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:37] "GET /css/main.css " 200 16545 0.2806
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:54] "GET /register " 200 1867 0.0199
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:55:55] "GET /css/main.css " 200 16545 0.4956
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:25] "GET /register " 200 1986 0.0216
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:25] "GET /css/main.css " 200 16545 0.4116
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:30] "GET /register " 200 1988 0.0191
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:30] "GET /css/main.css " 200 16545 0.2935
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:31] "GET /register " 200 1988 0.0210
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:31] "GET /css/main.css " 200 16545 0.2330
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:38] "GET /register " 200 1988 0.0233
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:38] "GET /css/main.css " 200 16545 0.2836
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:46] "GET /register " 200 1988 0.0206
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:56:47] "GET /css/main.css " 200 16508 0.3558
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:04] "GET /register " 200 1988 0.0205
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:04] "GET /css/main.css " 200 16544 0.2837
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:05] "GET /register " 200 1988 0.0189
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:05] "GET /css/main.css " 200 16544 0.2943
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:07] "GET /register " 200 1988 0.0189
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:07] "GET /css/main.css " 200 16544 0.2468
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:13] "GET /register " 200 1988 0.0187
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:13] "GET /css/main.css " 200 16545 0.2861
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:14] "GET /register " 200 1988 0.0198
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:14] "GET /css/main.css " 200 16545 0.2863
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:25] "GET /register " 200 1988 0.0269
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:25] "GET /css/main.css " 200 16545 0.2937
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:26] "GET /register " 200 1988 0.0173
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:26] "GET /css/main.css " 200 16545 0.2797
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:31] "GET /register " 200 1988 0.0232
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:32] "GET /css/main.css " 200 16545 0.2929
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:35] "GET /register " 200 1988 0.0206
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:36] "GET /css/main.css " 200 16547 0.3791
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:47] "GET /register " 200 1988 0.0203
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:48] "GET /css/main.css " 200 16574 0.2496
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:55] "GET /register " 200 1986 0.0180
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:57:55] "GET /css/main.css " 200 16574 0.2695
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:59:59] "GET /register " 200 1988 0.0212
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 08:59:59] "GET /css/main.css " 200 16574 0.3593
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:00:00] "GET /register " 200 1988 0.0189
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:00:00] "GET /css/main.css " 200 16574 0.3522
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:00:11] "GET /register " 200 1988 0.0184
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:00:11] "GET /css/main.css " 200 16574 0.2587
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:00:50] "GET /products " 200 24309 0.0249
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:00:51] "GET /css/main.css " 200 16574 0.4885
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:01:32] "GET /shi " 404 440 0.0012
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:01:34] "GET /shipments " 200 10414 0.0248
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:01:34] "GET /css/main.css " 200 16574 0.4382
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:01:59] "GET /requests " 200 9928 0.0324
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:01:59] "GET /css/main.css " 200 16574 0.3160
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:03] "GET /requests/add " 200 9654 0.0345
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:04] "GET /css/main.css " 200 16574 0.3477
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:04] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 39167 stdout: 
+[ 2015-04-25 09:02:06.3526 29216/0x10129e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 39167, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.39167
+App 39279 stdout: 
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:11] "GET /requests/add " 200 9659 0.0446
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:11] "GET /requests/js/vendor/modernizr.js " 404 468 0.0116
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:12] "GET /css/main.css " 200 16574 0.2730
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:18] "GET /requests/add/1 " 200 2151 0.0303
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:18] "GET /requests/add/js/vendor/modernizr.js " 404 472 0.0013
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:18] "GET /css/main.css " 200 16574 0.3125
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:24] "GET /requests/add/1 " 200 2151 0.0454
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:24] "GET /requests/add/js/vendor/modernizr.js " 404 472 0.0008
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:24] "GET /css/main.css " 200 16574 0.2522
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:46] "GET /products " 200 24306 0.0272
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:46] "GET /css/main.css " 200 16574 0.2983
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:47] "GET /requests " 200 9955 0.0330
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:47] "GET /css/main.css " 200 16574 0.2611
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:48] "GET /products " 200 24305 0.0242
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:49] "GET /css/main.css " 200 16574 0.3007
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:51] "GET /requests " 200 9948 0.0264
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:51] "GET /css/main.css " 200 16574 0.2682
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:52] "GET /requests/add " 200 9647 0.0516
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:52] "GET /requests/js/vendor/modernizr.js " 404 468 0.0012
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:52] "GET /css/main.css " 200 16574 0.2772
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:53] "GET /requests/add/1 " 200 2151 0.0336
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:53] "GET /requests/add/js/vendor/modernizr.js " 404 472 0.0010
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:54] "GET /css/main.css " 200 16574 0.2663
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:56] "GET /products " 200 24305 0.0385
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:02:56] "GET /css/main.css " 200 16574 0.2574
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:00] "GET /products/edit/1 " 200 2095 0.0389
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:00] "GET /products/edit/js/vendor/modernizr.js " 404 473 0.0007
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:00] "GET /css/main.css " 200 16574 0.2597
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:03] "GET /products/add " 200 1832 0.0338
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:03] "GET /products/js/vendor/modernizr.js " 404 468 0.0011
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:03] "GET /css/main.css " 200 16574 0.3366
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:05] "GET /routes " 200 8726 0.0294
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:05] "GET /css/main.css " 200 16574 0.2352
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:07] "GET /routes/edit/1 " 200 2272 0.0351
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:07] "GET /routes/edit/js/vendor/modernizr.js " 404 471 0.0010
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:08] "GET /css/main.css " 200 16574 0.2842
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:10] "GET /routes/add " 200 2276 0.0377
+App 38673 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:10] "GET /routes/js/vendor/modernizr.js " 404 466 0.0012
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:11] "GET /css/main.css " 200 16574 0.2916
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:12] "GET /products " 200 24305 0.0356
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:13] "GET /css/main.css " 200 16574 0.2813
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:13] "GET /shipments " 200 10428 0.0396
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:13] "GET /css/main.css " 200 16574 0.2392
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:24] "GET /register " 200 1988 0.0256
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:03:24] "GET /css/main.css " 200 16574 0.4485
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:04:03] "GET / " 302 - 0.0010
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:04:03] "GET /login " 200 1302 0.0150
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:04:03] "GET /css/main.css " 200 16574 0.4555
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:04:05] "GET /register " 200 1988 0.0282
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:04:05] "GET /css/main.css " 200 16574 0.3056
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:06:25] "GET /register " 200 1931 0.0266
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:06:26] "GET /css/main.css " 200 17176 0.4525
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:06:43] "GET /register " 200 1931 0.0192
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:06:44] "GET /css/main.css " 200 17176 0.2859
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:06:57] "GET /register " 200 1931 0.0200
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:06:58] "GET /css/main.css " 200 17176 0.2696
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:07:47] "GET /register " 200 1931 0.0196
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:07:48] "GET /css/main.css " 200 16508 0.4395
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:07:48] "GET /register " 200 1931 0.0215
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:07:49] "GET /css/main.css " 200 16508 0.3013
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:08:13] "GET /shipments " 200 10410 0.0489
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:08:13] "GET /shi[ " 404 441 0.0011
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:08:16] "GET /shipments " 200 10421 0.0373
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:08:16] "GET /css/main.css " 200 16508 0.2499
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:08:32] "GET /register " 200 1931 0.0323
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:08:32] "GET /css/main.css " 200 16508 0.2591
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:08:33] "GET /register " 200 1931 0.0246
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:08:33] "GET /css/main.css " 200 16508 0.2593
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:00] "GET /register " 200 1931 0.0206
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:00] "GET /css/main.css " 200 16551 0.3230
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:09] "GET /register " 200 1931 0.0186
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:10] "GET /css/main.css " 200 16604 0.2702
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:39] "GET /register " 200 1931 0.0187
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:39] "GET /css/main.css " 200 16616 0.2990
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:40] "GET /register " 200 1931 0.0165
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:40] "GET /css/main.css " 200 16616 0.2523
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:53] "GET /register " 200 1931 0.0217
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:53] "GET /css/main.css " 200 16618 0.3146
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:58] "GET /register " 200 1931 0.0192
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:09:58] "GET /css/main.css " 200 16618 0.2426
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:03] "GET /login " 200 1302 0.0187
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:03] "GET /css/main.css " 200 16618 0.2931
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:12] "GET /shipments " 200 10423 0.0200
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:12] "GET /css/main.css " 200 16618 0.2865
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:16] "GET /requests " 200 9943 0.0269
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:16] "GET /css/main.css " 200 16618 0.3162
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:17] "GET /products " 200 24309 0.0270
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:17] "GET /css/main.css " 200 16618 0.2728
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:17] "GET /routes " 200 8706 0.0266
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:17] "GET /css/main.css " 200 16618 0.2647
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:32] "GET /products " 200 24305 0.0205
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:32] "GET /css/main.css " 200 16618 0.2609
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:33] "GET /requests " 200 9929 0.0274
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:33] "GET /css/main.css " 200 16618 0.3056
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:33] "GET /shipments " 200 10413 0.0269
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:10:34] "GET /css/main.css " 200 16618 0.2375
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:08] "GET /requests " 200 9947 0.0396
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:08] "GET /css/main.css " 200 16618 0.2655
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:15] "GET /requests/add " 200 9653 0.0279
+App 39698 stdout: 
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:16] "GET /css/main.css " 200 16618 0.3534
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:16] "GET /requests/js/vendor/modernizr.js " 404 468 0.0014
+[ 2015-04-25 09:11:18.0665 29216/0x10129e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 39698, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.39698
+App 39808 stdout: 
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:22] "GET /requests " 200 9947 0.0239
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:22] "GET /css/main.css " 200 16618 0.3182
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:36] "GET /shipments " 200 10409 0.0286
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:36] "GET /css/main.css " 200 16618 0.2546
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:41] "GET /requests " 200 9931 0.0386
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:11:41] "GET /css/main.css " 200 16618 0.2562
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:17] "GET /requests/add " 200 9659 0.0237
+App 39698 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:17] "GET /requests/js/vendor/modernizr.js " 404 468 0.0142
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:17] "GET /css/main.css " 200 16618 0.2907
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:20] "GET /requests/add/1 " 200 2151 0.0250
+App 39698 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:20] "GET /requests/add/js/vendor/modernizr.js " 404 472 0.0015
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:20] "GET /css/main.css " 200 16618 0.3157
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:26] "GET /requests/add " 200 9664 0.0254
+App 39698 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:26] "GET /requests/js/vendor/modernizr.js " 404 468 0.0009
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:26] "GET /css/main.css " 200 16618 0.2307
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:27] "GET /requests " 200 9928 0.0391
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:28] "GET /css/main.css " 200 16618 0.2527
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:34] "GET /requests/add " 200 9678 0.0271
+App 39698 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:34] "GET /requests/js/vendor/modernizr.js " 404 468 0.0013
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:12:35] "GET /css/main.css " 200 16618 0.3400
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:13:36] "GET /routes " 200 8739 0.0238
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:13:36] "GET /css/main.css " 200 16618 0.3095
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:13:45] "GET /products " 200 24301 0.0262
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:13:45] "GET /css/main.css " 200 16618 0.2941
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:13:55] "GET /products/add " 200 1832 0.0342
+App 39698 stderr: 127.0.0.1 - - [25/Apr/2015 09:13:55] "GET /products/js/vendor/modernizr.js " 404 468 0.0013
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:13:56] "GET /css/main.css " 200 16618 0.3297
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:39] "GET /routes " 200 8723 0.0290
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:39] "GET /css/main.css " 200 16618 0.2638
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:42] "GET /requests " 200 9949 0.0249
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:43] "GET /css/main.css " 200 16618 0.3139
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:43] "GET /shipments " 200 10422 0.0257
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:43] "GET /css/main.css " 200 16618 0.2324
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:51] "GET /products " 200 24307 0.0389
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:52] "GET /css/main.css " 200 16618 0.2622
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:54] "GET /routes " 200 8727 0.0233
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:14:54] "GET /css/main.css " 200 16618 0.2658
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:15:32] "GET /products " 200 24306 0.0256
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:15:33] "GET /css/main.css " 200 16618 0.2963
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:15:34] "GET /requests " 200 9944 0.0332
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:15:34] "GET /css/main.css " 200 16618 0.2338
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:15:35] "GET /requests/add " 200 9647 0.0361
+App 39698 stderr: 127.0.0.1 - - [25/Apr/2015 09:15:35] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:15:36] "GET /css/main.css " 200 16618 0.2528
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:16:13] "GET /requests/add " 200 9378 0.0299
+App 39698 stderr: 127.0.0.1 - - [25/Apr/2015 09:16:13] "GET /requests/js/vendor/modernizr.js " 404 468 0.0015
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:16:14] "GET /css/main.css " 200 16618 0.4713
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:16:24] "GET /requests/add " 200 9393 0.0301
+App 39698 stderr: 127.0.0.1 - - [25/Apr/2015 09:16:24] "GET /requests/js/vendor/modernizr.js " 404 468 0.0011
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:16:24] "GET /css/main.css " 200 16618 0.3087
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:16:44] "GET /routes " 200 8729 0.0221
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:16:44] "GET /css/main.css " 200 16618 0.2700
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:17:35] "GET /routes " 200 8725 0.0412
+App 39167 stderr: 127.0.0.1 - - [25/Apr/2015 09:17:36] "GET /css/main.css " 200 16618 0.4518
+App 40129 stdout: 
+[ 2015-04-25 09:17:53.5635 29216/0x10158e000 Pool2/SmartSpawner.h:301 ]: Preloader for /Users/acezoncay/fracht started on PID 40129, listening on unix:/tmp/passenger.1.0.29213/generation-0/backends/preloader.40129
+App 40238 stdout: 
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:17:53] "GET /routes " 200 8723 0.0655
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:17:54] "GET /css/main.css " 200 16618 0.4557
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:18:45] "GET /profile/2 " 404 446 0.0010
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:18:46] "GET /profile " 200 859 0.0095
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:18:46] "GET /css/main.css " 200 16688 0.3342
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:18:46] "GET /profile " 200 859 0.0089
+App 40282 stdout: 
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:18:47] "GET /profile " 200 859 0.0445
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:18:47] "GET /css/main.css " 200 16688 0.3767
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:18:47] "GET /css/main.css " 200 16688 0.2936
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:19:20] "GET /profile " 200 859 0.0181
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:19:20] "GET /css/main.css " 200 16782 0.2945
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:19:22] "GET /routes " 200 8713 0.0399
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:19:23] "GET /css/main.css " 200 16782 0.3132
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:19:23] "GET /routes " 200 8728 0.0315
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:19:24] "GET /css/main.css " 200 16782 0.3182
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:19:31] "GET /routes " 200 8720 0.0245
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:19:31] "GET /css/main.css " 200 16782 0.2833
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:22] "GET /routes " 200 8706 0.0234
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:22] "GET /css/main.css " 200 16881 0.2804
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:23] "GET /requests " 200 9947 0.0387
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:23] "GET /css/main.css " 200 16881 0.2931
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:23] "GET /products " 200 24305 0.0302
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:24] "GET /css/main.css " 200 16881 0.2541
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:24] "GET /routes " 200 8729 0.0270
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:24] "GET /css/main.css " 200 16881 0.2523
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:24] "GET /shipments " 200 10408 0.0370
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:25] "GET /css/main.css " 200 16881 0.2844
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:26] "GET /profile " 200 859 0.0110
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:27] "GET /css/main.css " 200 16881 0.3198
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:49] "GET /profile " 200 866 0.0184
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:21:49] "GET /css/main.css " 200 16881 0.2516
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:22:03] "GET /profile " 200 866 0.0142
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:22:03] "GET /css/main.css " 200 16899 0.2782
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:22:13] "GET /profile " 200 866 0.0139
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:22:13] "GET /css/main.css " 200 16933 0.2913
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:23:17] "GET /profile " 200 928 0.0140
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:23:18] "GET /css/main.css " 200 17141 0.2724
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:24:16] "GET /profile " 200 1009 0.0155
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:24:17] "GET /css/main.css " 200 17141 0.5149
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:21] "GET /profile " 200 1060 0.0188
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:21] "GET /css/main.css " 200 17141 0.4062
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:37] "GET /profile " 200 1065 0.0198
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:37] "GET /css/main.css " 200 17173 0.2847
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:46] "GET /profile " 200 1066 0.0153
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:47] "GET /css/main.css " 200 17210 0.2548
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:54] "GET /profile " 200 1064 0.0134
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:55] "GET /css/main.css " 200 17221 0.3130
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:58] "GET /profile " 200 1064 0.0194
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:25:59] "GET /css/main.css " 200 17221 0.4439
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:01] "GET /profile " 200 1063 0.0140
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:01] "GET /css/main.css " 200 17221 0.2476
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:12] "GET /profile " 200 1062 0.0139
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:13] "GET /css/main.css " 200 17270 0.3032
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:15] "GET /profile " 200 1063 0.0173
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:15] "GET /css/main.css " 200 17270 0.2645
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:22] "GET /profile " 200 1058 0.0158
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:22] "GET /css/main.css " 200 17289 0.3146
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:34] "GET /profile " 200 1056 0.0164
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:35] "GET /css/main.css " 200 17310 0.3481
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:36] "GET /profile " 200 1057 0.0153
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:26:36] "GET /css/main.css " 200 17310 0.2867
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:27:26] "GET /profile " 200 8620 0.0194
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:27:26] "GET /css/main.css " 200 17310 0.2864
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:27:51] "GET /profile " 200 8775 0.0262
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:27:52] "GET /css/main.css " 200 17310 0.3264
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:28:38] "GET /profile " 200 8781 0.0161
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:28:39] "GET /css/main.css " 200 17335 0.2866
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:29:17] "GET /profile " 200 8853 0.0189
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:29:17] "GET /css/main.css " 200 17335 0.2766
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:32:50] "GET / " 302 - 0.0020
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:32:50] "GET /login " 200 1302 0.0136
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:32:50] "GET /css/main.css " 200 17335 0.2603
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:33:08] "GET / " 302 - 0.0009
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:33:08] "GET /login " 200 1302 0.0212
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:33:08] "GET /css/main.css " 200 17335 0.4545
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:33:52] "GET /login " 200 1302 0.0218
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:33:53] "GET /css/main.css " 200 17335 0.4430
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:33:58] "GET /login " 200 1302 0.0168
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:33:59] "GET /css/main.css " 200 17335 0.3203
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:34:12] "GET /profile " 200 8851 0.0199
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:34:12] "GET /css/main.css " 200 17335 0.4242
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:34:50] "GET /profile " 200 8881 0.0164
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:34:51] "GET /css/main.css " 200 17335 0.4684
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:35:34] "GET /profile " 200 8915 0.0225
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:35:34] "GET /css/main.css " 200 17434 0.3163
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:35:55] "GET /profile " 200 8886 0.0219
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:35:55] "GET /css/main.css " 200 17450 0.5326
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:36:01] "GET /profile " 200 8914 0.0199
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:36:01] "GET /css/main.css " 200 17454 0.2498
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:36:02] "GET /profile " 200 8883 0.0320
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:36:02] "GET /css/main.css " 200 17454 0.3037
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:37:09] "GET /profile " 200 8950 0.0245
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:37:10] "GET /css/main.css " 200 17538 0.3483
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:37:30] "GET /profile " 200 8953 0.0206
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:37:30] "GET /css/main.css " 200 17538 0.5140
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:37:34] "GET /profile " 200 8943 0.0205
+App 40129 stderr: 127.0.0.1 - - [25/Apr/2015 09:37:34] "GET /css/main.css " 200 17538 0.2532

@@ -2,24 +2,24 @@
 
 article
   .filters
-    a.link href="/requests"
+    a.back-link href="/requests"
       i.icon-arrow-left
       | Back to requests
     form
       .row
-        .three.columns
+        .four.columns
           label From
           input.u-full-width type="text"
-        .three.columns
+        .four.columns
           label To
           input.u-full-width type="text"
-        .two.columns
-          label Vehicle Type
-          select#vehicle-type
-            option value="in-progress" selected=true All
-            option value="delivered" Motorcycle
-            option value="delivered" Truck
-            option value="returned" Van
+        / .two.columns
+        /   label Vehicle Type
+        /   select#vehicle-type
+        /     option value="in-progress" selected=true All
+        /     option value="delivered" Motorcycle
+        /     option value="delivered" Truck
+        /     option value="returned" Van
         .two.columns
           label Capacity (kgs)
           input.u-full-width type="number" min="1" value="1"

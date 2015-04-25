@@ -33,7 +33,15 @@ get '/css/:name.css' do |name|
 end
 
 get '/' do
-  slim :shipments
+  if @user
+    slim :shipments
+  else
+    redirect '/login'
+  end
+end
+
+get '/profile' do
+  slim :profile
 end
 
 get '/shipments' do
@@ -57,15 +65,20 @@ get '/products' do
   @products = Dir['public/img/products/*.jpg']
   slim :products
 end
-
 get '/products/add' do
   slim :addproduct
 end
-
 get '/products/edit/:id' do
   slim :editproduct
 end
 
+get '/register' do
+  slim :register
+end
+
+get '/login' do
+  slim :login
+end
 post '/login' do
   user ||= User.filter(:email => params[:email]).first
   pass unless user
@@ -79,13 +92,12 @@ post '/login' do
 
   redirect '/'
 end
-
 post '/login' do
   session[:failed_login] = true
   redirect '/login'
 end
 
-get('/logout') do
+get '/logout' do
   session.clear
   redirect '/'
 end

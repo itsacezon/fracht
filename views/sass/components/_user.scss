@@ -21,3 +21,54 @@
   display: table-cell;
   vertical-align: middle;
 }
+
+.profile-cover {
+  background-color: white;
+  border-bottom: 1px #dadada solid;
+  text-align: center;
+
+  .profile-image {
+    line-height: 0;
+  }
+
+  img {
+    @include size(108px);
+    @include border-top-radius(54px);
+    @include border-bottom-radius(54px);
+    border: 1px #dadada solid;
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+}
+
+.profile-details {
+  position: relative;
+  margin-top: 0.25em;
+
+  h5 {
+    margin-bottom: 0.25em;
+    font-size: 1em;
+    color: #888;
+
+    i {
+      position: relative;
+      top: -2px;
+      margin-right: 0.5em;
+    }
+  }
+
+  .button, button {
+    margin-bottom: 0;
+  }
+
+  .edit {
+    @include position(absolute, 0.5em null null 0);
+
+  }
+
+  .contact {
+    @include position(absolute, 0.5em 0 null null);
+  }
+}

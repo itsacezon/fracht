@@ -12,7 +12,20 @@ html
   body
     #nav-wrap
       nav
-        a.logo href="/" fracht
+        .u-pull-left
+          a.logo href="/" fracht
+        .u-pull-right
+          - if @user
+            .user
+              .user-image
+                img.small src=UIFaces.face
+              .user-info
+                a href="#0" = ['Shipme, LLC', 'Dexter Edep', 'Suzuki Cars'].sample
+            a.link href="/logout" Log out
+          - else
+            a.link href="/register" Register
+            a.link href="/login" Log in
+
     #content-wrap
       == yield
 
