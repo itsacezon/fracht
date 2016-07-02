@@ -35,11 +35,11 @@ get '/css/:name.css' do |name|
 end
 
 get '/' do
-  if @user
-    slim :shipments
-  else
-    slim :index
-  end
+  #if @user
+  slim :shipments
+  #else
+  #  slim :index
+  #end
 end
 
 get '/requests' do
