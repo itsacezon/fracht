@@ -1,4 +1,4 @@
-ruby '2.1.2'
+ruby '2.3.1'
 source 'https://rubygems.org'
 gem 'sinatra', '>= 1.2.1'
 gem 'passenger', '>= 4.0.35'
